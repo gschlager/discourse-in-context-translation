@@ -1,0 +1,3481 @@
+en_IC:
+  dates:
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    short_date_no_year: "crwdns45870:0crwdne45870:0"
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    short_date: "crwdns45872:0crwdne45872:0"
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    long_date: "crwdns45874:0crwdne45874:0"
+  datetime_formats:
+    formats:
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      short: "crwdns45876:0%d-%m-%Ycrwdne45876:0"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      short_no_year: "crwdns45878:0%-dcrwdnd45878:0%Bcrwdne45878:0"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      date_only: "crwdns45880:0%-dcrwdnd45880:0%Bcrwdnd45880:0%Ycrwdne45880:0"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      long: "crwdns45882:0%-dcrwdnd45882:0%Bcrwdnd45882:0%Ycrwdnd45882:0%H:%Mcrwdne45882:0"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      no_day: "crwdns45884:0%Bcrwdnd45884:0%Ycrwdne45884:0"
+  date:
+    #Do not remove the brackets and commas and do not translate the first month name. It should be "null".
+    month_names:
+      - null
+      - crwdns45886:0crwdne45886:0
+      - crwdns45888:0crwdne45888:0
+      - crwdns45890:0crwdne45890:0
+      - crwdns45892:0crwdne45892:0
+      - crwdns45894:0crwdne45894:0
+      - crwdns45896:0crwdne45896:0
+      - crwdns45898:0crwdne45898:0
+      - crwdns45900:0crwdne45900:0
+      - crwdns45902:0crwdne45902:0
+      - crwdns45904:0crwdne45904:0
+      - crwdns45906:0crwdne45906:0
+      - crwdns45908:0crwdne45908:0
+  time:
+    am: "crwdns45930:0crwdne45930:0"
+    pm: "crwdns45932:0crwdne45932:0"
+  title: "crwdns45934:0crwdne45934:0"
+  topics: "crwdns45936:0crwdne45936:0"
+  posts: "crwdns45938:0crwdne45938:0"
+  loading: "crwdns45940:0crwdne45940:0"
+  powered_by_html: 'crwdns45942:0crwdne45942:0'
+  sign_up: "crwdns45944:0crwdne45944:0"
+  log_in: "crwdns45946:0crwdne45946:0"
+  submit: "crwdns45948:0crwdne45948:0"
+  purge_reason: "crwdns45950:0crwdne45950:0"
+  disable_remote_images_download_reason: "crwdns45952:0crwdne45952:0"
+  anonymous: "crwdns45954:0crwdne45954:0"
+  remove_posts_deleted_by_author: "crwdns45956:0crwdne45956:0"
+  redirect_warning: "crwdns45958:0crwdne45958:0"
+  on_another_topic: "crwdns45960:0crwdne45960:0"
+  themes:
+    bad_color_scheme: "crwdns45962:0crwdne45962:0"
+    other_error: "crwdns45964:0crwdne45964:0"
+    compile_error:
+      unrecognized_extension: "crwdns45966:0%{extension}crwdne45966:0"
+    import_error:
+      generic: crwdns45968:0crwdne45968:0
+      about_json: "crwdns45970:0crwdne45970:0"
+      about_json_values: "crwdns45972:0%{errors}crwdne45972:0"
+      modifier_values: "crwdns45974:0%{errors}crwdne45974:0"
+      git: "crwdns45976:0crwdne45976:0"
+      unpack_failed: "crwdns45978:0crwdne45978:0"
+      file_too_big: "crwdns45980:0crwdne45980:0"
+      unknown_file_type: "crwdns45982:0crwdne45982:0"
+    errors:
+      component_no_user_selectable: "crwdns45984:0crwdne45984:0"
+      component_no_default: "crwdns45986:0crwdne45986:0"
+      component_no_color_scheme: "crwdns45988:0crwdne45988:0"
+      no_multilevels_components: "crwdns45990:0crwdne45990:0"
+      optimized_link: crwdns45992:0crwdne45992:0
+    settings_errors:
+      invalid_yaml: "crwdns45994:0crwdne45994:0"
+      data_type_not_a_number: "crwdns45996:0%{name}crwdne45996:0"
+      name_too_long: "crwdns45998:0crwdne45998:0"
+      default_value_missing: "crwdns46000:0%{name}crwdne46000:0"
+      default_not_match_type: "crwdns46002:0%{name}crwdne46002:0"
+      default_out_range: "crwdns46004:0%{name}crwdne46004:0"
+      enum_value_not_valid: "crwdns46006:0crwdne46006:0"
+      number_value_not_valid: "crwdns46008:0crwdne46008:0"
+      number_value_not_valid_min_max: "crwdns46010:0%{min}crwdnd46010:0%{max}crwdne46010:0"
+      number_value_not_valid_min: "crwdns46012:0%{min}crwdne46012:0"
+      number_value_not_valid_max: "crwdns46014:0%{max}crwdne46014:0"
+      string_value_not_valid: "crwdns46016:0crwdne46016:0"
+      string_value_not_valid_min_max: "crwdns46018:0%{min}crwdnd46018:0%{max}crwdne46018:0"
+      string_value_not_valid_min: "crwdns46020:0%{min}crwdne46020:0"
+      string_value_not_valid_max: "crwdns46022:0%{max}crwdne46022:0"
+    locale_errors:
+      top_level_locale: "crwdns46024:0crwdne46024:0"
+      invalid_yaml: "crwdns46026:0crwdne46026:0"
+  emails:
+    incoming:
+      default_subject: "crwdns46028:0crwdne46028:0"
+      show_trimmed_content: "crwdns46030:0crwdne46030:0"
+      maximum_staged_user_per_email_reached: "crwdns46032:0crwdne46032:0"
+      no_subject: "crwdns46034:0crwdne46034:0"
+      no_body: "crwdns46036:0crwdne46036:0"
+      missing_attachment: "crwdns46038:0%{filename}crwdne46038:0"
+      errors:
+        empty_email_error: "crwdns46040:0crwdne46040:0"
+        no_message_id_error: "crwdns46042:0crwdne46042:0"
+        auto_generated_email_error: "crwdns46044:0crwdne46044:0"
+        no_body_detected_error: "crwdns46046:0crwdne46046:0"
+        no_sender_detected_error: "crwdns46048:0crwdne46048:0"
+        from_reply_by_address_error: "crwdns46050:0crwdne46050:0"
+        inactive_user_error: "crwdns46052:0crwdne46052:0"
+        silenced_user_error: "crwdns46054:0crwdne46054:0"
+        bad_destination_address: "crwdns46056:0crwdne46056:0"
+        strangers_not_allowed_error: "crwdns46058:0crwdne46058:0"
+        insufficient_trust_level_error: "crwdns46060:0crwdne46060:0"
+        reply_user_not_matching_error: "crwdns46062:0crwdne46062:0"
+        topic_not_found_error: "crwdns46064:0crwdne46064:0"
+        topic_closed_error: "crwdns46066:0crwdne46066:0"
+        bounced_email_error: "crwdns46068:0crwdne46068:0"
+        screened_email_error: "crwdns46070:0crwdne46070:0"
+        unsubscribe_not_allowed: "crwdns46072:0crwdne46072:0"
+        email_not_allowed: "crwdns46074:0crwdne46074:0"
+      unrecognized_error: "crwdns46076:0crwdne46076:0"
+    secure_media_placeholder: "crwdns46078:0crwdne46078:0"
+    view_redacted_media: "crwdns53988:0crwdne53988:0"
+  errors:
+    format: ! "crwdns46080:0%{attribute}crwdnd46080:0%{message}crwdne46080:0"
+    format_with_full_message: "crwdns46082:0%{attribute}crwdnd46082:0%{message}crwdne46082:0"
+    messages:
+      too_long_validation: "crwdns46084:0%{max}crwdnd46084:0%{length}crwdne46084:0"
+      invalid_boolean: "crwdns46086:0crwdne46086:0"
+      taken: "crwdns46088:0crwdne46088:0"
+      accepted: crwdns46090:0crwdne46090:0
+      blank: crwdns46092:0crwdne46092:0
+      present: crwdns46094:0crwdne46094:0
+      confirmation: ! "crwdns46096:0%{attribute}crwdne46096:0"
+      empty: crwdns46098:0crwdne46098:0
+      equal_to: crwdns46100:0%{count}crwdne46100:0
+      even: crwdns46102:0crwdne46102:0
+      exclusion: crwdns46104:0crwdne46104:0
+      greater_than: crwdns46106:0%{count}crwdne46106:0
+      greater_than_or_equal_to: crwdns46108:0%{count}crwdne46108:0
+      has_already_been_used: "crwdns46110:0crwdne46110:0"
+      inclusion: crwdns46112:0crwdne46112:0
+      invalid: crwdns46114:0crwdne46114:0
+      is_invalid: "crwdns46116:0crwdne46116:0"
+      invalid_timezone: "crwdns46118:0%{tz}crwdne46118:0"
+      contains_censored_words: "crwdns46120:0%{censored_words}crwdne46120:0"
+      less_than: crwdns46122:0%{count}crwdne46122:0
+      less_than_or_equal_to: crwdns46124:0%{count}crwdne46124:0
+      not_a_number: crwdns46126:0crwdne46126:0
+      not_an_integer: crwdns46128:0crwdne46128:0
+      odd: crwdns46130:0crwdne46130:0
+      record_invalid: ! "crwdns46132:0%{errors}crwdne46132:0"
+      max_emojis: "crwdns46134:0%{max_emojis_count}crwdne46134:0"
+      emojis_disabled: "crwdns46136:0crwdne46136:0"
+      ip_address_already_screened: "crwdns46138:0crwdne46138:0"
+      restrict_dependent_destroy:
+        one: "crwdns46140:0%{record}crwdne46140:0"
+        many: "crwdns46142:0%{record}crwdne46142:0"
+      too_long:
+        one: crwdns46144:1%{count}crwdne46144:1
+        other: crwdns46144:5%{count}crwdne46144:5
+      too_short:
+        one: crwdns46146:1%{count}crwdne46146:1
+        other: crwdns46146:5%{count}crwdne46146:5
+      wrong_length:
+        one: crwdns46148:1%{count}crwdne46148:1
+        other: crwdns46148:5%{count}crwdne46148:5
+      other_than: "crwdns46150:0%{count}crwdne46150:0"
+      sso_overrides_username: "crwdns46152:0crwdne46152:0"
+    template:
+      body: ! "crwdns46154:0crwdne46154:0"
+      header:
+        one: "crwdns46156:1%{count}crwdnd46156:1%{model}crwdne46156:1"
+        other: ! "crwdns46156:5%{count}crwdnd46156:5%{model}crwdne46156:5"
+    embed:
+      load_from_remote: "crwdns46158:0crwdne46158:0"
+    site_settings:
+      invalid_category_id: "crwdns46160:0crwdne46160:0"
+      invalid_choice:
+        one: "crwdns46162:1%{name}crwdne46162:1"
+        other: "crwdns46162:5%{name}crwdne46162:5"
+      default_categories_already_selected: "crwdns46164:0crwdne46164:0"
+      default_tags_already_selected: "crwdns46166:0crwdne46166:0"
+      s3_upload_bucket_is_required: "crwdns46168:0crwdne46168:0"
+      enable_s3_uploads_is_required: "crwdns46170:0crwdne46170:0"
+      s3_backup_requires_s3_settings: "crwdns46172:0%{setting_name}crwdne46172:0"
+      s3_bucket_reused: "crwdns46174:0crwdne46174:0"
+      secure_media_requirements: "crwdns46176:0crwdne46176:0"
+      share_quote_facebook_requirements: "crwdns53600:0crwdne53600:0"
+      second_factor_cannot_enforce_with_socials: "crwdns53854:0%{auth_provider_names}crwdne53854:0"
+      second_factor_cannot_be_enforced_with_disabled_local_login: "crwdns46178:0crwdne46178:0"
+      local_login_cannot_be_disabled_if_second_factor_enforced: "crwdns46180:0crwdne46180:0"
+      cannot_enable_s3_uploads_when_s3_enabled_globally: "crwdns46182:0crwdne46182:0"
+    conflicting_google_user_id: 'crwdns46184:0crwdne46184:0'
+  activemodel:
+    errors: crwdns53720:0crwdne53720:0
+  invite:
+    expired: "crwdns54060:0%{base_url}crwdne54060:0"
+    not_found: "crwdns46292:0%{base_url}crwdne46292:0"
+    not_found_json: "crwdns46294:0crwdne46294:0"
+    not_found_template: |
+      crwdns46296:0%{base_url}crwdnd46296:0%{site_name}crwdnd46296:0%{base_url}crwdnd46296:0%{base_url}crwdne46296:0
+    error_message: "crwdns46298:0crwdne46298:0"
+    user_exists: "crwdns46300:0%{email}crwdnd46300:0%{base_path}crwdnd46300:0%{username}crwdne46300:0"
+    confirm_email: "crwdns46302:0crwdne46302:0"
+    cant_invite_to_group: "crwdns46304:0crwdne46304:0"
+    disabled_errors:
+      sso_enabled: "crwdns54064:0crwdne54064:0"
+      local_logins_disabled: "crwdns54066:0crwdne54066:0"
+      invalid_access: "crwdns54068:0crwdne54068:0"
+  bulk_invite:
+    file_should_be_csv: "crwdns46306:0crwdne46306:0"
+    max_rows: "crwdns46308:0%{max_bulk_invites}crwdne46308:0"
+    error: "crwdns46310:0crwdne46310:0"
+  invite_link:
+    email_taken: "crwdns46312:0crwdne46312:0"
+    max_redemptions_limit: "crwdns46314:0%{max_limit}crwdne46314:0"
+  topic_invite:
+    failed_to_invite: "crwdns46316:0%{group_names}crwdne46316:0"
+    user_exists: "crwdns46318:0crwdne46318:0"
+    not_allowed: "crwdns53706:0crwdne53706:0"
+  backup:
+    operation_already_running: "crwdns46320:0crwdne46320:0"
+    backup_file_should_be_tar_gz: "crwdns46322:0crwdne46322:0"
+    not_enough_space_on_disk: "crwdns46324:0crwdne46324:0"
+    invalid_filename: "crwdns46326:0crwdne46326:0"
+    file_exists: "crwdns46328:0crwdne46328:0"
+    location:
+      local: "crwdns46330:0crwdne46330:0"
+      s3: "crwdns46332:0crwdne46332:0"
+  invalid_params: "crwdns46334:0%{message}crwdne46334:0"
+  not_logged_in: "crwdns46336:0crwdne46336:0"
+  not_found: "crwdns46338:0crwdne46338:0"
+  invalid_access: "crwdns46340:0crwdne46340:0"
+  authenticator_not_found: "crwdns46342:0crwdne46342:0"
+  invalid_api_credentials: "crwdns46344:0crwdne46344:0"
+  provider_not_enabled: "crwdns46346:0crwdne46346:0"
+  provider_not_found: "crwdns46348:0crwdne46348:0"
+  read_only_mode_enabled: "crwdns46350:0crwdne46350:0"
+  invalid_grant_badge_reason_link: "crwdns46352:0crwdne46352:0"
+  email_template_cant_be_modified: "crwdns46354:0crwdne46354:0"
+  invalid_whisper_access: "crwdns46356:0crwdne46356:0"
+  not_in_group:
+    title_topic: "crwdns46358:0crwdne46358:0"
+    title_category: "crwdns46360:0crwdne46360:0"
+    request_membership: "crwdns46362:0crwdne46362:0"
+    join_group: "crwdns46364:0crwdne46364:0"
+  deleted_topic: "crwdns46366:0crwdne46366:0"
+  delete_topic_failed: "crwdns46368:0crwdne46368:0"
+  reading_time: "crwdns46370:0crwdne46370:0"
+  likes: "crwdns46372:0crwdne46372:0"
+  too_many_replies:
+    one: "crwdns46374:1%{count}crwdne46374:1"
+    other: "crwdns46374:5%{count}crwdne46374:5"
+  max_consecutive_replies:
+    one: "crwdns46376:1crwdne46376:1"
+    other: "crwdns46376:5%{count}crwdne46376:5"
+  embed:
+    start_discussion: "crwdns46378:0crwdne46378:0"
+    continue: "crwdns46380:0crwdne46380:0"
+    error: "crwdns46382:0crwdne46382:0"
+    referer: "crwdns46384:0crwdne46384:0"
+    error_topics: "crwdns46386:0crwdne46386:0"
+    mismatch: "crwdns46388:0crwdne46388:0"
+    no_hosts: "crwdns46390:0crwdne46390:0"
+    configure: "crwdns46392:0crwdne46392:0"
+    more_replies:
+      one: "crwdns46394:1%{count}crwdne46394:1"
+      other: "crwdns46394:5%{count}crwdne46394:5"
+    loading: "crwdns46396:0crwdne46396:0"
+    permalink: "crwdns46398:0crwdne46398:0"
+    imported_from: "crwdns46400:0%{link}crwdne46400:0"
+    in_reply_to: "crwdns46402:0%{username}crwdne46402:0"
+    replies:
+      one: "crwdns46404:1%{count}crwdne46404:1"
+      other: "crwdns46404:5%{count}crwdne46404:5"
+    likes:
+      one: "crwdns46406:1%{count}crwdne46406:1"
+      other: "crwdns46406:5%{count}crwdne46406:5"
+    last_reply: "crwdns46408:0crwdne46408:0"
+    created: "crwdns46410:0crwdne46410:0"
+    new_topic: "crwdns46412:0crwdne46412:0"
+  no_mentions_allowed: "crwdns46414:0crwdne46414:0"
+  too_many_mentions:
+    one: "crwdns46416:1crwdne46416:1"
+    other: "crwdns46416:5%{count}crwdne46416:5"
+  no_mentions_allowed_newuser: "crwdns46418:0crwdne46418:0"
+  too_many_mentions_newuser:
+    one: "crwdns46420:1crwdne46420:1"
+    other: "crwdns46420:5%{count}crwdne46420:5"
+  no_embedded_media_allowed_trust: "crwdns53772:0crwdne53772:0"
+  no_embedded_media_allowed: "crwdns53774:0crwdne53774:0"
+  too_many_embedded_media:
+    one: "crwdns53776:1crwdne53776:1"
+    other: "crwdns53776:5%{count}crwdne53776:5"
+  no_attachments_allowed: "crwdns46428:0crwdne46428:0"
+  too_many_attachments:
+    one: "crwdns46430:1crwdne46430:1"
+    other: "crwdns46430:5%{count}crwdne46430:5"
+  no_links_allowed: "crwdns46432:0crwdne46432:0"
+  links_require_trust: "crwdns46434:0crwdne46434:0"
+  too_many_links:
+    one: "crwdns46436:1crwdne46436:1"
+    other: "crwdns46436:5%{count}crwdne46436:5"
+  contains_blocked_word: "crwdns46438:0%{word}crwdne46438:0"
+  contains_blocked_words: "crwdns46440:0%{words}crwdne46440:0"
+  spamming_host: "crwdns46442:0crwdne46442:0"
+  user_is_suspended: "crwdns46444:0crwdne46444:0"
+  topic_not_found: "crwdns46446:0crwdne46446:0"
+  not_accepting_pms: "crwdns46448:0%{username}crwdne46448:0"
+  max_pm_recipients: "crwdns46450:0%{recipients_limit}crwdne46450:0"
+  pm_reached_recipients_limit: "crwdns46452:0%{recipients_limit}crwdne46452:0"
+  removed_direct_reply_full_quotes: "crwdns46454:0crwdne46454:0"
+  secure_upload_not_allowed_in_public_topic: "crwdns46456:0%{upload_filenames}crwdne46456:0"
+  create_pm_on_existing_topic: "crwdns46458:0crwdne46458:0"
+  just_posted_that: "crwdns46460:0crwdne46460:0"
+  invalid_characters: "crwdns46462:0crwdne46462:0"
+  is_invalid: "crwdns46464:0crwdne46464:0"
+  next_page: "crwdns46466:0crwdne46466:0"
+  prev_page: "crwdns46468:0crwdne46468:0"
+  page_num: "crwdns46470:0%{num}crwdne46470:0"
+  home_title: "crwdns46472:0crwdne46472:0"
+  topics_in_category: "crwdns46474:0%{category}crwdne46474:0"
+  rss_posts_in_topic: "crwdns46476:0%{topic}crwdne46476:0"
+  rss_topics_in_category: "crwdns46478:0%{category}crwdne46478:0"
+  rss_num_posts:
+    one: "crwdns46480:1%{count}crwdne46480:1"
+    other: "crwdns46480:5%{count}crwdne46480:5"
+  rss_num_participants:
+    one: "crwdns46482:1%{count}crwdne46482:1"
+    other: "crwdns46482:5%{count}crwdne46482:5"
+  read_full_topic: "crwdns46484:0crwdne46484:0"
+  private_message_abbrev: "crwdns46486:0crwdne46486:0"
+  rss_description:
+    latest: "crwdns46488:0crwdne46488:0"
+    top: "crwdns46490:0crwdne46490:0"
+    top_all: "crwdns46492:0crwdne46492:0"
+    top_yearly: "crwdns46494:0crwdne46494:0"
+    top_quarterly: "crwdns46496:0crwdne46496:0"
+    top_monthly: "crwdns46498:0crwdne46498:0"
+    top_weekly: "crwdns46500:0crwdne46500:0"
+    top_daily: "crwdns46502:0crwdne46502:0"
+    posts: "crwdns46504:0crwdne46504:0"
+    private_posts: "crwdns46506:0crwdne46506:0"
+    group_posts: "crwdns46508:0%{group_name}crwdne46508:0"
+    group_mentions: "crwdns46510:0%{group_name}crwdne46510:0"
+    user_posts: "crwdns46512:0%{username}crwdne46512:0"
+    user_topics: "crwdns46514:0%{username}crwdne46514:0"
+    tag: "crwdns46516:0crwdne46516:0"
+    badge: "crwdns46518:0%{display_name}crwdnd46518:0%{site_title}crwdne46518:0"
+  too_late_to_edit: "crwdns46520:0crwdne46520:0"
+  edit_conflict: "crwdns46522:0crwdne46522:0"
+  revert_version_same: "crwdns46524:0crwdne46524:0"
+  excerpt_image: "crwdns46526:0crwdne46526:0"
+  bookmarks:
+    errors:
+      already_bookmarked_post: "crwdns46528:0crwdne46528:0"
+      cannot_set_past_reminder: "crwdns46530:0crwdne46530:0"
+      cannot_set_reminder_in_distant_future: "crwdns46532:0crwdne46532:0"
+      time_must_be_provided: "crwdns46534:0crwdne46534:0"
+    reminders:
+      at_desktop: "crwdns46536:0crwdne46536:0"
+      later_today: "crwdns46538:0crwdne46538:0"
+      next_business_day: "crwdns46540:0crwdne46540:0"
+      tomorrow: "crwdns46542:0crwdne46542:0"
+      next_week: "crwdns46544:0crwdne46544:0"
+      next_month: "crwdns46546:0crwdne46546:0"
+      custom: "crwdns46548:0crwdne46548:0"
+  groups:
+    success:
+      bulk_add:
+        one: "crwdns46550:1%{count}crwdne46550:1"
+        other: "crwdns46550:5%{count}crwdne46550:5"
+    errors:
+      grant_trust_level_not_valid: "crwdns46552:0%{trust_level}crwdne46552:0"
+      can_not_modify_automatic: "crwdns46554:0crwdne46554:0"
+      member_already_exist:
+        one: "crwdns46556:1%{username}crwdne46556:1"
+        other: "crwdns46556:5%{username}crwdne46556:5"
+      invalid_domain: "crwdns46558:0%{domain}crwdne46558:0"
+      invalid_incoming_email: "crwdns46560:0%{email}crwdne46560:0"
+      email_already_used_in_group: "crwdns46562:0%{email}crwdnd46562:0%{group_name}crwdne46562:0"
+      email_already_used_in_category: "crwdns46564:0%{email}crwdnd46564:0%{category_name}crwdne46564:0"
+      cant_allow_membership_requests: "crwdns46566:0crwdne46566:0"
+      already_requested_membership: "crwdns46568:0crwdne46568:0"
+      adding_too_many_users: "crwdns53882:0%{limit}crwdne53882:0"
+    default_names:
+      everyone: "crwdns46570:0crwdne46570:0"
+      admins: "crwdns46572:0crwdne46572:0"
+      moderators: "crwdns46574:0crwdne46574:0"
+      staff: "crwdns46576:0crwdne46576:0"
+      trust_level_0: "crwdns46578:0crwdne46578:0"
+      trust_level_1: "crwdns46580:0crwdne46580:0"
+      trust_level_2: "crwdns46582:0crwdne46582:0"
+      trust_level_3: "crwdns46584:0crwdne46584:0"
+      trust_level_4: "crwdns46586:0crwdne46586:0"
+    request_membership_pm:
+      title: "crwdns46588:0%{group_name}crwdne46588:0"
+    request_accepted_pm:
+      title: "crwdns46590:0%{group_name}crwdne46590:0"
+      body: |
+        crwdns46592:0%{group_name}crwdne46592:0
+  education:
+    until_posts:
+      one: "crwdns46596:1%{count}crwdne46596:1"
+      other: "crwdns46596:5%{count}crwdne46596:5"
+    "new-topic": |
+      crwdns46598:0%{site_name}crwdnd46598:0%{base_path}crwdnd46598:0%{education_posts_text}crwdne46598:0
+    "new-reply": |
+      crwdns46600:0%{site_name}crwdnd46600:0%{base_path}crwdnd46600:0%{education_posts_text}crwdne46600:0
+    avatar: |
+      crwdns46602:0%{profile_path}crwdne46602:0
+    sequential_replies: |
+      crwdns46604:0crwdne46604:0
+    dominating_topic: |
+      crwdns46606:0%{percent}crwdne46606:0
+    get_a_room: |
+      crwdns46608:0%{count}crwdnd46608:0%{reply_username}crwdnd46608:0%{base_path}crwdnd46608:0%{reply_username}crwdne46608:0
+    too_many_replies: |
+      crwdns46610:0%{newuser_max_replies_per_topic}crwdne46610:0
+    reviving_old_topic: |
+      crwdns46612:0%{time_ago}crwdne46612:0
+  activerecord:
+    attributes:
+      category:
+        name: "crwdns46614:0crwdne46614:0"
+      topic:
+        title: "crwdns46616:0crwdne46616:0"
+        featured_link: "crwdns46618:0crwdne46618:0"
+        category_id: "crwdns46620:0crwdne46620:0"
+      post:
+        raw: "crwdns46622:0crwdne46622:0"
+      user_profile:
+        bio_raw: "crwdns46624:0crwdne46624:0"
+      user:
+        ip_address: "crwdns46626:0crwdne46626:0"
+    errors:
+      models:
+        topic:
+          attributes:
+            base:
+              warning_requires_pm: "crwdns46734:0crwdne46734:0"
+              too_many_users: "crwdns46736:0crwdne46736:0"
+              cant_send_pm: "crwdns46738:0crwdne46738:0"
+              no_user_selected: "crwdns46740:0crwdne46740:0"
+              reply_by_email_disabled: "crwdns46742:0crwdne46742:0"
+              target_user_not_found: "crwdns46744:0crwdne46744:0"
+              unable_to_update: "crwdns46746:0crwdne46746:0"
+              unable_to_tag: "crwdns53788:0crwdne53788:0"
+            featured_link:
+              invalid: "crwdns46748:0crwdne46748:0"
+              invalid_category: "crwdns46750:0crwdne46750:0"
+        user:
+          attributes:
+            password:
+              common: "crwdns46752:0crwdne46752:0"
+              same_as_username: "crwdns46754:0crwdne46754:0"
+              same_as_email: "crwdns46756:0crwdne46756:0"
+              same_as_current: "crwdns46758:0crwdne46758:0"
+              same_as_name: "crwdns46760:0crwdne46760:0"
+              unique_characters: "crwdns46762:0crwdne46762:0"
+            username:
+              same_as_password: "crwdns46764:0crwdne46764:0"
+            name:
+              same_as_password: "crwdns46766:0crwdne46766:0"
+            ip_address:
+              signup_not_allowed: "crwdns46768:0crwdne46768:0"
+        user_profile:
+          attributes:
+            featured_topic_id:
+              invalid: "crwdns46770:0crwdne46770:0"
+        user_email:
+          attributes:
+            user_id:
+              reassigning_primary_email: "crwdns46772:0crwdne46772:0"
+        color_scheme_color:
+          attributes:
+            hex:
+              invalid: "crwdns46774:0crwdne46774:0"
+        post_reply:
+          base:
+            different_topic: "crwdns46776:0crwdne46776:0"
+        web_hook:
+          attributes:
+            payload_url:
+              invalid: "crwdns46778:0crwdne46778:0"
+        custom_emoji:
+          attributes:
+            name:
+              taken: crwdns46780:0crwdne46780:0
+        topic_timer:
+          attributes:
+            execute_at:
+              in_the_past: "crwdns46782:0crwdne46782:0"
+        translation_overrides:
+          attributes:
+            value:
+              invalid_interpolation_keys: 'crwdns46784:0%{keys}crwdne46784:0'
+        watched_word:
+          attributes:
+            word:
+              too_many: "crwdns46786:0crwdne46786:0"
+  uncategorized_category_name: "crwdns46788:0crwdne46788:0"
+  vip_category_name: "crwdns46790:0crwdne46790:0"
+  vip_category_description: "crwdns46792:0crwdne46792:0"
+  meta_category_name: "crwdns46794:0crwdne46794:0"
+  meta_category_description: "crwdns46796:0crwdne46796:0"
+  staff_category_name: "crwdns46798:0crwdne46798:0"
+  staff_category_description: "crwdns46800:0crwdne46800:0"
+  discourse_welcome_topic:
+    title: "crwdns46802:0crwdne46802:0"
+    body: |
+      crwdns46804:0%{base_path}crwdnd46804:0:wrench:crwdne46804:0
+  lounge_welcome:
+    title: "crwdns46806:0crwdne46806:0"
+    body: |
+      crwdns46808:0:confetti_ball:crwdnd46808:0%{base_path}crwdnd46808:0[trust]crwdnd46808:0[trust]crwdne46808:0
+  admin_quick_start_title: "crwdns46810:0crwdne46810:0"
+  category:
+    topic_prefix: "crwdns46812:0%{category}crwdne46812:0"
+    replace_paragraph: "crwdns46814:0crwdne46814:0"
+    post_template: "crwdns46816:0%{replace_paragraph}crwdne46816:0"
+    errors:
+      not_found: "crwdns46818:0crwdne46818:0"
+      uncategorized_parent: "crwdns46820:0crwdne46820:0"
+      self_parent: "crwdns46822:0crwdne46822:0"
+      depth: "crwdns46824:0crwdne46824:0"
+      invalid_email_in: "crwdns46826:0%{email}crwdne46826:0"
+      email_already_used_in_group: "crwdns46828:0%{email}crwdnd46828:0%{group_name}crwdne46828:0"
+      email_already_used_in_category: "crwdns46830:0%{email}crwdnd46830:0%{category_name}crwdne46830:0"
+      description_incomplete: "crwdns46832:0crwdne46832:0"
+      permission_conflict: "crwdns46834:0%{group_names}crwdne46834:0"
+      disallowed_topic_tags: "crwdns46836:0%{tags}crwdne46836:0"
+      disallowed_tags_generic: "crwdns46838:0crwdne46838:0"
+    cannot_delete:
+      uncategorized: "crwdns46840:0crwdne46840:0"
+      has_subcategories: "crwdns46842:0crwdne46842:0"
+      topic_exists:
+        one: "crwdns46844:1%{count}crwdnd46844:1%{topic_link}crwdne46844:1"
+        other: "crwdns46844:5%{count}crwdnd46844:5%{topic_link}crwdne46844:5"
+      topic_exists_no_oldest: "crwdns46846:0%{count}crwdne46846:0"
+    uncategorized_description: "crwdns46848:0crwdne46848:0"
+  trust_levels:
+    newuser:
+      title: "crwdns46850:0crwdne46850:0"
+    basic:
+      title: "crwdns46852:0crwdne46852:0"
+    member:
+      title: "crwdns46854:0crwdne46854:0"
+    regular:
+      title: "crwdns46856:0crwdne46856:0"
+    leader:
+      title: "crwdns46858:0crwdne46858:0"
+    change_failed_explanation: "crwdns46860:0%{user_name}crwdnd46860:0%{new_trust_level}crwdnd46860:0%{current_trust_level}crwdnd46860:0%{user_name}crwdnd46860:0%{current_trust_level}crwdne46860:0"
+  post:
+    image_placeholder:
+      broken: "crwdns46862:0crwdne46862:0"
+    has_likes:
+      one: "crwdns46864:1%{count}crwdne46864:1"
+      other: "crwdns46864:5%{count}crwdne46864:5"
+  rate_limiter:
+    slow_down: "crwdns46866:0crwdne46866:0"
+    too_many_requests: "crwdns46868:0%{time_left}crwdne46868:0"
+    by_type:
+      first_day_replies_per_day: "crwdns46870:0%{time_left}crwdne46870:0"
+      first_day_topics_per_day: "crwdns46872:0%{time_left}crwdne46872:0"
+      create_topic: "crwdns46874:0%{time_left}crwdne46874:0"
+      create_post: "crwdns46876:0%{time_left}crwdne46876:0"
+      delete_post: "crwdns46878:0%{time_left}crwdne46878:0"
+      public_group_membership: "crwdns46880:0%{time_left}crwdne46880:0"
+      topics_per_day: "crwdns46882:0%{time_left}crwdne46882:0"
+      pms_per_day: "crwdns46884:0%{time_left}crwdne46884:0"
+      create_like: "crwdns46886:0%{time_left}crwdne46886:0"
+      create_bookmark: "crwdns46888:0%{time_left}crwdne46888:0"
+      edit_post: "crwdns46890:0%{time_left}crwdne46890:0"
+      live_post_counts: "crwdns46892:0%{time_left}crwdne46892:0"
+      unsubscribe_via_email: "crwdns46894:0%{time_left}crwdne46894:0"
+      topic_invitations_per_day: "crwdns46896:0%{time_left}crwdne46896:0"
+    hours:
+      one: "crwdns46898:1%{count}crwdne46898:1"
+      other: "crwdns46898:5%{count}crwdne46898:5"
+    minutes:
+      one: "crwdns46900:1%{count}crwdne46900:1"
+      other: "crwdns46900:5%{count}crwdne46900:5"
+    seconds:
+      one: "crwdns46902:1%{count}crwdne46902:1"
+      other: "crwdns46902:5%{count}crwdne46902:5"
+    short_time: "crwdns46904:0crwdne46904:0"
+  datetime:
+    distance_in_words:
+      half_a_minute: "crwdns46906:0crwdne46906:0"
+      less_than_x_seconds:
+        one: "crwdns46908:1%{count}crwdne46908:1"
+        other: "crwdns46908:5%{count}crwdne46908:5"
+      x_seconds:
+        one: "crwdns46910:1%{count}crwdne46910:1"
+        other: "crwdns46910:5%{count}crwdne46910:5"
+      less_than_x_minutes:
+        one: "crwdns46912:1%{count}crwdne46912:1"
+        other: "crwdns46912:5%{count}crwdne46912:5"
+      x_minutes:
+        one: "crwdns46914:1%{count}crwdne46914:1"
+        other: "crwdns46914:5%{count}crwdne46914:5"
+      about_x_hours:
+        one: "crwdns46916:1%{count}crwdne46916:1"
+        other: "crwdns46916:5%{count}crwdne46916:5"
+      x_days:
+        one: "crwdns46918:1%{count}crwdne46918:1"
+        other: "crwdns46918:5%{count}crwdne46918:5"
+      about_x_months:
+        one: "crwdns46920:1%{count}crwdne46920:1"
+        other: "crwdns46920:5%{count}crwdne46920:5"
+      x_months:
+        one: "crwdns46922:1%{count}crwdne46922:1"
+        other: "crwdns46922:5%{count}crwdne46922:5"
+      about_x_years:
+        one: "crwdns46924:1%{count}crwdne46924:1"
+        other: "crwdns46924:5%{count}crwdne46924:5"
+      over_x_years:
+        one: "crwdns46926:1%{count}crwdne46926:1"
+        other: "crwdns46926:5%{count}crwdne46926:5"
+      almost_x_years:
+        one: "crwdns46928:1%{count}crwdne46928:1"
+        other: "crwdns46928:5%{count}crwdne46928:5"
+    distance_in_words_verbose:
+      half_a_minute: "crwdns46930:0crwdne46930:0"
+      less_than_x_seconds: "crwdns46932:0crwdne46932:0"
+      x_seconds:
+        one: "crwdns46934:1%{count}crwdne46934:1"
+        other: "crwdns46934:5%{count}crwdne46934:5"
+      less_than_x_minutes:
+        one: "crwdns46936:1%{count}crwdne46936:1"
+        other: "crwdns46936:5%{count}crwdne46936:5"
+      x_minutes:
+        one: "crwdns46938:1%{count}crwdne46938:1"
+        other: "crwdns46938:5%{count}crwdne46938:5"
+      about_x_hours:
+        one: "crwdns46940:1%{count}crwdne46940:1"
+        other: "crwdns46940:5%{count}crwdne46940:5"
+      x_days:
+        one: "crwdns46942:1%{count}crwdne46942:1"
+        other: "crwdns46942:5%{count}crwdne46942:5"
+      about_x_months:
+        one: "crwdns46944:1%{count}crwdne46944:1"
+        other: "crwdns46944:5%{count}crwdne46944:5"
+      x_months:
+        one: "crwdns46946:1%{count}crwdne46946:1"
+        other: "crwdns46946:5%{count}crwdne46946:5"
+      about_x_years:
+        one: "crwdns46948:1%{count}crwdne46948:1"
+        other: "crwdns46948:5%{count}crwdne46948:5"
+      over_x_years:
+        one: "crwdns46950:1%{count}crwdne46950:1"
+        other: "crwdns46950:5%{count}crwdne46950:5"
+      almost_x_years:
+        one: "crwdns46952:1%{count}crwdne46952:1"
+        other: "crwdns46952:5%{count}crwdne46952:5"
+  password_reset:
+    no_token: "crwdns46954:0crwdne46954:0"
+    choose_new: "crwdns46956:0crwdne46956:0"
+    choose: "crwdns46958:0crwdne46958:0"
+    update: "crwdns46960:0crwdne46960:0"
+    save: "crwdns46962:0crwdne46962:0"
+    title: "crwdns46964:0crwdne46964:0"
+    success: "crwdns46966:0crwdne46966:0"
+    success_unapproved: "crwdns46968:0crwdne46968:0"
+  email_login:
+    invalid_token: "crwdns46970:0crwdne46970:0"
+    title: "crwdns46972:0crwdne46972:0"
+  user_auth_tokens:
+    browser:
+      chrome: "crwdns46974:0crwdne46974:0"
+      discoursehub: "crwdns46976:0crwdne46976:0"
+      edge: "crwdns46978:0crwdne46978:0"
+      firefox: "crwdns46980:0crwdne46980:0"
+      ie: "crwdns46982:0crwdne46982:0"
+      opera: "crwdns46984:0crwdne46984:0"
+      safari: "crwdns46986:0crwdne46986:0"
+      unknown: "crwdns46988:0crwdne46988:0"
+    device:
+      android: "crwdns46990:0crwdne46990:0"
+      chromebook: "crwdns46992:0crwdne46992:0"
+      ipad: "crwdns46994:0crwdne46994:0"
+      iphone: "crwdns46996:0crwdne46996:0"
+      ipod: "crwdns46998:0crwdne46998:0"
+      linux: "crwdns47000:0crwdne47000:0"
+      mac: "crwdns47002:0crwdne47002:0"
+      mobile: "crwdns47004:0crwdne47004:0"
+      windows: "crwdns47006:0crwdne47006:0"
+      unknown: "crwdns47008:0crwdne47008:0"
+    os:
+      android: "crwdns47010:0crwdne47010:0"
+      chromeos: "crwdns47012:0crwdne47012:0"
+      ios: "crwdns47014:0crwdne47014:0"
+      linux: "crwdns47016:0crwdne47016:0"
+      macos: "crwdns47018:0crwdne47018:0"
+      windows: "crwdns47020:0crwdne47020:0"
+      unknown: "crwdns47022:0crwdne47022:0"
+  change_email:
+    wrong_account_error: "crwdns47024:0crwdne47024:0"
+    confirmed: "crwdns47026:0crwdne47026:0"
+    please_continue: "crwdns47028:0%{site_name}crwdne47028:0"
+    error: "crwdns47030:0crwdne47030:0"
+    doesnt_exist: "crwdns47032:0crwdne47032:0"
+    error_staged: "crwdns47034:0crwdne47034:0"
+    already_done: "crwdns47036:0crwdne47036:0"
+    confirm: "crwdns47038:0crwdne47038:0"
+    authorizing_new:
+      title: "crwdns47040:0crwdne47040:0"
+      description: "crwdns47042:0crwdne47042:0"
+      description_add: "crwdns47044:0crwdne47044:0"
+    authorizing_old:
+      title: "crwdns47046:0crwdne47046:0"
+      description: "crwdns47048:0crwdne47048:0"
+      description_add: "crwdns47050:0crwdne47050:0"
+      old_email: "crwdns47052:0%{email}crwdne47052:0"
+      new_email: "crwdns47054:0%{email}crwdne47054:0"
+      almost_done_title: "crwdns47056:0crwdne47056:0"
+      almost_done_description: "crwdns47058:0crwdne47058:0"
+  associated_accounts:
+    revoke_failed: "crwdns47060:0%{provider_name}crwdne47060:0"
+    connected: "crwdns47062:0crwdne47062:0"
+  activation:
+    action: "crwdns47064:0crwdne47064:0"
+    already_done: "crwdns47066:0crwdne47066:0"
+    please_continue: "crwdns47068:0crwdne47068:0"
+    continue_button: "crwdns47070:0%{site_name}crwdne47070:0"
+    welcome_to: "crwdns47072:0%{site_name}crwdne47072:0"
+    approval_required: "crwdns47074:0crwdne47074:0"
+    missing_session: "crwdns47076:0crwdne47076:0"
+    activated: "crwdns47078:0crwdne47078:0"
+    admin_confirm:
+      title: "crwdns47080:0crwdne47080:0"
+      description: "crwdns47082:0%{target_username}crwdnd47082:0%{target_email}crwdne47082:0"
+      grant: "crwdns47084:0crwdne47084:0"
+      complete: "crwdns47086:0%{target_username}crwdne47086:0"
+      back_to: "crwdns47088:0%{title}crwdne47088:0"
+  reviewable_score_types:
+    needs_approval:
+      title: "crwdns47090:0crwdne47090:0"
+  post_action_types:
+    off_topic:
+      title: "crwdns47092:0crwdne47092:0"
+      description: "crwdns47094:0crwdne47094:0"
+      short_description: "crwdns47096:0crwdne47096:0"
+      long_form: "crwdns47098:0crwdne47098:0"
+    spam:
+      title: "crwdns47100:0crwdne47100:0"
+      description: "crwdns47102:0crwdne47102:0"
+      short_description: "crwdns47104:0crwdne47104:0"
+      long_form: "crwdns47106:0crwdne47106:0"
+      email_title: 'crwdns47108:0%{title}crwdne47108:0'
+      email_body: "crwdns47110:0%{link}crwdnd47110:0%{message}crwdne47110:0"
+    inappropriate:
+      title: "crwdns47112:0crwdne47112:0"
+      description: 'crwdns47114:0%{base_path}crwdne47114:0'
+      short_description: 'crwdns47116:0%{base_path}crwdne47116:0'
+      long_form: "crwdns47118:0crwdne47118:0"
+    notify_user:
+      title: "crwdns47120:0%{username}crwdne47120:0"
+      description: "crwdns47122:0crwdne47122:0"
+      short_description: "crwdns47124:0crwdne47124:0"
+      long_form: "crwdns47126:0crwdne47126:0"
+      email_title: 'crwdns47128:0%{title}crwdne47128:0'
+      email_body: "crwdns47130:0%{link}crwdnd47130:0%{message}crwdne47130:0"
+    notify_moderators:
+      title: "crwdns47132:0crwdne47132:0"
+      description: "crwdns47134:0crwdne47134:0"
+      short_description: "crwdns47136:0crwdne47136:0"
+      long_form: "crwdns47138:0crwdne47138:0"
+      email_title: 'crwdns47140:0%{title}crwdne47140:0'
+      email_body: "crwdns47142:0%{link}crwdnd47142:0%{message}crwdne47142:0"
+    bookmark:
+      title: "crwdns47144:0crwdne47144:0"
+      description: "crwdns47146:0crwdne47146:0"
+      short_description: "crwdns47148:0crwdne47148:0"
+      long_form: "crwdns47150:0crwdne47150:0"
+    like:
+      title: "crwdns47152:0crwdne47152:0"
+      description: "crwdns47154:0crwdne47154:0"
+      short_description: "crwdns47156:0crwdne47156:0"
+      long_form: "crwdns47158:0crwdne47158:0"
+  draft:
+    sequence_conflict_error:
+      title: "crwdns47160:0crwdne47160:0"
+      description: "crwdns47162:0crwdne47162:0"
+  draft_backup:
+    pm_title: "crwdns47164:0crwdne47164:0"
+    pm_body: "crwdns47166:0crwdne47166:0"
+  user_activity:
+    no_default:
+      self: "crwdns47168:0crwdne47168:0"
+      others: "crwdns47170:0crwdne47170:0"
+    no_bookmarks:
+      self: "crwdns47172:0crwdne47172:0"
+      others: "crwdns47174:0crwdne47174:0"
+    no_likes_given:
+      self: "crwdns47176:0crwdne47176:0"
+      others: "crwdns47178:0crwdne47178:0"
+    no_replies:
+      self: "crwdns47180:0crwdne47180:0"
+      others: "crwdns47182:0crwdne47182:0"
+    no_drafts:
+      self: "crwdns47184:0crwdne47184:0"
+  webauthn:
+    validation:
+      invalid_type_error: "crwdns47186:0crwdne47186:0"
+      challenge_mismatch_error: "crwdns47188:0crwdne47188:0"
+      invalid_origin_error: "crwdns47190:0crwdne47190:0"
+      malformed_attestation_error: "crwdns47192:0crwdne47192:0"
+      invalid_relying_party_id_error: "crwdns47194:0crwdne47194:0"
+      user_verification_error: "crwdns47196:0crwdne47196:0"
+      unsupported_public_key_algorithm_error: "crwdns47198:0crwdne47198:0"
+      unsupported_attestation_format_error: "crwdns47200:0crwdne47200:0"
+      credential_id_in_use_error: "crwdns47202:0crwdne47202:0"
+      public_key_error: "crwdns47204:0crwdne47204:0"
+      ownership_error: "crwdns47206:0crwdne47206:0"
+      not_found_error: "crwdns47208:0crwdne47208:0"
+      unknown_cose_algorithm_error: "crwdns47210:0crwdne47210:0"
+  topic_flag_types:
+    spam:
+      title: "crwdns47212:0crwdne47212:0"
+      description: "crwdns47214:0crwdne47214:0"
+      long_form: "crwdns47216:0crwdne47216:0"
+      short_description: "crwdns47218:0crwdne47218:0"
+    inappropriate:
+      title: "crwdns47220:0crwdne47220:0"
+      description: 'crwdns47222:0%{base_path}crwdne47222:0'
+      long_form: "crwdns47224:0crwdne47224:0"
+      short_description: 'crwdns47226:0%{base_path}crwdne47226:0'
+    notify_moderators:
+      title: "crwdns47228:0crwdne47228:0"
+      description: 'crwdns47230:0%{base_path}crwdnd47230:0%{tos_url}crwdne47230:0'
+      long_form: "crwdns47232:0crwdne47232:0"
+      short_description: "crwdns47234:0crwdne47234:0"
+      email_title: 'crwdns47236:0%{title}crwdne47236:0'
+      email_body: "crwdns47238:0%{link}crwdnd47238:0%{message}crwdne47238:0"
+  flagging:
+    you_must_edit: 'crwdns47240:0%{path}crwdne47240:0'
+    user_must_edit: "crwdns47242:0crwdne47242:0"
+  ignored:
+    hidden_content: "crwdns47244:0crwdne47244:0"
+  archetypes:
+    regular:
+      title: "crwdns47246:0crwdne47246:0"
+    banner:
+      title: "crwdns47248:0crwdne47248:0"
+      message:
+        make: "crwdns47250:0crwdne47250:0"
+        remove: "crwdns47252:0crwdne47252:0"
+  unsubscribed:
+    title: "crwdns47254:0crwdne47254:0"
+    description: "crwdns47256:0%{email}crwdnd47256:0%{url}crwdne47256:0"
+    topic_description: "crwdns47258:0%{link}crwdne47258:0"
+    private_topic_description: "crwdns47260:0crwdne47260:0"
+  uploads:
+    marked_insecure_from_theme_component_reason: "crwdns47262:0crwdne47262:0"
+  unsubscribe:
+    title: "crwdns47264:0crwdne47264:0"
+    stop_watching_topic: "crwdns47266:0%{link}crwdne47266:0"
+    mute_topic: "crwdns47268:0%{link}crwdne47268:0"
+    unwatch_category: "crwdns47270:0%{category}crwdne47270:0"
+    mailing_list_mode: "crwdns47272:0crwdne47272:0"
+    all: "crwdns47274:0%{sitename}crwdne47274:0"
+    different_user_description: "crwdns47276:0crwdne47276:0"
+    not_found_description: "crwdns47278:0crwdne47278:0"
+    log_out: "crwdns47280:0crwdne47280:0"
+    submit: "crwdns47282:0crwdne47282:0"
+    digest_frequency:
+      title: "crwdns47284:0%{frequency}crwdne47284:0"
+      never_title: "crwdns53616:0crwdne53616:0"
+      select_title: "crwdns47286:0crwdne47286:0"
+      never: "crwdns47288:0crwdne47288:0"
+      every_30_minutes: "crwdns47290:0crwdne47290:0"
+      every_hour: "crwdns47292:0crwdne47292:0"
+      daily: "crwdns47294:0crwdne47294:0"
+      weekly: "crwdns47296:0crwdne47296:0"
+      every_month: "crwdns47298:0crwdne47298:0"
+      every_six_months: "crwdns47300:0crwdne47300:0"
+  user_api_key:
+    title: "crwdns47302:0crwdne47302:0"
+    authorize: "crwdns47304:0crwdne47304:0"
+    read: "crwdns47306:0crwdne47306:0"
+    read_write: "crwdns47308:0crwdne47308:0"
+    description: 'crwdns47310:0%{application_name}crwdne47310:0'
+    instructions: 'crwdns47312:0%{application_name}crwdne47312:0'
+    otp_description: 'crwdns47314:0%{application_name}crwdne47314:0'
+    otp_confirmation:
+      confirm_title: crwdns47316:0%{site_name}crwdne47316:0
+      logging_in_as: crwdns47318:0%{username}crwdne47318:0
+      confirm_button: crwdns47320:0crwdne47320:0
+    no_trust_level: "crwdns47322:0crwdne47322:0"
+    generic_error: "crwdns47324:0crwdne47324:0"
+    scopes:
+      message_bus: "crwdns47326:0crwdne47326:0"
+      notifications: "crwdns47328:0crwdne47328:0"
+      push: "crwdns47330:0crwdne47330:0"
+      session_info: "crwdns47332:0crwdne47332:0"
+      read: "crwdns47334:0crwdne47334:0"
+      write: "crwdns47336:0crwdne47336:0"
+      one_time_password: "crwdns47338:0crwdne47338:0"
+    invalid_public_key: "crwdns47340:0crwdne47340:0"
+    invalid_auth_redirect: "crwdns47342:0crwdne47342:0"
+    invalid_token: "crwdns47344:0crwdne47344:0"
+  flags:
+    errors:
+      already_handled: "crwdns47346:0crwdne47346:0"
+  reports:
+    default:
+      labels:
+        count: crwdns47348:0crwdne47348:0
+        percent: crwdns47350:0crwdne47350:0
+        day: crwdns47352:0crwdne47352:0
+    post_edits:
+      title: "crwdns47354:0crwdne47354:0"
+      labels:
+        edited_at: crwdns47356:0crwdne47356:0
+        post: crwdns47358:0crwdne47358:0
+        editor: crwdns47360:0crwdne47360:0
+        author: crwdns47362:0crwdne47362:0
+        edit_reason: crwdns47364:0crwdne47364:0
+      description: "crwdns47366:0crwdne47366:0"
+    user_flagging_ratio:
+      title: "crwdns47368:0crwdne47368:0"
+      labels:
+        user: crwdns47370:0crwdne47370:0
+        agreed_flags: crwdns47372:0crwdne47372:0
+        disagreed_flags: crwdns47374:0crwdne47374:0
+        ignored_flags: crwdns47376:0crwdne47376:0
+        score: crwdns47378:0crwdne47378:0
+      description: "crwdns47380:0crwdne47380:0"
+    moderators_activity:
+      title: "crwdns47382:0crwdne47382:0"
+      labels:
+        moderator: crwdns47384:0crwdne47384:0
+        flag_count: crwdns47386:0crwdne47386:0
+        time_read: crwdns47388:0crwdne47388:0
+        topic_count: crwdns47390:0crwdne47390:0
+        post_count: crwdns47392:0crwdne47392:0
+        pm_count: crwdns47394:0crwdne47394:0
+        revision_count: crwdns47396:0crwdne47396:0
+      description: crwdns47398:0crwdne47398:0
+    flags_status:
+      title: "crwdns47400:0crwdne47400:0"
+      values:
+        agreed: crwdns47402:0crwdne47402:0
+        disagreed: crwdns47404:0crwdne47404:0
+        deferred: crwdns47406:0crwdne47406:0
+        no_action: crwdns47408:0crwdne47408:0
+      labels:
+        flag: crwdns47410:0crwdne47410:0
+        assigned: crwdns47412:0crwdne47412:0
+        poster: crwdns47414:0crwdne47414:0
+        flagger: crwdns47416:0crwdne47416:0
+        time_to_resolution: crwdns47418:0crwdne47418:0
+      description: "crwdns47420:0crwdne47420:0"
+    visits:
+      title: "crwdns47422:0crwdne47422:0"
+      xaxis: "crwdns47424:0crwdne47424:0"
+      yaxis: "crwdns47426:0crwdne47426:0"
+      description: "crwdns47428:0crwdne47428:0"
+    signups:
+      title: "crwdns47430:0crwdne47430:0"
+      xaxis: "crwdns47432:0crwdne47432:0"
+      yaxis: "crwdns47434:0crwdne47434:0"
+      description: "crwdns47436:0crwdne47436:0"
+    new_contributors:
+      title: "crwdns47438:0crwdne47438:0"
+      xaxis: "crwdns47440:0crwdne47440:0"
+      yaxis: "crwdns47442:0crwdne47442:0"
+      description: "crwdns47444:0crwdne47444:0"
+    trust_level_growth:
+      title: "crwdns47446:0crwdne47446:0"
+      xaxis:
+        tl1_reached: "crwdns47448:0crwdne47448:0"
+        tl2_reached: "crwdns47450:0crwdne47450:0"
+        tl3_reached: "crwdns47452:0crwdne47452:0"
+        tl4_reached: "crwdns47454:0crwdne47454:0"
+      yaxis: "crwdns47456:0crwdne47456:0"
+      description: "crwdns47458:0crwdne47458:0"
+    consolidated_page_views:
+      title: "crwdns47460:0crwdne47460:0"
+      xaxis:
+        page_view_crawler: "crwdns47462:0crwdne47462:0"
+        page_view_anon: "crwdns47464:0crwdne47464:0"
+        page_view_logged_in: "crwdns47466:0crwdne47466:0"
+      yaxis: "crwdns47468:0crwdne47468:0"
+      description: "crwdns47470:0crwdne47470:0"
+      labels:
+        post: crwdns47472:0crwdne47472:0
+        editor: crwdns47474:0crwdne47474:0
+        author: crwdns47476:0crwdne47476:0
+        edit_reason: crwdns47478:0crwdne47478:0
+    dau_by_mau:
+      title: "crwdns47480:0crwdne47480:0"
+      xaxis: "crwdns47482:0crwdne47482:0"
+      yaxis: "crwdns47484:0crwdne47484:0"
+      description: "crwdns47486:0crwdne47486:0"
+    daily_engaged_users:
+      title: "crwdns47488:0crwdne47488:0"
+      xaxis: "crwdns47490:0crwdne47490:0"
+      yaxis: "crwdns47492:0crwdne47492:0"
+      description: "crwdns47494:0crwdne47494:0"
+    profile_views:
+      title: "crwdns47496:0crwdne47496:0"
+      xaxis: "crwdns47498:0crwdne47498:0"
+      yaxis: "crwdns47500:0crwdne47500:0"
+      description: "crwdns47502:0crwdne47502:0"
+    topics:
+      title: "crwdns47504:0crwdne47504:0"
+      xaxis: "crwdns47506:0crwdne47506:0"
+      yaxis: "crwdns47508:0crwdne47508:0"
+      description: "crwdns47510:0crwdne47510:0"
+    posts:
+      title: "crwdns47512:0crwdne47512:0"
+      xaxis: "crwdns47514:0crwdne47514:0"
+      yaxis: "crwdns47516:0crwdne47516:0"
+      description: "crwdns47518:0crwdne47518:0"
+    likes:
+      title: "crwdns47520:0crwdne47520:0"
+      xaxis: "crwdns47522:0crwdne47522:0"
+      yaxis: "crwdns47524:0crwdne47524:0"
+      description: "crwdns47526:0crwdne47526:0"
+    flags:
+      title: "crwdns47528:0crwdne47528:0"
+      xaxis: "crwdns47530:0crwdne47530:0"
+      yaxis: "crwdns47532:0crwdne47532:0"
+      description: "crwdns47534:0crwdne47534:0"
+    bookmarks:
+      title: "crwdns47536:0crwdne47536:0"
+      xaxis: "crwdns47538:0crwdne47538:0"
+      yaxis: "crwdns47540:0crwdne47540:0"
+      description: "crwdns47542:0crwdne47542:0"
+    users_by_trust_level:
+      title: "crwdns47544:0crwdne47544:0"
+      xaxis: "crwdns47546:0crwdne47546:0"
+      yaxis: "crwdns47548:0crwdne47548:0"
+      labels:
+        level: crwdns47550:0crwdne47550:0
+      description: "crwdns47552:0crwdne47552:0"
+      description_link: "crwdns47554:0crwdne47554:0"
+    users_by_type:
+      title: "crwdns47556:0crwdne47556:0"
+      xaxis: "crwdns47558:0crwdne47558:0"
+      yaxis: "crwdns47560:0crwdne47560:0"
+      labels:
+        type: crwdns47562:0crwdne47562:0
+      xaxis_labels:
+        admin: crwdns47564:0crwdne47564:0
+        moderator: crwdns47566:0crwdne47566:0
+        suspended: crwdns47568:0crwdne47568:0
+        silenced: crwdns47570:0crwdne47570:0
+      description: "crwdns47572:0crwdne47572:0"
+    trending_search:
+      title: crwdns47574:0crwdne47574:0
+      labels:
+        term: crwdns47576:0crwdne47576:0
+        searches: crwdns47578:0crwdne47578:0
+        click_through: crwdns47580:0crwdne47580:0
+      description: "crwdns47582:0crwdne47582:0"
+    emails:
+      title: "crwdns47584:0crwdne47584:0"
+      xaxis: "crwdns47586:0crwdne47586:0"
+      yaxis: "crwdns47588:0crwdne47588:0"
+      description: "crwdns47590:0crwdne47590:0"
+    user_to_user_private_messages:
+      title: "crwdns47592:0crwdne47592:0"
+      xaxis: "crwdns47594:0crwdne47594:0"
+      yaxis: "crwdns47596:0crwdne47596:0"
+      description: "crwdns47598:0crwdne47598:0"
+    user_to_user_private_messages_with_replies:
+      title: "crwdns47600:0crwdne47600:0"
+      xaxis: "crwdns47602:0crwdne47602:0"
+      yaxis: "crwdns47604:0crwdne47604:0"
+      description: "crwdns47606:0crwdne47606:0"
+    system_private_messages:
+      title: "crwdns47608:0crwdne47608:0"
+      xaxis: "crwdns47610:0crwdne47610:0"
+      yaxis: "crwdns47612:0crwdne47612:0"
+      description: "crwdns47614:0crwdne47614:0"
+    moderator_warning_private_messages:
+      title: "crwdns47616:0crwdne47616:0"
+      xaxis: "crwdns47618:0crwdne47618:0"
+      yaxis: "crwdns47620:0crwdne47620:0"
+      description: "crwdns47622:0crwdne47622:0"
+    notify_moderators_private_messages:
+      title: "crwdns47624:0crwdne47624:0"
+      xaxis: "crwdns47626:0crwdne47626:0"
+      yaxis: "crwdns47628:0crwdne47628:0"
+      description: "crwdns47630:0crwdne47630:0"
+    notify_user_private_messages:
+      title: "crwdns47632:0crwdne47632:0"
+      xaxis: "crwdns47634:0crwdne47634:0"
+      yaxis: "crwdns47636:0crwdne47636:0"
+      description: "crwdns47638:0crwdne47638:0"
+    top_referrers:
+      title: "crwdns47640:0crwdne47640:0"
+      xaxis: "crwdns47642:0crwdne47642:0"
+      num_clicks: "crwdns47644:0crwdne47644:0"
+      num_topics: "crwdns47646:0crwdne47646:0"
+      labels:
+        user: "crwdns47648:0crwdne47648:0"
+        num_clicks: "crwdns47650:0crwdne47650:0"
+        num_topics: "crwdns47652:0crwdne47652:0"
+      description: "crwdns47654:0crwdne47654:0"
+    top_traffic_sources:
+      title: "crwdns47656:0crwdne47656:0"
+      xaxis: "crwdns47658:0crwdne47658:0"
+      num_clicks: "crwdns47660:0crwdne47660:0"
+      num_topics: "crwdns47662:0crwdne47662:0"
+      num_users: "crwdns47664:0crwdne47664:0"
+      labels:
+        domain: crwdns47666:0crwdne47666:0
+        num_clicks: crwdns47668:0crwdne47668:0
+        num_topics: crwdns47670:0crwdne47670:0
+      description: "crwdns47672:0crwdne47672:0"
+    top_referred_topics:
+      title: "crwdns47674:0crwdne47674:0"
+      labels:
+        num_clicks: "crwdns47676:0crwdne47676:0"
+        topic: "crwdns47678:0crwdne47678:0"
+      description: "crwdns47680:0crwdne47680:0"
+    page_view_anon_reqs:
+      title: "crwdns47682:0crwdne47682:0"
+      xaxis: "crwdns47684:0crwdne47684:0"
+      yaxis: "crwdns47686:0crwdne47686:0"
+      description: "crwdns47688:0crwdne47688:0"
+    page_view_logged_in_reqs:
+      title: "crwdns47690:0crwdne47690:0"
+      xaxis: "crwdns47692:0crwdne47692:0"
+      yaxis: "crwdns47694:0crwdne47694:0"
+      description: "crwdns47696:0crwdne47696:0"
+    page_view_crawler_reqs:
+      title: "crwdns47698:0crwdne47698:0"
+      xaxis: "crwdns47700:0crwdne47700:0"
+      yaxis: "crwdns47702:0crwdne47702:0"
+      description: "crwdns47704:0crwdne47704:0"
+    page_view_total_reqs:
+      title: "crwdns47706:0crwdne47706:0"
+      xaxis: "crwdns47708:0crwdne47708:0"
+      yaxis: "crwdns47710:0crwdne47710:0"
+      description: "crwdns47712:0crwdne47712:0"
+    page_view_logged_in_mobile_reqs:
+      title: "crwdns47714:0crwdne47714:0"
+      xaxis: "crwdns47716:0crwdne47716:0"
+      yaxis: "crwdns47718:0crwdne47718:0"
+      description: "crwdns47720:0crwdne47720:0"
+    page_view_anon_mobile_reqs:
+      title: "crwdns47722:0crwdne47722:0"
+      xaxis: "crwdns47724:0crwdne47724:0"
+      yaxis: "crwdns47726:0crwdne47726:0"
+      description: "crwdns47728:0crwdne47728:0"
+    http_background_reqs:
+      title: "crwdns47730:0crwdne47730:0"
+      xaxis: "crwdns47732:0crwdne47732:0"
+      yaxis: "crwdns47734:0crwdne47734:0"
+    http_2xx_reqs:
+      title: "crwdns47736:0crwdne47736:0"
+      xaxis: "crwdns47738:0crwdne47738:0"
+      yaxis: "crwdns47740:0crwdne47740:0"
+    http_3xx_reqs:
+      title: "crwdns47742:0crwdne47742:0"
+      xaxis: "crwdns47744:0crwdne47744:0"
+      yaxis: "crwdns47746:0crwdne47746:0"
+    http_4xx_reqs:
+      title: "crwdns47748:0crwdne47748:0"
+      xaxis: "crwdns47750:0crwdne47750:0"
+      yaxis: "crwdns47752:0crwdne47752:0"
+    http_5xx_reqs:
+      title: "crwdns47754:0crwdne47754:0"
+      xaxis: "crwdns47756:0crwdne47756:0"
+      yaxis: "crwdns47758:0crwdne47758:0"
+    http_total_reqs:
+      title: "crwdns47760:0crwdne47760:0"
+      xaxis: "crwdns47762:0crwdne47762:0"
+      yaxis: "crwdns47764:0crwdne47764:0"
+    time_to_first_response:
+      title: "crwdns47766:0crwdne47766:0"
+      xaxis: "crwdns47768:0crwdne47768:0"
+      yaxis: "crwdns47770:0crwdne47770:0"
+      description: "crwdns47772:0crwdne47772:0"
+    topics_with_no_response:
+      title: "crwdns47774:0crwdne47774:0"
+      xaxis: "crwdns47776:0crwdne47776:0"
+      yaxis: "crwdns47778:0crwdne47778:0"
+      description: "crwdns47780:0crwdne47780:0"
+    mobile_visits:
+      title: "crwdns47782:0crwdne47782:0"
+      xaxis: "crwdns47784:0crwdne47784:0"
+      yaxis: "crwdns47786:0crwdne47786:0"
+      description: "crwdns47788:0crwdne47788:0"
+    web_crawlers:
+      title: "crwdns47790:0crwdne47790:0"
+      labels:
+        user_agent: "crwdns47792:0crwdne47792:0"
+        page_views: "crwdns47794:0crwdne47794:0"
+      description: "crwdns47796:0crwdne47796:0"
+    suspicious_logins:
+      title: "crwdns47798:0crwdne47798:0"
+      labels:
+        user: crwdns47800:0crwdne47800:0
+        client_ip: crwdns47802:0crwdne47802:0
+        location: crwdns47804:0crwdne47804:0
+        browser: crwdns47806:0crwdne47806:0
+        device: crwdns47808:0crwdne47808:0
+        os: crwdns47810:0crwdne47810:0
+        login_time: crwdns47812:0crwdne47812:0
+      description: "crwdns47814:0crwdne47814:0"
+    staff_logins:
+      title: "crwdns47816:0crwdne47816:0"
+      labels:
+        user: crwdns47818:0crwdne47818:0
+        location: crwdns47820:0crwdne47820:0
+        login_at: crwdns47822:0crwdne47822:0
+      description: "crwdns47824:0crwdne47824:0"
+    top_uploads:
+      title: "crwdns47826:0crwdne47826:0"
+      labels:
+        filename: crwdns47828:0crwdne47828:0
+        extension: crwdns47830:0crwdne47830:0
+        author: crwdns47832:0crwdne47832:0
+        filesize: crwdns47834:0crwdne47834:0
+      description: "crwdns47836:0crwdne47836:0"
+    top_ignored_users:
+      title: "crwdns47838:0crwdne47838:0"
+      labels:
+        ignored_user: crwdns47840:0crwdne47840:0
+        ignores_count: crwdns47842:0crwdne47842:0
+        mutes_count: crwdns47844:0crwdne47844:0
+      description: "crwdns47846:0crwdne47846:0"
+  dashboard:
+    rails_env_warning: "crwdns47848:0%{env}crwdne47848:0"
+    host_names_warning: "crwdns47850:0crwdne47850:0"
+    sidekiq_warning: 'crwdns47852:0crwdne47852:0'
+    queue_size_warning: "crwdns47854:0%{queue_size}crwdne47854:0"
+    memory_warning: "crwdns47856:0crwdne47856:0"
+    google_oauth2_config_warning: 'crwdns47858:0%{base_path}crwdne47858:0'
+    facebook_config_warning: 'crwdns47860:0%{base_path}crwdne47860:0'
+    twitter_config_warning: 'crwdns47862:0%{base_path}crwdne47862:0'
+    github_config_warning: 'crwdns47864:0%{base_path}crwdne47864:0'
+    s3_config_warning: 'crwdns47866:0%{base_path}crwdne47866:0'
+    s3_backup_config_warning: 'crwdns47868:0%{base_path}crwdne47868:0'
+    image_magick_warning: 'crwdns47870:0crwdne47870:0'
+    failing_emails_warning: 'crwdns47872:0%{num_failed_jobs}crwdnd47872:0%{base_path}crwdne47872:0'
+    subfolder_ends_in_slash: "crwdns47874:0crwdne47874:0"
+    email_polling_errored_recently:
+      one: "crwdns47876:1%{base_path}crwdne47876:1"
+      other: "crwdns47876:5%{count}crwdnd47876:5%{base_path}crwdne47876:5"
+    missing_mailgun_api_key: "crwdns47878:0crwdne47878:0"
+    bad_favicon_url: "crwdns47880:0%{base_path}crwdne47880:0"
+    deprecated_api_usage: "crwdns47882:0crwdne47882:0"
+    update_mail_receiver: "crwdns47884:0crwdne47884:0"
+    poll_pop3_timeout: "crwdns47886:0%{base_path}crwdne47886:0"
+    poll_pop3_auth_error: "crwdns47888:0%{base_path}crwdne47888:0"
+    force_https_warning: "crwdns47890:0%{base_path}crwdne47890:0"
+    out_of_date_themes: "crwdns47892:0crwdne47892:0"
+    unreachable_themes: "crwdns47894:0crwdne47894:0"
+    watched_word_regexp_error: "crwdns47896:0%{action}crwdnd47896:0%{base_path}crwdne47896:0"
+  site_settings:
+    display_local_time_in_user_card: "crwdns47898:0crwdne47898:0"
+    censored_words: "crwdns47900:0crwdne47900:0"
+    delete_old_hidden_posts: "crwdns47902:0crwdne47902:0"
+    default_locale: "crwdns47904:0%{base_path}crwdne47904:0"
+    allow_user_locale: "crwdns47906:0crwdne47906:0"
+    set_locale_from_accept_language_header: "crwdns47908:0crwdne47908:0"
+    support_mixed_text_direction: "crwdns47910:0crwdne47910:0"
+    min_post_length: "crwdns47912:0crwdne47912:0"
+    min_first_post_length: "crwdns47914:0crwdne47914:0"
+    min_personal_message_post_length: "crwdns47916:0crwdne47916:0"
+    max_post_length: "crwdns47918:0crwdne47918:0"
+    topic_featured_link_enabled: "crwdns47920:0crwdne47920:0"
+    show_topic_featured_link_in_digest: "crwdns47922:0crwdne47922:0"
+    min_topic_title_length: "crwdns47924:0crwdne47924:0"
+    max_topic_title_length: "crwdns47926:0crwdne47926:0"
+    min_personal_message_title_length: "crwdns47928:0crwdne47928:0"
+    max_emojis_in_title: "crwdns47930:0crwdne47930:0"
+    min_search_term_length: "crwdns47932:0crwdne47932:0"
+    search_tokenize_chinese_japanese_korean: "crwdns47934:0crwdne47934:0"
+    search_prefer_recent_posts: "crwdns47936:0crwdne47936:0"
+    search_recent_posts_size: "crwdns47938:0crwdne47938:0"
+    log_search_queries: "crwdns47940:0crwdne47940:0"
+    search_query_log_max_size: "crwdns47942:0crwdne47942:0"
+    search_query_log_max_retention_days: "crwdns47944:0crwdne47944:0"
+    search_ignore_accents: "crwdns47946:0crwdne47946:0"
+    category_search_priority_very_low_weight: "crwdns47948:0crwdne47948:0"
+    category_search_priority_low_weight: "crwdns47950:0crwdne47950:0"
+    category_search_priority_high_weight: "crwdns47952:0crwdne47952:0"
+    category_search_priority_very_high_weight: "crwdns47954:0crwdne47954:0"
+    allow_uncategorized_topics: "crwdns47956:0crwdne47956:0"
+    allow_duplicate_topic_titles: "crwdns47958:0crwdne47958:0"
+    allow_duplicate_topic_titles_category: "crwdns47960:0crwdne47960:0"
+    unique_posts_mins: "crwdns47962:0crwdne47962:0"
+    educate_until_posts: "crwdns47964:0crwdne47964:0"
+    title: "crwdns47966:0crwdne47966:0"
+    site_description: "crwdns47968:0crwdne47968:0"
+    short_site_description: "crwdns47970:0crwdne47970:0"
+    contact_email: "crwdns47972:0%{base_path}crwdne47972:0"
+    contact_url: "crwdns47974:0%{base_path}crwdne47974:0"
+    crawl_images: "crwdns47976:0crwdne47976:0"
+    download_remote_images_to_local: "crwdns47978:0crwdne47978:0"
+    download_remote_images_threshold: "crwdns47980:0crwdne47980:0"
+    disabled_image_download_domains: "crwdns47982:0crwdne47982:0"
+    editing_grace_period: "crwdns47984:0crwdne47984:0"
+    editing_grace_period_max_diff: "crwdns47986:0crwdne47986:0"
+    editing_grace_period_max_diff_high_trust: "crwdns47988:0crwdne47988:0"
+    staff_edit_locks_post: "crwdns47990:0crwdne47990:0"
+    post_edit_time_limit: "crwdns47992:0crwdne47992:0"
+    tl2_post_edit_time_limit: "crwdns47994:0crwdne47994:0"
+    edit_history_visible_to_public: "crwdns47996:0crwdne47996:0"
+    delete_removed_posts_after: "crwdns47998:0crwdne47998:0"
+    max_image_width: "crwdns48000:0crwdne48000:0"
+    max_image_height: "crwdns48002:0crwdne48002:0"
+    responsive_post_image_sizes: "crwdns48004:0crwdne48004:0"
+    fixed_category_positions: "crwdns48006:0crwdne48006:0"
+    fixed_category_positions_on_create: "crwdns48008:0crwdne48008:0"
+    add_rel_nofollow_to_user_content: 'crwdns48010:0crwdne48010:0'
+    exclude_rel_nofollow_domains: "crwdns48012:0crwdne48012:0"
+    post_excerpt_maxlength: "crwdns48014:0crwdne48014:0"
+    topic_excerpt_maxlength: "crwdns48016:0crwdne48016:0"
+    show_pinned_excerpt_mobile: "crwdns48018:0crwdne48018:0"
+    show_pinned_excerpt_desktop: "crwdns48020:0crwdne48020:0"
+    post_onebox_maxlength: "crwdns48022:0crwdne48022:0"
+    blocked_onebox_domains: "crwdns53626:0crwdne53626:0"
+    allowed_inline_onebox_domains: "crwdns53628:0crwdne53628:0"
+    enable_inline_onebox_on_all_domains: "crwdns48028:0crwdne48028:0"
+    force_custom_user_agent_hosts: "crwdns48030:0crwdne48030:0"
+    max_oneboxes_per_post: "crwdns48032:0crwdne48032:0"
+    logo: "crwdns48034:0crwdne48034:0"
+    logo_small: "crwdns48036:0crwdne48036:0"
+    digest_logo: "crwdns48038:0crwdne48038:0"
+    mobile_logo: "crwdns48040:0crwdne48040:0"
+    logo_dark: "crwdns53816:0crwdne53816:0"
+    logo_small_dark: "crwdns53818:0crwdne53818:0"
+    mobile_logo_dark: "crwdns53820:0crwdne53820:0"
+    large_icon: "crwdns48042:0crwdne48042:0"
+    manifest_icon: "crwdns48044:0crwdne48044:0"
+    favicon: "crwdns48046:0crwdne48046:0"
+    apple_touch_icon: "crwdns48048:0crwdne48048:0"
+    opengraph_image: "crwdns48050:0crwdne48050:0"
+    twitter_summary_large_image: "crwdns48052:0crwdne48052:0"
+    notification_email: "crwdns48054:0crwdne48054:0"
+    email_custom_headers: "crwdns48056:0crwdne48056:0"
+    email_subject: "crwdns48058:0crwdne48058:0"
+    detailed_404: "crwdns48060:0crwdne48060:0"
+    enforce_second_factor: "crwdns48062:0crwdne48062:0"
+    force_https: "crwdns48064:0crwdne48064:0"
+    same_site_cookies: "crwdns48066:0crwdne48066:0"
+    summary_score_threshold: "crwdns48068:0crwdne48068:0"
+    summary_posts_required: "crwdns48070:0crwdne48070:0"
+    summary_likes_required: "crwdns48072:0crwdne48072:0"
+    summary_percent_filter: "crwdns48074:0crwdne48074:0"
+    summary_max_results: "crwdns48076:0crwdne48076:0"
+    enable_personal_messages: "crwdns48078:0crwdne48078:0"
+    enable_system_message_replies: "crwdns48080:0crwdne48080:0"
+    enable_long_polling: "crwdns48082:0crwdne48082:0"
+    long_polling_base_url: "crwdns48084:0crwdne48084:0"
+    long_polling_interval: "crwdns48086:0crwdne48086:0"
+    polling_interval: "crwdns48088:0crwdne48088:0"
+    anon_polling_interval: "crwdns48090:0crwdne48090:0"
+    background_polling_interval: "crwdns48092:0crwdne48092:0"
+    hide_post_sensitivity: "crwdns48094:0crwdne48094:0"
+    silence_new_user_sensitivity: "crwdns48096:0crwdne48096:0"
+    auto_close_topic_sensitivity: "crwdns48098:0crwdne48098:0"
+    cooldown_minutes_after_hiding_posts: "crwdns48100:0crwdne48100:0"
+    max_topics_in_first_day: "crwdns48102:0crwdne48102:0"
+    max_replies_in_first_day: "crwdns48104:0crwdne48104:0"
+    tl2_additional_likes_per_day_multiplier: "crwdns48106:0crwdne48106:0"
+    tl3_additional_likes_per_day_multiplier: "crwdns48108:0crwdne48108:0"
+    tl4_additional_likes_per_day_multiplier: "crwdns48110:0crwdne48110:0"
+    num_users_to_silence_new_user: "crwdns48112:0crwdne48112:0"
+    num_tl3_flags_to_silence_new_user: "crwdns48114:0crwdne48114:0"
+    num_tl3_users_to_silence_new_user: "crwdns48116:0crwdne48116:0"
+    notify_mods_when_user_silenced: "crwdns48118:0crwdne48118:0"
+    flag_sockpuppets: "crwdns48120:0crwdne48120:0"
+    traditional_markdown_linebreaks: "crwdns48122:0crwdne48122:0"
+    enable_markdown_typographer: "crwdns48124:0crwdne48124:0"
+    enable_markdown_linkify: "crwdns48126:0crwdne48126:0"
+    markdown_linkify_tlds: "crwdns48128:0crwdne48128:0"
+    markdown_typographer_quotation_marks: "crwdns48130:0crwdne48130:0"
+    post_undo_action_window_mins: "crwdns48132:0crwdne48132:0"
+    must_approve_users: "crwdns48134:0crwdne48134:0"
+    invite_code: "crwdns48136:0crwdne48136:0"
+    approve_suspect_users: "crwdns48138:0crwdne48138:0"
+    pending_users_reminder_delay: "crwdns48140:0crwdne48140:0"
+    persistent_sessions: "crwdns53994:0crwdne53994:0"
+    maximum_session_age: "crwdns48142:0crwdne48142:0"
+    ga_universal_tracking_code: "crwdns48144:0crwdne48144:0"
+    ga_universal_domain_name: "crwdns48146:0crwdne48146:0"
+    ga_universal_auto_link_domains: "crwdns48148:0crwdne48148:0"
+    gtm_container_id: "crwdns48150:0crwdne48150:0"
+    enable_escaped_fragments: "crwdns48152:0crwdne48152:0"
+    moderators_manage_categories_and_groups: "crwdns53850:0crwdne53850:0"
+    cors_origins: "crwdns48156:0crwdne48156:0"
+    use_admin_ip_allowlist: "crwdns53630:0crwdne53630:0"
+    blocked_ip_blocks: "crwdns53632:0crwdne53632:0"
+    allowed_internal_hosts: "crwdns53634:0crwdne53634:0"
+    allowed_onebox_iframes: "crwdns53890:0crwdne53890:0"
+    allowed_iframes: "crwdns48164:0crwdne48164:0"
+    allowed_crawler_user_agents: "crwdns53636:0crwdne53636:0"
+    blocked_crawler_user_agents: "crwdns53638:0crwdne53638:0"
+    slow_down_crawler_user_agents: "crwdns48170:0crwdne48170:0"
+    slow_down_crawler_rate: "crwdns48172:0crwdne48172:0"
+    content_security_policy: "crwdns48174:0crwdne48174:0"
+    content_security_policy_report_only: "crwdns48176:0crwdne48176:0"
+    content_security_policy_collect_reports: "crwdns48178:0crwdne48178:0"
+    content_security_policy_script_src: "crwdns48180:0crwdne48180:0"
+    invalidate_inactive_admin_email_after_days: "crwdns48182:0crwdne48182:0"
+    top_menu: "crwdns48184:0crwdne48184:0"
+    post_menu: "crwdns48186:0crwdne48186:0"
+    post_menu_hidden_items: "crwdns48188:0crwdne48188:0"
+    share_links: "crwdns48190:0crwdne48190:0"
+    site_contact_username: "crwdns48192:0crwdne48192:0"
+    site_contact_group_name: "crwdns48194:0crwdne48194:0"
+    send_welcome_message: "crwdns48196:0crwdne48196:0"
+    send_tl1_welcome_message: "crwdns48198:0crwdne48198:0"
+    send_tl2_promotion_message: "crwdns54022:0crwdne54022:0"
+    suppress_reply_directly_below: "crwdns48200:0crwdne48200:0"
+    suppress_reply_directly_above: "crwdns48202:0crwdne48202:0"
+    remove_full_quote: "crwdns48204:0crwdne48204:0"
+    suppress_reply_when_quoting: "crwdns48206:0crwdne48206:0"
+    max_reply_history: "crwdns48208:0crwdne48208:0"
+    topics_per_period_in_top_summary: "crwdns48210:0crwdne48210:0"
+    topics_per_period_in_top_page: "crwdns48212:0crwdne48212:0"
+    redirect_users_to_top_page: "crwdns48214:0crwdne48214:0"
+    top_page_default_timeframe: "crwdns48216:0crwdne48216:0"
+    moderators_view_emails: "crwdns48218:0crwdne48218:0"
+    prioritize_username_in_ux: "crwdns48220:0crwdne48220:0"
+    enable_rich_text_paste: "crwdns48222:0crwdne48222:0"
+    send_old_credential_reminder_days: "crwdns48224:0crwdne48224:0"
+    email_token_valid_hours: "crwdns48226:0crwdne48226:0"
+    enable_badges: "crwdns48228:0crwdne48228:0"
+    enable_whispers: "crwdns48230:0crwdne48230:0"
+    allow_index_in_robots_txt: "crwdns48232:0%{base_path}crwdne48232:0"
+    blocked_email_domains: "crwdns53640:0crwdne53640:0"
+    allowed_email_domains: "crwdns53642:0crwdne53642:0"
+    auto_approve_email_domains: "crwdns48238:0crwdne48238:0"
+    hide_email_address_taken: "crwdns48240:0crwdne48240:0"
+    log_out_strict: "crwdns48242:0crwdne48242:0"
+    version_checks: "crwdns48244:0%{base_path}crwdne48244:0"
+    new_version_emails: "crwdns48246:0crwdne48246:0"
+    invite_expiry_days: "crwdns48248:0crwdne48248:0"
+    invite_only: "crwdns48250:0crwdne48250:0"
+    login_required: "crwdns48252:0crwdne48252:0"
+    min_username_length: "crwdns48254:0crwdne48254:0"
+    max_username_length: "crwdns48256:0crwdne48256:0"
+    unicode_usernames: "crwdns48258:0crwdne48258:0"
+    allowed_unicode_username_characters: "crwdns53644:0crwdne53644:0"
+    reserved_usernames: "crwdns48262:0crwdne48262:0"
+    min_password_length: "crwdns48264:0crwdne48264:0"
+    min_admin_password_length: "crwdns48266:0crwdne48266:0"
+    password_unique_characters: "crwdns48268:0crwdne48268:0"
+    block_common_passwords: "crwdns48270:0crwdne48270:0"
+    external_auth_skip_create_confirm: crwdns48272:0crwdne48272:0
+    external_auth_immediately: "crwdns54038:0crwdne54038:0"
+    enable_sso: "crwdns48274:0crwdne48274:0"
+    verbose_sso_logging: "crwdns48276:0%{base_path}crwdne48276:0"
+    enable_sso_provider: "crwdns48278:0crwdne48278:0"
+    sso_url: "crwdns48280:0crwdne48280:0"
+    sso_secret: "crwdns48282:0crwdne48282:0"
+    sso_provider_secrets: "crwdns48284:0crwdne48284:0"
+    sso_overrides_bio: "crwdns48286:0crwdne48286:0"
+    sso_overrides_groups: "crwdns48288:0crwdne48288:0"
+    sso_overrides_email: "crwdns48290:0crwdne48290:0"
+    sso_overrides_username: "crwdns48292:0crwdne48292:0"
+    sso_overrides_name: "crwdns48294:0crwdne48294:0"
+    sso_overrides_avatar: "crwdns48296:0crwdne48296:0"
+    sso_overrides_location: "crwdns48298:0crwdne48298:0"
+    sso_overrides_website: "crwdns48300:0crwdne48300:0"
+    sso_overrides_profile_background: "crwdns48302:0crwdne48302:0"
+    sso_overrides_card_background: "crwdns48304:0crwdne48304:0"
+    sso_not_approved_url: "crwdns48306:0crwdne48306:0"
+    sso_allows_all_return_paths: "crwdns48308:0crwdne48308:0"
+    enable_local_logins: "crwdns48310:0crwdne48310:0"
+    enable_local_logins_via_email: "crwdns48312:0crwdne48312:0"
+    allow_new_registrations: "crwdns48314:0crwdne48314:0"
+    enable_signup_cta: "crwdns48316:0crwdne48316:0"
+    enable_google_oauth2_logins: "crwdns48318:0crwdne48318:0"
+    google_oauth2_client_id: "crwdns48320:0crwdne48320:0"
+    google_oauth2_client_secret: "crwdns48322:0crwdne48322:0"
+    google_oauth2_prompt: "crwdns48324:0crwdne48324:0"
+    google_oauth2_hd: "crwdns48326:0crwdne48326:0"
+    enable_twitter_logins: "crwdns48328:0crwdne48328:0"
+    twitter_consumer_key: "crwdns48330:0crwdne48330:0"
+    twitter_consumer_secret: "crwdns48332:0crwdne48332:0"
+    enable_instagram_logins: "crwdns48334:0crwdne48334:0"
+    instagram_consumer_key: "crwdns48336:0crwdne48336:0"
+    instagram_consumer_secret: "crwdns48338:0crwdne48338:0"
+    enable_facebook_logins: "crwdns48340:0crwdne48340:0"
+    facebook_app_id: "crwdns48342:0crwdne48342:0"
+    facebook_app_secret: "crwdns48344:0crwdne48344:0"
+    enable_github_logins: "crwdns48346:0crwdne48346:0"
+    github_client_id: "crwdns48348:0crwdne48348:0"
+    github_client_secret: "crwdns48350:0crwdne48350:0"
+    enable_discord_logins: "crwdns48352:0crwdne48352:0"
+    discord_client_id: 'crwdns48354:0crwdne48354:0'
+    discord_secret: "crwdns48356:0crwdne48356:0"
+    discord_trusted_guilds: 'crwdns48358:0crwdne48358:0'
+    enable_backups: "crwdns48360:0crwdne48360:0"
+    allow_restore: "crwdns48362:0crwdne48362:0"
+    maximum_backups: "crwdns48364:0crwdne48364:0"
+    automatic_backups_enabled: "crwdns48366:0crwdne48366:0"
+    backup_frequency: "crwdns48368:0crwdne48368:0"
+    s3_backup_bucket: "crwdns48370:0crwdne48370:0"
+    s3_endpoint: "crwdns48372:0crwdne48372:0"
+    s3_configure_tombstone_policy: "crwdns48374:0crwdne48374:0"
+    s3_disable_cleanup: "crwdns48376:0crwdne48376:0"
+    enable_s3_inventory: "crwdns48378:0crwdne48378:0"
+    backup_time_of_day: "crwdns48380:0crwdne48380:0"
+    backup_with_uploads: "crwdns48382:0crwdne48382:0"
+    backup_location: "crwdns48384:0crwdne48384:0"
+    backup_gzip_compression_level_for_uploads: "crwdns48386:0crwdne48386:0"
+    include_thumbnails_in_backups: "crwdns48388:0crwdne48388:0"
+    active_user_rate_limit_secs: "crwdns48390:0crwdne48390:0"
+    verbose_localization: "crwdns48392:0crwdne48392:0"
+    previous_visit_timeout_hours: "crwdns48394:0crwdne48394:0"
+    top_topics_formula_log_views_multiplier: "crwdns48396:0crwdne48396:0"
+    top_topics_formula_first_post_likes_multiplier: "crwdns48398:0crwdne48398:0"
+    top_topics_formula_least_likes_per_post_multiplier: "crwdns48400:0crwdne48400:0"
+    rebake_old_posts_count: "crwdns48402:0crwdne48402:0"
+    enable_safe_mode: "crwdns48404:0crwdne48404:0"
+    rate_limit_create_topic: "crwdns48406:0crwdne48406:0"
+    rate_limit_create_post: "crwdns48408:0crwdne48408:0"
+    rate_limit_new_user_create_topic: "crwdns48410:0crwdne48410:0"
+    rate_limit_new_user_create_post: "crwdns48412:0crwdne48412:0"
+    max_likes_per_day: "crwdns48414:0crwdne48414:0"
+    max_flags_per_day: "crwdns48416:0crwdne48416:0"
+    max_bookmarks_per_day: "crwdns48418:0crwdne48418:0"
+    max_edits_per_day: "crwdns48420:0crwdne48420:0"
+    max_topics_per_day: "crwdns48422:0crwdne48422:0"
+    max_personal_messages_per_day: "crwdns48424:0crwdne48424:0"
+    max_invites_per_day: "crwdns48426:0crwdne48426:0"
+    max_topic_invitations_per_day: "crwdns48428:0crwdne48428:0"
+    max_logins_per_ip_per_hour: "crwdns48430:0crwdne48430:0"
+    max_logins_per_ip_per_minute: "crwdns48432:0crwdne48432:0"
+    max_post_deletions_per_minute: "crwdns48434:0crwdne48434:0"
+    max_post_deletions_per_day: "crwdns48436:0crwdne48436:0"
+    invite_link_max_redemptions_limit: "crwdns48438:0crwdne48438:0"
+    alert_admins_if_errors_per_minute: "crwdns48440:0crwdne48440:0"
+    alert_admins_if_errors_per_hour: "crwdns48442:0crwdne48442:0"
+    categories_topics: "crwdns48444:0crwdne48444:0"
+    suggested_topics: "crwdns48446:0crwdne48446:0"
+    limit_suggested_to_category: "crwdns48448:0crwdne48448:0"
+    suggested_topics_max_days_old: "crwdns48450:0crwdne48450:0"
+    suggested_topics_unread_max_days_old: "crwdns48452:0crwdne48452:0"
+    clean_up_uploads: "crwdns48454:0crwdne48454:0"
+    clean_orphan_uploads_grace_period_hours: "crwdns48456:0crwdne48456:0"
+    purge_deleted_uploads_grace_period_days: "crwdns48458:0crwdne48458:0"
+    purge_unactivated_users_grace_period_days: "crwdns48460:0crwdne48460:0"
+    enable_s3_uploads: "crwdns48462:0crwdne48462:0"
+    s3_use_iam_profile: 'crwdns48464:0crwdne48464:0'
+    s3_upload_bucket: "crwdns48466:0crwdne48466:0"
+    s3_access_key_id: "crwdns48468:0crwdne48468:0"
+    s3_secret_access_key: "crwdns48470:0crwdne48470:0"
+    s3_region: "crwdns48472:0crwdne48472:0"
+    s3_cdn_url: "crwdns48474:0crwdne48474:0"
+    avatar_sizes: "crwdns48476:0crwdne48476:0"
+    external_system_avatars_enabled: "crwdns48478:0crwdne48478:0"
+    external_system_avatars_url: "crwdns48480:0{username}crwdnd48480:0{first_letter}crwdnd48480:0{color}crwdnd48480:0{size}crwdne48480:0"
+    restrict_letter_avatar_colors: "crwdns48482:0crwdne48482:0"
+    selectable_avatars_enabled: "crwdns48484:0crwdne48484:0"
+    selectable_avatars: "crwdns48486:0crwdne48486:0"
+    allow_all_attachments_for_group_messages: "crwdns48488:0crwdne48488:0"
+    png_to_jpg_quality: "crwdns48490:0crwdne48490:0"
+    allow_staff_to_upload_any_file_in_pm: "crwdns48492:0crwdne48492:0"
+    strip_image_metadata: "crwdns48494:0crwdne48494:0"
+    min_ratio_to_crop: "crwdns48496:0crwdne48496:0"
+    simultaneous_uploads: "crwdns48498:0crwdne48498:0"
+    enable_flash_video_onebox: "crwdns48500:0crwdne48500:0"
+    default_invitee_trust_level: "crwdns48502:0crwdne48502:0"
+    default_trust_level: "crwdns48504:0crwdne48504:0"
+    tl1_requires_topics_entered: "crwdns48506:0crwdne48506:0"
+    tl1_requires_read_posts: "crwdns48508:0crwdne48508:0"
+    tl1_requires_time_spent_mins: "crwdns48510:0crwdne48510:0"
+    tl2_requires_topics_entered: "crwdns48512:0crwdne48512:0"
+    tl2_requires_read_posts: "crwdns48514:0crwdne48514:0"
+    tl2_requires_time_spent_mins: "crwdns48516:0crwdne48516:0"
+    tl2_requires_days_visited: "crwdns48518:0crwdne48518:0"
+    tl2_requires_likes_received: "crwdns48520:0crwdne48520:0"
+    tl2_requires_likes_given: "crwdns48522:0crwdne48522:0"
+    tl2_requires_topic_reply_count: "crwdns48524:0crwdne48524:0"
+    tl3_time_period: "crwdns48526:0crwdne48526:0"
+    tl3_requires_days_visited: "crwdns48528:0crwdne48528:0"
+    tl3_requires_topics_replied_to: "crwdns48530:0crwdne48530:0"
+    tl3_requires_topics_viewed: "crwdns48532:0crwdne48532:0"
+    tl3_requires_topics_viewed_cap: "crwdns48534:0crwdne48534:0"
+    tl3_requires_posts_read: "crwdns48536:0crwdne48536:0"
+    tl3_requires_posts_read_cap: "crwdns48538:0crwdne48538:0"
+    tl3_requires_topics_viewed_all_time: "crwdns48540:0crwdne48540:0"
+    tl3_requires_posts_read_all_time: "crwdns48542:0crwdne48542:0"
+    tl3_requires_max_flagged: "crwdns48544:0crwdne48544:0"
+    tl3_promotion_min_duration: "crwdns48546:0crwdne48546:0"
+    tl3_requires_likes_given: "crwdns48548:0crwdne48548:0"
+    tl3_requires_likes_received: "crwdns48550:0crwdne48550:0"
+    tl3_links_no_follow: "crwdns48552:0crwdne48552:0"
+    trusted_users_can_edit_others: "crwdns48554:0crwdne48554:0"
+    min_trust_to_create_topic: "crwdns48556:0crwdne48556:0"
+    allow_flagging_staff: "crwdns48558:0crwdne48558:0"
+    min_trust_to_edit_wiki_post: "crwdns48560:0crwdne48560:0"
+    min_trust_to_edit_post: "crwdns48562:0crwdne48562:0"
+    min_trust_to_allow_self_wiki: "crwdns48564:0crwdne48564:0"
+    min_trust_to_send_messages: "crwdns48566:0crwdne48566:0"
+    min_trust_to_flag_posts: "crwdns48568:0crwdne48568:0"
+    min_trust_to_post_links: "crwdns48570:0crwdne48570:0"
+    min_trust_to_post_embedded_media: "crwdns53778:0crwdne53778:0"
+    min_trust_level_to_allow_profile_background: "crwdns53812:0crwdne53812:0"
+    min_trust_level_to_allow_user_card_background: "crwdns53814:0crwdne53814:0"
+    allowed_link_domains: "crwdns53646:0crwdne53646:0"
+    newuser_max_links: "crwdns48576:0crwdne48576:0"
+    newuser_max_embedded_media: "crwdns53780:0crwdne53780:0"
+    newuser_max_attachments: "crwdns48580:0crwdne48580:0"
+    newuser_max_mentions_per_post: "crwdns48582:0crwdne48582:0"
+    newuser_max_replies_per_topic: "crwdns48584:0crwdne48584:0"
+    max_mentions_per_post: "crwdns48586:0crwdne48586:0"
+    max_users_notified_per_group_mention: "crwdns48588:0crwdne48588:0"
+    enable_mentions: "crwdns48590:0crwdne48590:0"
+    create_thumbnails: "crwdns48592:0crwdne48592:0"
+    email_time_window_mins: "crwdns48594:0crwdne48594:0"
+    personal_email_time_window_seconds: "crwdns48596:0crwdne48596:0"
+    email_posts_context: "crwdns48598:0crwdne48598:0"
+    flush_timings_secs: "crwdns48600:0crwdne48600:0"
+    title_max_word_length: "crwdns48602:0crwdne48602:0"
+    title_min_entropy: "crwdns48604:0crwdne48604:0"
+    body_min_entropy: "crwdns48606:0crwdne48606:0"
+    allow_uppercase_posts: "crwdns48608:0crwdne48608:0"
+    max_consecutive_replies: "crwdns48610:0crwdne48610:0"
+    title_fancy_entities: "crwdns48612:0crwdne48612:0"
+    min_title_similar_length: "crwdns48614:0crwdne48614:0"
+    desktop_category_page_style: "crwdns48616:0crwdne48616:0"
+    category_colors: "crwdns48618:0crwdne48618:0"
+    category_style: "crwdns48620:0crwdne48620:0"
+    default_dark_mode_color_scheme_id: "crwdns53768:0crwdne53768:0"
+    dark_mode_none: "crwdns53770:0crwdne53770:0"
+    max_image_size_kb: "crwdns48622:0crwdne48622:0"
+    max_attachment_size_kb: "crwdns48624:0crwdne48624:0"
+    authorized_extensions: "crwdns48626:0crwdne48626:0"
+    authorized_extensions_for_staff: "crwdns48628:0crwdne48628:0"
+    theme_authorized_extensions: "crwdns48630:0crwdne48630:0"
+    max_similar_results: "crwdns48632:0crwdne48632:0"
+    max_image_megapixels: "crwdns48634:0crwdne48634:0"
+    title_prettify: "crwdns48636:0crwdne48636:0"
+    title_remove_extraneous_space: "crwdns48638:0crwdne48638:0"
+    automatic_topic_heat_values: 'crwdns48640:0crwdne48640:0'
+    topic_views_heat_low: "crwdns48642:0crwdne48642:0"
+    topic_views_heat_medium: "crwdns48644:0crwdne48644:0"
+    topic_views_heat_high: "crwdns48646:0crwdne48646:0"
+    cold_age_days_low: "crwdns48648:0crwdne48648:0"
+    cold_age_days_medium: "crwdns48650:0crwdne48650:0"
+    cold_age_days_high: "crwdns48652:0crwdne48652:0"
+    history_hours_low: "crwdns48654:0crwdne48654:0"
+    history_hours_medium: "crwdns48656:0crwdne48656:0"
+    history_hours_high: "crwdns48658:0crwdne48658:0"
+    topic_post_like_heat_low: "crwdns48660:0crwdne48660:0"
+    topic_post_like_heat_medium: "crwdns48662:0crwdne48662:0"
+    topic_post_like_heat_high: "crwdns48664:0crwdne48664:0"
+    faq_url: "crwdns48666:0crwdne48666:0"
+    tos_url: "crwdns48668:0crwdne48668:0"
+    privacy_policy_url: "crwdns48670:0crwdne48670:0"
+    log_anonymizer_details: "crwdns48672:0crwdne48672:0"
+    newuser_spam_host_threshold: "crwdns48674:0crwdne48674:0"
+    allowed_spam_host_domains: "crwdns53648:0crwdne53648:0"
+    staff_like_weight: "crwdns48678:0crwdne48678:0"
+    topic_view_duration_hours: "crwdns48680:0crwdne48680:0"
+    user_profile_view_duration_hours: "crwdns48682:0crwdne48682:0"
+    levenshtein_distance_spammer_emails: "crwdns48684:0crwdne48684:0"
+    max_new_accounts_per_registration_ip: "crwdns48686:0crwdne48686:0"
+    min_ban_entries_for_roll_up: "crwdns48688:0crwdne48688:0"
+    max_age_unmatched_emails: "crwdns48690:0crwdne48690:0"
+    max_age_unmatched_ips: "crwdns48692:0crwdne48692:0"
+    num_flaggers_to_close_topic: "crwdns48694:0crwdne48694:0"
+    num_hours_to_close_topic: "crwdns48696:0crwdne48696:0"
+    auto_respond_to_flag_actions: "crwdns48698:0crwdne48698:0"
+    min_first_post_typing_time: "crwdns48700:0crwdne48700:0"
+    auto_silence_fast_typers_on_first_post: "crwdns48702:0crwdne48702:0"
+    auto_silence_fast_typers_max_trust_level: "crwdns48704:0crwdne48704:0"
+    auto_silence_first_post_regex: "crwdns48706:0[bc]crwdne48706:0"
+    reviewable_claiming: "crwdns48708:0crwdne48708:0"
+    reviewable_default_topics: "crwdns48710:0crwdne48710:0"
+    reviewable_default_visibility: "crwdns48712:0crwdne48712:0"
+    high_trust_flaggers_auto_hide_posts: "crwdns48714:0crwdne48714:0"
+    cooldown_hours_until_reflag: "crwdns48716:0crwdne48716:0"
+    reply_by_email_enabled: "crwdns48718:0crwdne48718:0"
+    reply_by_email_address: "crwdns48720:0%%crwdnd48720:0{reply_key}crwdnd48720:0%%crwdnd48720:0{reply_key}crwdne48720:0"
+    alternative_reply_by_email_addresses: "crwdns48722:0%%crwdnd48722:0{reply_key}crwdnd48722:0%%crwdnd48722:0{reply_key}crwdne48722:0"
+    incoming_email_prefer_html: "crwdns48724:0crwdne48724:0"
+    strip_incoming_email_lines: "crwdns48726:0crwdne48726:0"
+    disable_emails: "crwdns48728:0crwdne48728:0"
+    strip_images_from_short_emails: "crwdns48730:0crwdne48730:0"
+    short_email_length: "crwdns48732:0crwdne48732:0"
+    display_name_on_email_from: "crwdns48734:0crwdne48734:0"
+    unsubscribe_via_email: "crwdns48736:0crwdne48736:0"
+    unsubscribe_via_email_footer: "crwdns48738:0crwdne48738:0"
+    delete_email_logs_after_days: "crwdns48740:0crwdne48740:0"
+    disallow_reply_by_email_after_days: "crwdns48742:0crwdne48742:0"
+    max_emails_per_day_per_user: "crwdns48744:0crwdne48744:0"
+    enable_staged_users: "crwdns48746:0crwdne48746:0"
+    maximum_staged_users_per_email: "crwdns48748:0crwdne48748:0"
+    auto_generated_allowlist: "crwdns53650:0crwdne53650:0"
+    block_auto_generated_emails: "crwdns48752:0crwdne48752:0"
+    ignore_by_title: "crwdns48754:0crwdne48754:0"
+    mailgun_api_key: "crwdns48756:0crwdne48756:0"
+    soft_bounce_score: "crwdns48758:0crwdne48758:0"
+    hard_bounce_score: "crwdns48760:0crwdne48760:0"
+    bounce_score_threshold: "crwdns48762:0crwdne48762:0"
+    reset_bounce_score_after_days: "crwdns48764:0crwdne48764:0"
+    blocked_attachment_content_types: "crwdns53652:0crwdne53652:0"
+    blocked_attachment_filenames: "crwdns53654:0crwdne53654:0"
+    forwarded_emails_behaviour: "crwdns48770:0crwdne48770:0"
+    always_show_trimmed_content: "crwdns48772:0crwdne48772:0"
+    private_email: "crwdns48774:0crwdne48774:0"
+    email_total_attachment_size_limit_kb: "crwdns48776:0crwdne48776:0"
+    post_excerpts_in_emails: "crwdns48778:0crwdne48778:0"
+    raw_email_max_length: "crwdns48780:0crwdne48780:0"
+    raw_rejected_email_max_length: "crwdns48782:0crwdne48782:0"
+    delete_rejected_email_after_days: "crwdns48784:0crwdne48784:0"
+    manual_polling_enabled: "crwdns48786:0crwdne48786:0"
+    pop3_polling_enabled: "crwdns48788:0crwdne48788:0"
+    pop3_polling_ssl: "crwdns48790:0crwdne48790:0"
+    pop3_polling_openssl_verify: "crwdns48792:0crwdne48792:0"
+    pop3_polling_period_mins: "crwdns48794:0crwdne48794:0"
+    pop3_polling_port: "crwdns48796:0crwdne48796:0"
+    pop3_polling_host: "crwdns48798:0crwdne48798:0"
+    pop3_polling_username: "crwdns48800:0crwdne48800:0"
+    pop3_polling_password: "crwdns48802:0crwdne48802:0"
+    pop3_polling_delete_from_server: "crwdns48804:0crwdne48804:0"
+    log_mail_processing_failures: "crwdns48806:0%{base_path}crwdne48806:0"
+    email_in: 'crwdns48808:0crwdne48808:0'
+    email_in_min_trust: "crwdns48810:0crwdne48810:0"
+    email_in_authserv_id: "crwdns48812:0crwdne48812:0"
+    email_in_spam_header: "crwdns48814:0crwdne48814:0"
+    enable_imap: "crwdns48816:0crwdne48816:0"
+    enable_imap_write: "crwdns48818:0crwdne48818:0"
+    enable_imap_idle: "crwdns48820:0crwdne48820:0"
+    enable_smtp: "crwdns48822:0crwdne48822:0"
+    imap_polling_period_mins: "crwdns48824:0crwdne48824:0"
+    imap_polling_old_emails: "crwdns48826:0crwdne48826:0"
+    imap_polling_new_emails: "crwdns48828:0crwdne48828:0"
+    imap_batch_import_email: "crwdns48830:0crwdne48830:0"
+    email_prefix: "crwdns48832:0[label]crwdne48832:0"
+    email_site_title: "crwdns48834:0crwdne48834:0"
+    find_related_post_with_key: "crwdns48836:0crwdne48836:0"
+    minimum_topics_similar: "crwdns48838:0crwdne48838:0"
+    relative_date_duration: "crwdns48840:0crwdne48840:0"
+    delete_user_max_post_age: "crwdns48842:0crwdne48842:0"
+    delete_all_posts_max: "crwdns48844:0crwdne48844:0"
+    delete_user_self_max_post_count: "crwdns48846:0crwdne48846:0"
+    username_change_period: "crwdns48848:0crwdne48848:0"
+    email_editable: "crwdns48850:0crwdne48850:0"
+    logout_redirect: "crwdns48852:0crwdne48852:0"
+    allow_uploaded_avatars: "crwdns48854:0crwdne48854:0"
+    allow_animated_avatars: "crwdns48856:0crwdne48856:0"
+    allow_animated_thumbnails: "crwdns48858:0crwdne48858:0"
+    default_avatars: "crwdns48860:0crwdne48860:0"
+    automatically_download_gravatars: "crwdns48862:0crwdne48862:0"
+    digest_topics: "crwdns48864:0crwdne48864:0"
+    digest_posts: "crwdns48866:0crwdne48866:0"
+    digest_other_topics: "crwdns48868:0crwdne48868:0"
+    digest_min_excerpt_length: "crwdns48870:0crwdne48870:0"
+    suppress_digest_email_after_days: "crwdns48872:0crwdne48872:0"
+    digest_suppress_categories: "crwdns48874:0crwdne48874:0"
+    disable_digest_emails: "crwdns48876:0crwdne48876:0"
+    apply_custom_styles_to_digest: "crwdns48878:0crwdne48878:0"
+    email_accent_bg_color: "crwdns48880:0crwdne48880:0"
+    email_accent_fg_color: "crwdns48882:0crwdne48882:0"
+    email_link_color: "crwdns48884:0crwdne48884:0"
+    detect_custom_avatars: "crwdns48886:0crwdne48886:0"
+    max_daily_gravatar_crawls: "crwdns48888:0crwdne48888:0"
+    public_user_custom_fields: "crwdns48890:0crwdne48890:0"
+    staff_user_custom_fields: "crwdns48892:0crwdne48892:0"
+    enable_user_directory: "crwdns48894:0crwdne48894:0"
+    enable_group_directory: "crwdns48896:0crwdne48896:0"
+    enable_category_group_moderation: "crwdns48898:0crwdne48898:0"
+    group_in_subject: "crwdns48900:0%%crwdnd48900:0{optional_pm}crwdne48900:0"
+    allow_anonymous_posting: "crwdns48902:0crwdne48902:0"
+    anonymous_posting_min_trust_level: "crwdns48904:0crwdne48904:0"
+    anonymous_account_duration_minutes: "crwdns48906:0crwdne48906:0"
+    hide_user_profiles_from_public: "crwdns48908:0crwdne48908:0"
+    allow_featured_topic_on_user_profiles: "crwdns48910:0crwdne48910:0"
+    show_inactive_accounts: "crwdns48912:0crwdne48912:0"
+    hide_suspension_reasons: "crwdns48914:0crwdne48914:0"
+    log_personal_messages_views: "crwdns48916:0crwdne48916:0"
+    ignored_users_count_message_threshold: "crwdns48918:0crwdne48918:0"
+    ignored_users_message_gap_days: "crwdns48920:0crwdne48920:0"
+    clean_up_inactive_users_after_days: "crwdns48922:0crwdne48922:0"
+    clean_up_unused_staged_users_after_days: "crwdns48924:0crwdne48924:0"
+    user_selected_primary_groups: "crwdns48926:0crwdne48926:0"
+    max_notifications_per_user: "crwdns48928:0crwdne48928:0"
+    allowed_user_website_domains: "crwdns53656:0crwdne53656:0"
+    allow_profile_backgrounds: "crwdns48932:0crwdne48932:0"
+    sequential_replies_threshold: "crwdns48934:0crwdne48934:0"
+    get_a_room_threshold: "crwdns48936:0crwdne48936:0"
+    enable_mobile_theme: "crwdns48938:0crwdne48938:0"
+    dominating_topic_minimum_percent: "crwdns48940:0crwdne48940:0"
+    disable_avatar_education_message: "crwdns48942:0crwdne48942:0"
+    suppress_uncategorized_badge: "crwdns48944:0crwdne48944:0"
+    header_dropdown_category_count: "crwdns48946:0crwdne48946:0"
+    permalink_normalizations: "crwdns48948:0crwdne48948:0"
+    global_notice: "crwdns48950:0crwdne48950:0"
+    disable_system_edit_notifications: "crwdns48952:0crwdne48952:0"
+    notification_consolidation_threshold: "crwdns48954:0crwdne48954:0"
+    likes_notification_consolidation_window_mins: "crwdns48956:0crwdne48956:0"
+    automatically_unpin_topics: "crwdns48958:0crwdne48958:0"
+    read_time_word_count: "crwdns48960:0crwdne48960:0"
+    topic_page_title_includes_category: "crwdns48962:0crwdne48962:0"
+    native_app_install_banner_ios: "crwdns48964:0crwdne48964:0"
+    native_app_install_banner_android: "crwdns48966:0crwdne48966:0"
+    app_association_android: "crwdns48968:0%{base_path}crwdne48968:0"
+    app_association_ios: "crwdns48970:0%{base_path}crwdne48970:0"
+    share_anonymized_statistics: "crwdns48972:0crwdne48972:0"
+    auto_handle_queued_age: "crwdns48974:0crwdne48974:0"
+    svg_icon_subset: "crwdns48976:0crwdne48976:0"
+    max_prints_per_hour_per_user: "crwdns48978:0crwdne48978:0"
+    full_name_required: "crwdns48980:0crwdne48980:0"
+    enable_names: "crwdns48982:0crwdne48982:0"
+    display_name_on_posts: "crwdns48984:0crwdne48984:0"
+    show_time_gap_days: "crwdns48986:0crwdne48986:0"
+    short_progress_text_threshold: "crwdns48988:0crwdne48988:0"
+    default_code_lang: "crwdns48990:0crwdne48990:0"
+    warn_reviving_old_topic_age: "crwdns48992:0crwdne48992:0"
+    autohighlight_all_code: "crwdns48994:0crwdne48994:0"
+    highlighted_languages: "crwdns48996:0crwdne48996:0"
+    show_copy_button_on_codeblocks: "crwdns48998:0crwdne48998:0"
+    embed_any_origin: "crwdns49000:0crwdne49000:0"
+    embed_topics_list: "crwdns49002:0crwdne49002:0"
+    embed_set_canonical_url: "crwdns49004:0crwdne49004:0"
+    embed_truncate: "crwdns49006:0crwdne49006:0"
+    embed_unlisted: "crwdns49008:0crwdne49008:0"
+    embed_support_markdown: "crwdns49010:0crwdne49010:0"
+    allowed_embed_selectors: "crwdns53658:0crwdne53658:0"
+    allowed_href_schemes: "crwdns49014:0crwdne49014:0"
+    embed_post_limit: "crwdns49016:0crwdne49016:0"
+    embed_username_required: "crwdns49018:0crwdne49018:0"
+    notify_about_flags_after: "crwdns49020:0crwdne49020:0"
+    show_create_topics_notice: "crwdns49022:0crwdne49022:0"
+    delete_drafts_older_than_n_days: "crwdns49024:0crwdne49024:0"
+    bootstrap_mode_min_users: "crwdns49026:0crwdne49026:0"
+    prevent_anons_from_downloading_files: "crwdns49028:0crwdne49028:0"
+    secure_media: 'crwdns49030:0crwdne49030:0'
+    secure_media_allow_embed_images_in_emails: "crwdns53990:0crwdne53990:0"
+    secure_media_max_email_embed_image_size_kb: "crwdns53992:0crwdne53992:0"
+    slug_generation_method: "crwdns49032:0crwdne49032:0"
+    enable_emoji: "crwdns49034:0crwdne49034:0"
+    enable_emoji_shortcuts: "crwdns49036:0crwdne49036:0"
+    emoji_set: "crwdns49038:0crwdne49038:0"
+    emoji_autocomplete_min_chars: "crwdns49040:0crwdne49040:0"
+    enable_inline_emoji_translation: "crwdns49042:0crwdne49042:0"
+    approve_post_count: "crwdns49044:0crwdne49044:0"
+    approve_unless_trust_level: "crwdns49046:0crwdne49046:0"
+    approve_new_topics_unless_trust_level: "crwdns49048:0crwdne49048:0"
+    approve_unless_staged: "crwdns49050:0crwdne49050:0"
+    notify_about_queued_posts_after: "crwdns49052:0crwdne49052:0"
+    auto_close_messages_post_count: "crwdns49054:0crwdne49054:0"
+    auto_close_topics_post_count: "crwdns49056:0crwdne49056:0"
+    code_formatting_style: "crwdns49058:0crwdne49058:0"
+    max_allowed_message_recipients: "crwdns49060:0crwdne49060:0"
+    watched_words_regular_expressions: "crwdns49062:0crwdne49062:0"
+    old_post_notice_days: "crwdns49064:0crwdne49064:0"
+    new_user_notice_tl: "crwdns49066:0crwdne49066:0"
+    returning_user_notice_tl: "crwdns49068:0crwdne49068:0"
+    returning_users_days: "crwdns49070:0crwdne49070:0"
+    review_media_unless_trust_level: "crwdns54018:0crwdne54018:0"
+    enable_page_publishing: "crwdns49072:0crwdne49072:0"
+    show_published_pages_login_required: "crwdns49074:0crwdne49074:0"
+    default_email_digest_frequency: "crwdns49076:0crwdne49076:0"
+    default_include_tl0_in_digests: "crwdns49078:0crwdne49078:0"
+    default_email_level: "crwdns49080:0crwdne49080:0"
+    default_email_messages_level: "crwdns49082:0crwdne49082:0"
+    default_email_mailing_list_mode: "crwdns49084:0crwdne49084:0"
+    default_email_mailing_list_mode_frequency: "crwdns49086:0crwdne49086:0"
+    disable_mailing_list_mode: "crwdns49088:0crwdne49088:0"
+    default_email_previous_replies: "crwdns49090:0crwdne49090:0"
+    default_email_in_reply_to: "crwdns49092:0crwdne49092:0"
+    default_other_new_topic_duration_minutes: "crwdns49094:0crwdne49094:0"
+    default_other_auto_track_topics_after_msecs: "crwdns49096:0crwdne49096:0"
+    default_other_notification_level_when_replying: "crwdns49098:0crwdne49098:0"
+    default_other_external_links_in_new_tab: "crwdns49100:0crwdne49100:0"
+    default_other_enable_quoting: "crwdns49102:0crwdne49102:0"
+    default_other_enable_defer: "crwdns49104:0crwdne49104:0"
+    default_other_dynamic_favicon: "crwdns49106:0crwdne49106:0"
+    default_other_skip_new_user_tips: "crwdns53800:0crwdne53800:0"
+    default_other_like_notification_frequency: "crwdns49108:0crwdne49108:0"
+    default_topics_automatic_unpin: "crwdns49110:0crwdne49110:0"
+    default_categories_watching: "crwdns49112:0crwdne49112:0"
+    default_categories_tracking: "crwdns49114:0crwdne49114:0"
+    default_categories_muted: "crwdns49116:0crwdne49116:0"
+    default_categories_watching_first_post: "crwdns49118:0crwdne49118:0"
+    default_categories_regular: "crwdns53860:0crwdne53860:0"
+    mute_all_categories_by_default: "crwdns49120:0crwdne49120:0"
+    default_tags_watching: "crwdns49122:0crwdne49122:0"
+    default_tags_tracking: "crwdns49124:0crwdne49124:0"
+    default_tags_muted: "crwdns49126:0crwdne49126:0"
+    default_tags_watching_first_post: "crwdns49128:0crwdne49128:0"
+    default_text_size: "crwdns49130:0crwdne49130:0"
+    default_title_count_mode: "crwdns49132:0crwdne49132:0"
+    retain_web_hook_events_period_days: "crwdns49134:0crwdne49134:0"
+    retry_web_hook_events: "crwdns49136:0crwdne49136:0"
+    revoke_api_keys_days: "crwdns49138:0crwdne49138:0"
+    allow_user_api_keys: "crwdns49140:0crwdne49140:0"
+    allow_user_api_key_scopes: "crwdns49142:0crwdne49142:0"
+    max_api_keys_per_user: "crwdns49144:0crwdne49144:0"
+    min_trust_level_for_user_api_key: "crwdns49146:0crwdne49146:0"
+    allowed_user_api_auth_redirects: "crwdns49148:0crwdne49148:0"
+    allowed_user_api_push_urls: "crwdns49150:0crwdne49150:0"
+    expire_user_api_keys_days: "crwdns49152:0crwdne49152:0"
+    tagging_enabled: "crwdns49154:0crwdne49154:0"
+    min_trust_to_create_tag: "crwdns49156:0crwdne49156:0"
+    max_tags_per_topic: "crwdns49158:0crwdne49158:0"
+    max_tag_length: "crwdns49160:0crwdne49160:0"
+    max_tag_search_results: "crwdns49162:0crwdne49162:0"
+    show_filter_by_tag: "crwdns49164:0crwdne49164:0"
+    max_tags_in_filter_list: "crwdns49166:0crwdne49166:0"
+    tags_sort_alphabetically: "crwdns49168:0crwdne49168:0"
+    tags_listed_by_group: "crwdns49170:0%{base_path}crwdne49170:0"
+    tag_style: "crwdns49172:0crwdne49172:0"
+    allow_staff_to_tag_pms: "crwdns49174:0crwdne49174:0"
+    min_trust_level_to_tag_topics: "crwdns49176:0crwdne49176:0"
+    suppress_overlapping_tags_in_list: "crwdns49178:0crwdne49178:0"
+    remove_muted_tags_from_latest: "crwdns49180:0crwdne49180:0"
+    force_lowercase_tags: "crwdns49182:0crwdne49182:0"
+    company_name: "crwdns49184:0crwdne49184:0"
+    governing_law: "crwdns49186:0crwdne49186:0"
+    city_for_disputes: "crwdns49188:0crwdne49188:0"
+    shared_drafts_category: "crwdns49190:0crwdne49190:0"
+    push_notifications_prompt: "crwdns49192:0crwdne49192:0"
+    push_notifications_icon: "crwdns49194:0crwdne49194:0"
+    base_font: "crwdns53958:0crwdne53958:0"
+    heading_font: "crwdns54070:0crwdne54070:0"
+    short_title: "crwdns49196:0crwdne49196:0"
+    dashboard_hidden_reports: "crwdns49198:0crwdne49198:0"
+    dashboard_visible_tabs: "crwdns49200:0crwdne49200:0"
+    dashboard_general_tab_activity_metrics: "crwdns49202:0crwdne49202:0"
+    gravatar_name: "crwdns49204:0crwdne49204:0"
+    gravatar_base_url: "crwdns49206:0crwdne49206:0"
+    gravatar_login_url: "crwdns49208:0crwdne49208:0"
+    share_quote_buttons: "crwdns53606:0crwdne53606:0"
+    share_quote_visibility: "crwdns53608:0crwdne53608:0"
+    errors:
+      invalid_email: "crwdns49210:0crwdne49210:0"
+      invalid_username: "crwdns49212:0crwdne49212:0"
+      invalid_group: "crwdns49214:0crwdne49214:0"
+      invalid_integer_min_max: "crwdns49216:0%{min}crwdnd49216:0%{max}crwdne49216:0"
+      invalid_integer_min: "crwdns49218:0%{min}crwdne49218:0"
+      invalid_integer_max: "crwdns49220:0%{max}crwdne49220:0"
+      invalid_integer: "crwdns49222:0crwdne49222:0"
+      regex_mismatch: "crwdns49224:0crwdne49224:0"
+      must_include_latest: "crwdns49226:0crwdne49226:0"
+      invalid_string: "crwdns49228:0crwdne49228:0"
+      invalid_string_min_max: "crwdns49230:0%{min}crwdnd49230:0%{max}crwdne49230:0"
+      invalid_string_min: "crwdns49232:0%{min}crwdne49232:0"
+      invalid_string_max: "crwdns49234:0%{max}crwdne49234:0"
+      invalid_reply_by_email_address: "crwdns49236:0%{reply_key}crwdne49236:0"
+      invalid_alternative_reply_by_email_addresses: "crwdns49238:0%{reply_key}crwdne49238:0"
+      pop3_polling_host_is_empty: "crwdns49240:0crwdne49240:0"
+      pop3_polling_username_is_empty: "crwdns49242:0crwdne49242:0"
+      pop3_polling_password_is_empty: "crwdns49244:0crwdne49244:0"
+      pop3_polling_authentication_failed: "crwdns49246:0crwdne49246:0"
+      reply_by_email_address_is_empty: "crwdns49248:0crwdne49248:0"
+      email_polling_disabled: "crwdns49250:0crwdne49250:0"
+      user_locale_not_enabled: "crwdns49252:0crwdne49252:0"
+      invalid_regex: "crwdns49254:0crwdne49254:0"
+      email_editable_enabled: "crwdns49256:0crwdne49256:0"
+      staged_users_disabled: "crwdns49258:0crwdne49258:0"
+      reply_by_email_disabled: "crwdns49260:0crwdne49260:0"
+      sso_url_is_empty: "crwdns49262:0crwdne49262:0"
+      sso_invite_only: "crwdns49264:0crwdne49264:0"
+      enable_local_logins_disabled: "crwdns49266:0crwdne49266:0"
+      min_username_length_exists: "crwdns49268:0%{username}crwdne49268:0"
+      min_username_length_range: "crwdns49270:0crwdne49270:0"
+      max_username_length_exists: "crwdns49272:0%{username}crwdne49272:0"
+      max_username_length_range: "crwdns49274:0crwdne49274:0"
+      invalid_hex_value: "crwdns49276:0crwdne49276:0"
+      empty_selectable_avatars: "crwdns49278:0crwdne49278:0"
+      category_search_priority:
+        very_low_weight_invalid: "crwdns49280:0crwdne49280:0"
+        low_weight_invalid: "crwdns49282:0crwdne49282:0"
+        high_weight_invalid: "crwdns49284:0crwdne49284:0"
+        very_high_weight_invalid: "crwdns49286:0crwdne49286:0"
+      allowed_unicode_usernames:
+        regex_invalid: "crwdns53660:0%{error}crwdne53660:0"
+        leading_trailing_slash: "crwdns53662:0crwdne53662:0"
+      unicode_usernames_avatars: "crwdns49292:0crwdne49292:0"
+      list_value_count: "crwdns49294:0%{count}crwdne49294:0"
+    placeholder:
+      sso_provider_secrets:
+        key: "crwdns49296:0crwdne49296:0"
+        value: "crwdns49298:0crwdne49298:0"
+  search:
+    extreme_load_error: "crwdns49300:0crwdne49300:0"
+    within_post: "crwdns49302:0%{post_number}crwdnd49302:0%{username}crwdne49302:0"
+    types:
+      category: "crwdns49304:0crwdne49304:0"
+      topic: "crwdns49306:0crwdne49306:0"
+      user: "crwdns49308:0crwdne49308:0"
+    results_page: "crwdns49310:0%{term}crwdne49310:0"
+    audio: "crwdns49312:0[audio]crwdne49312:0"
+    video: "crwdns49314:0[video]crwdne49314:0"
+  sso:
+    login_error: "crwdns49316:0crwdne49316:0"
+    not_found: "crwdns49318:0crwdne49318:0"
+    account_not_approved: "crwdns49320:0crwdne49320:0"
+    unknown_error: "crwdns49322:0crwdne49322:0"
+    timeout_expired: "crwdns49324:0crwdne49324:0"
+    no_email: "crwdns49326:0crwdne49326:0"
+    blank_id_error: "crwdns49328:0crwdne49328:0"
+    email_error: "crwdns49330:0%{email}crwdne49330:0"
+    missing_secret: "crwdns49332:0crwdne49332:0"
+  original_poster: "crwdns49334:0crwdne49334:0"
+  most_posts: "crwdns49336:0crwdne49336:0"
+  most_recent_poster: "crwdns49338:0crwdne49338:0"
+  frequent_poster: "crwdns49340:0crwdne49340:0"
+  redirected_to_top_reasons:
+    new_user: "crwdns49342:0crwdne49342:0"
+    not_seen_in_a_month: "crwdns49344:0crwdne49344:0"
+  merge_posts:
+    edit_reason:
+      one: "crwdns49346:1%{username}crwdne49346:1"
+      other: "crwdns49346:5%{count}crwdnd49346:5%{username}crwdne49346:5"
+    errors:
+      different_topics: "crwdns49348:0crwdne49348:0"
+      different_users: "crwdns49350:0crwdne49350:0"
+  move_posts:
+    new_topic_moderator_post:
+      one: "crwdns49352:1%{topic_link}crwdne49352:1"
+      other: "crwdns49352:5%{count}crwdnd49352:5%{topic_link}crwdne49352:5"
+    new_message_moderator_post:
+      one: "crwdns49354:1%{topic_link}crwdne49354:1"
+      other: "crwdns49354:5%{count}crwdnd49354:5%{topic_link}crwdne49354:5"
+    existing_topic_moderator_post:
+      one: "crwdns49356:1%{topic_link}crwdne49356:1"
+      other: "crwdns49356:5%{count}crwdnd49356:5%{topic_link}crwdne49356:5"
+    existing_message_moderator_post:
+      one: "crwdns49358:1%{topic_link}crwdne49358:1"
+      other: "crwdns49358:5%{count}crwdnd49358:5%{topic_link}crwdne49358:5"
+  change_owner:
+    post_revision_text: "crwdns49360:0crwdne49360:0"
+  publish_page:
+    slug_errors:
+      blank: "crwdns49362:0crwdne49362:0"
+      unavailable: "crwdns49364:0crwdne49364:0"
+      invalid: "crwdns49366:0crwdne49366:0"
+  topic_statuses:
+    autoclosed_message_max_posts:
+      one: "crwdns49368:1%{count}crwdne49368:1"
+      other: "crwdns49368:5%{count}crwdne49368:5"
+    autoclosed_topic_max_posts:
+      one: "crwdns49370:1%{count}crwdne49370:1"
+      other: "crwdns49370:5%{count}crwdne49370:5"
+    autoclosed_enabled_days:
+      one: "crwdns49372:1%{count}crwdne49372:1"
+      other: "crwdns49372:5%{count}crwdne49372:5"
+    autoclosed_enabled_hours:
+      one: "crwdns49374:1%{count}crwdne49374:1"
+      other: "crwdns49374:5%{count}crwdne49374:5"
+    autoclosed_enabled_minutes:
+      one: "crwdns49376:1%{count}crwdne49376:1"
+      other: "crwdns49376:5%{count}crwdne49376:5"
+    autoclosed_enabled_lastpost_days:
+      one: "crwdns49378:1%{count}crwdne49378:1"
+      other: "crwdns49378:5%{count}crwdne49378:5"
+    autoclosed_enabled_lastpost_hours:
+      one: "crwdns49380:1%{count}crwdne49380:1"
+      other: "crwdns49380:5%{count}crwdne49380:5"
+    autoclosed_enabled_lastpost_minutes:
+      one: "crwdns49382:1%{count}crwdne49382:1"
+      other: "crwdns49382:5%{count}crwdne49382:5"
+    autoclosed_disabled_days:
+      one: "crwdns49384:1%{count}crwdne49384:1"
+      other: "crwdns49384:5%{count}crwdne49384:5"
+    autoclosed_disabled_hours:
+      one: "crwdns49386:1%{count}crwdne49386:1"
+      other: "crwdns49386:5%{count}crwdne49386:5"
+    autoclosed_disabled_minutes:
+      one: "crwdns49388:1%{count}crwdne49388:1"
+      other: "crwdns49388:5%{count}crwdne49388:5"
+    autoclosed_disabled_lastpost_days:
+      one: "crwdns49390:1%{count}crwdne49390:1"
+      other: "crwdns49390:5%{count}crwdne49390:5"
+    autoclosed_disabled_lastpost_hours:
+      one: "crwdns49392:1%{count}crwdne49392:1"
+      other: "crwdns49392:5%{count}crwdne49392:5"
+    autoclosed_disabled_lastpost_minutes:
+      one: "crwdns49394:1%{count}crwdne49394:1"
+      other: "crwdns49394:5%{count}crwdne49394:5"
+    autoclosed_disabled: "crwdns49396:0crwdne49396:0"
+    autoclosed_disabled_lastpost: "crwdns49398:0crwdne49398:0"
+    auto_deleted_by_timer: "crwdns49400:0crwdne49400:0"
+  login:
+    invalid_second_factor_method: "crwdns49402:0crwdne49402:0"
+    not_enabled_second_factor_method: "crwdns49404:0crwdne49404:0"
+    security_key_description: "crwdns49406:0crwdne49406:0"
+    security_key_alternative: "crwdns49408:0crwdne49408:0"
+    security_key_authenticate: "crwdns49410:0crwdne49410:0"
+    security_key_not_allowed_error: "crwdns49412:0crwdne49412:0"
+    security_key_no_matching_credential_error: "crwdns49414:0crwdne49414:0"
+    security_key_support_missing_error: "crwdns49416:0crwdne49416:0"
+    security_key_invalid: "crwdns49418:0crwdne49418:0"
+    not_approved: "crwdns49420:0crwdne49420:0"
+    incorrect_username_email_or_password: "crwdns49422:0crwdne49422:0"
+    incorrect_password: "crwdns49424:0crwdne49424:0"
+    wait_approval: "crwdns49426:0crwdne49426:0"
+    active: "crwdns49428:0crwdne49428:0"
+    activate_email: "crwdns49430:0%{email}crwdne49430:0"
+    not_activated: "crwdns49432:0crwdne49432:0"
+    not_allowed_from_ip_address: "crwdns49434:0%{username}crwdne49434:0"
+    admin_not_allowed_from_ip_address: "crwdns49436:0crwdne49436:0"
+    reset_not_allowed_from_ip_address: "crwdns49438:0crwdne49438:0"
+    suspended: "crwdns49440:0%{date}crwdne49440:0"
+    suspended_with_reason: "crwdns49442:0%{date}crwdnd49442:0%{reason}crwdne49442:0"
+    errors: "crwdns49444:0%{errors}crwdne49444:0"
+    not_available: "crwdns49446:0%{suggestion}crwdne49446:0"
+    something_already_taken: "crwdns49448:0crwdne49448:0"
+    omniauth_error:
+      generic: "crwdns49450:0crwdne49450:0"
+      csrf_detected: "crwdns49452:0crwdne49452:0"
+      request_error: "crwdns49454:0crwdne49454:0"
+      invalid_iat: "crwdns49456:0crwdne49456:0"
+    omniauth_error_unknown: "crwdns49458:0crwdne49458:0"
+    omniauth_confirm_title: "crwdns49460:0%{provider}crwdne49460:0"
+    omniauth_confirm_button: "crwdns49462:0crwdne49462:0"
+    authenticator_error_no_valid_email: "crwdns49464:0%{account}crwdne49464:0"
+    new_registrations_disabled: "crwdns49466:0crwdne49466:0"
+    password_too_long: "crwdns49468:0crwdne49468:0"
+    email_too_long: "crwdns49470:0crwdne49470:0"
+    wrong_invite_code: "crwdns49472:0crwdne49472:0"
+    reserved_username: "crwdns49474:0crwdne49474:0"
+    missing_user_field: "crwdns49476:0crwdne49476:0"
+    auth_complete: "crwdns49478:0crwdne49478:0"
+    click_to_continue: "crwdns49480:0crwdne49480:0"
+    already_logged_in: "crwdns49482:0%{current_user}crwdne49482:0"
+    second_factor_title: "crwdns49484:0crwdne49484:0"
+    second_factor_description: "crwdns49486:0crwdne49486:0"
+    second_factor_backup_description: "crwdns49488:0crwdne49488:0"
+    second_factor_backup_title: "crwdns49490:0crwdne49490:0"
+    invalid_second_factor_code: "crwdns49492:0crwdne49492:0"
+    invalid_security_key: "crwdns49494:0crwdne49494:0"
+    missing_second_factor_name: "crwdns49496:0crwdne49496:0"
+    missing_second_factor_code: "crwdns49498:0crwdne49498:0"
+    second_factor_toggle:
+      totp: "crwdns49500:0crwdne49500:0"
+      backup_code: "crwdns49502:0crwdne49502:0"
+  admin:
+    email:
+      sent_test: "crwdns49504:0crwdne49504:0"
+  user:
+    deactivated: "crwdns49506:0%{email}crwdne49506:0"
+    deactivated_by_staff: "crwdns49508:0crwdne49508:0"
+    deactivated_by_inactivity:
+      one: "crwdns49510:1%{count}crwdne49510:1"
+      other: "crwdns49510:5%{count}crwdne49510:5"
+    activated_by_staff: "crwdns49512:0crwdne49512:0"
+    new_user_typed_too_fast: "crwdns49514:0crwdne49514:0"
+    content_matches_auto_block_regex: "crwdns49516:0crwdne49516:0"
+    username:
+      short: "crwdns49518:0%{min}crwdne49518:0"
+      long: "crwdns49520:0%{max}crwdne49520:0"
+      too_long: "crwdns49522:0crwdne49522:0"
+      characters: "crwdns49524:0crwdne49524:0"
+      unique: "crwdns49526:0crwdne49526:0"
+      blank: "crwdns49528:0crwdne49528:0"
+      must_begin_with_alphanumeric_or_underscore: "crwdns49530:0crwdne49530:0"
+      must_end_with_alphanumeric: "crwdns49532:0crwdne49532:0"
+      must_not_contain_two_special_chars_in_seq: "crwdns49534:0crwdne49534:0"
+      must_not_end_with_confusing_suffix: "crwdns49536:0crwdne49536:0"
+    email:
+      invalid: "crwdns49538:0crwdne49538:0"
+      not_allowed: "crwdns49540:0crwdne49540:0"
+      blocked: "crwdns49542:0crwdne49542:0"
+      revoked: "crwdns49544:0%{email}crwdnd49544:0%{date}crwdne49544:0"
+    ip_address:
+      blocked: "crwdns49546:0crwdne49546:0"
+      max_new_accounts_per_registration_ip: "crwdns49548:0crwdne49548:0"
+    website:
+      domain_not_allowed: "crwdns49550:0%{domains}crwdne49550:0"
+    auto_rejected: "crwdns49552:0crwdne49552:0"
+    destroy_reasons:
+      unused_staged_user: "crwdns49554:0crwdne49554:0"
+      fixed_primary_email: "crwdns49556:0crwdne49556:0"
+      same_ip_address: "crwdns49558:0%{ip_address}crwdne49558:0"
+      inactive_user: "crwdns49560:0crwdne49560:0"
+    email_in_spam_header: "crwdns49562:0crwdne49562:0"
+  reviewables_reminder:
+    submitted:
+      one: "crwdns49564:1%{count}crwdnd49564:1%{base_path}crwdne49564:1"
+      other: "crwdns49564:5%{count}crwdnd49564:5%{base_path}crwdne49564:5"
+    subject_template:
+      one: "crwdns49566:1%{count}crwdne49566:1"
+      other: "crwdns49566:5%{count}crwdne49566:5"
+  unsubscribe_mailer:
+    title: "crwdns49568:0crwdne49568:0"
+    subject_template: "crwdns49570:0%{site_title}crwdne49570:0"
+    text_body_template: |
+      crwdns49572:0%{site_domain_name}crwdnd49572:0%{confirm_unsubscribe_link}crwdne49572:0
+  invite_mailer:
+    title: "crwdns49574:0crwdne49574:0"
+    subject_template: "crwdns49576:0%{inviter_name}crwdnd49576:0%{topic_title}crwdnd49576:0%{site_domain_name}crwdne49576:0"
+    text_body_template: |
+      crwdns49578:0%{inviter_name}crwdnd49578:0%{topic_title}crwdnd49578:0%{topic_excerpt}crwdnd49578:0%{site_title}crwdnd49578:0%{site_description}crwdnd49578:0%{invite_link}crwdne49578:0
+  custom_invite_mailer:
+    title: "crwdns49580:0crwdne49580:0"
+    subject_template: "crwdns49582:0%{inviter_name}crwdnd49582:0%{topic_title}crwdnd49582:0%{site_domain_name}crwdne49582:0"
+    text_body_template: |
+      crwdns49584:0%{inviter_name}crwdnd49584:0%{topic_title}crwdnd49584:0%{topic_excerpt}crwdnd49584:0%{site_title}crwdnd49584:0%{site_description}crwdnd49584:0%{user_custom_message}crwdnd49584:0%{invite_link}crwdne49584:0
+  invite_forum_mailer:
+    title: "crwdns49586:0crwdne49586:0"
+    subject_template: "crwdns49588:0%{inviter_name}crwdnd49588:0%{site_domain_name}crwdne49588:0"
+    text_body_template: |
+      crwdns49590:0%{inviter_name}crwdnd49590:0%{site_title}crwdnd49590:0%{site_description}crwdnd49590:0%{invite_link}crwdne49590:0
+  custom_invite_forum_mailer:
+    title: "crwdns49592:0crwdne49592:0"
+    subject_template: "crwdns49594:0%{inviter_name}crwdnd49594:0%{site_domain_name}crwdne49594:0"
+    text_body_template: |
+      crwdns49596:0%{inviter_name}crwdnd49596:0%{site_title}crwdnd49596:0%{site_description}crwdnd49596:0%{user_custom_message}crwdnd49596:0%{invite_link}crwdne49596:0
+  invite_password_instructions:
+    title: "crwdns49598:0crwdne49598:0"
+    subject_template: "crwdns49600:0%{site_name}crwdne49600:0"
+    text_body_template: |
+      crwdns49602:0%{site_name}crwdnd49602:0%{base_url}crwdnd49602:0%{email_token}crwdne49602:0
+  download_backup_mailer:
+    title: "crwdns49604:0crwdne49604:0"
+    subject_template: "crwdns49606:0%{email_prefix}crwdne49606:0"
+    text_body_template: |
+      crwdns49608:0%{backup_file_path}crwdne49608:0
+    no_token: |
+      crwdns49610:0crwdne49610:0
+  admin_confirmation_mailer:
+    title: "crwdns49612:0crwdne49612:0"
+    subject_template: "crwdns49614:0%{email_prefix}crwdne49614:0"
+    text_body_template: |
+      crwdns49616:0%{target_username}crwdnd49616:0%{target_email}crwdnd49616:0%{admin_confirm_url}crwdne49616:0
+  test_mailer:
+    title: "crwdns49618:0crwdne49618:0"
+    subject_template: "crwdns49620:0%{email_prefix}crwdne49620:0"
+    text_body_template: |
+      crwdns49622:0%{base_url}crwdnd49622:0[0]crwdnd49622:0[2]crwdnd49622:0[8]crwdnd49622:0[1]crwdnd49622:0[3]crwdnd49622:0[7]crwdnd49622:0[4]crwdnd49622:0[mail-tester.com]crwdnd49622:0[mt]crwdnd49622:0[SendGrid]crwdnd49622:0[sg]crwdnd49622:0[SparkPost]crwdnd49622:0[sp]crwdnd49622:0[Mailgun]crwdnd49622:0[mg]crwdnd49622:0[Mailjet]crwdnd49622:0[mj]crwdnd49622:0[Discourse]crwdnd49622:0[0]crwdnd49622:0%{base_url}crwdnd49622:0[1]crwdnd49622:0[2]crwdnd49622:0[3]crwdnd49622:0[4]crwdnd49622:0[7]crwdnd49622:0[8]crwdnd49622:0[sg]crwdnd49622:0[sp]crwdnd49622:0[mg]crwdnd49622:0[mj]crwdnd49622:0[mt]crwdne49622:0
+  new_version_mailer:
+    title: "crwdns49624:0crwdne49624:0"
+    subject_template: "crwdns49626:0%{email_prefix}crwdne49626:0"
+    text_body_template: |
+      crwdns49628:0[Discourse]crwdnd49628:0%{installed_version}crwdnd49628:0%{new_version}crwdnd49628:0%{base_url}crwdnd49628:0[meta.discourse.org]crwdne49628:0
+  new_version_mailer_with_notes:
+    title: "crwdns49630:0crwdne49630:0"
+    subject_template: "crwdns49632:0%{email_prefix}crwdne49632:0"
+    text_body_template: |
+      crwdns49634:0[Discourse]crwdnd49634:0%{installed_version}crwdnd49634:0%{new_version}crwdnd49634:0%{base_url}crwdnd49634:0[meta.discourse.org]crwdnd49634:0%{notes}crwdne49634:0
+  flag_reasons:
+    off_topic: "crwdns49636:0crwdne49636:0"
+    inappropriate: "crwdns49638:0%{base_path}crwdne49638:0"
+    spam: "crwdns49640:0crwdne49640:0"
+    notify_moderators: "crwdns49642:0crwdne49642:0"
+  flags_dispositions:
+    agreed: "crwdns49644:0crwdne49644:0"
+    agreed_and_deleted: "crwdns49646:0crwdne49646:0"
+    disagreed: "crwdns49648:0crwdne49648:0"
+    ignored: "crwdns49650:0crwdne49650:0"
+    ignored_and_deleted: "crwdns49652:0crwdne49652:0"
+  temporarily_closed_due_to_flags:
+    one: "crwdns49654:1%{count}crwdne49654:1"
+    other: "crwdns49654:5%{count}crwdne49654:5"
+  system_messages:
+    private_topic_title: "crwdns49656:0%{id}crwdne49656:0"
+    contents_hidden: "crwdns49658:0crwdne49658:0"
+    post_hidden:
+      title: "crwdns49660:0crwdne49660:0"
+      subject_template: "crwdns49662:0crwdne49662:0"
+      text_body_template: |
+        crwdns49664:0%{site_name}crwdnd49664:0%{base_url}crwdnd49664:0%{url}crwdnd49664:0%{flag_reason}crwdnd49664:0%{edit_delay}crwdnd49664:0%{base_url}crwdne49664:0
+    post_hidden_again:
+      title: "crwdns49666:0crwdne49666:0"
+      subject_template: "crwdns49668:0crwdne49668:0"
+      text_body_template: |
+        crwdns49670:0%{site_name}crwdnd49670:0%{base_url}crwdnd49670:0%{url}crwdnd49670:0%{flag_reason}crwdnd49670:0%{base_url}crwdne49670:0
+    flags_disagreed:
+      title: "crwdns49672:0crwdne49672:0"
+      subject_template: "crwdns49674:0crwdne49674:0"
+      text_body_template: |
+        crwdns49676:0%{site_name}crwdnd49676:0%{base_url}crwdnd49676:0%{url}crwdnd49676:0%{flagged_post_raw_content}crwdnd49676:0[/details]crwdne49676:0
+    flags_agreed_and_post_deleted:
+      title: "crwdns49678:0crwdne49678:0"
+      subject_template: "crwdns49680:0crwdne49680:0"
+      text_body_template: |
+        crwdns49682:0%{site_name}crwdnd49682:0%{base_url}crwdnd49682:0%{url}crwdnd49682:0%{flag_reason}crwdnd49682:0%{flagged_post_raw_content}crwdnd49682:0[/details]crwdnd49682:0%{base_url}crwdne49682:0
+    usage_tips:
+      text_body_template: |
+        crwdns49684:0crwdne49684:0
+    welcome_user:
+      title: "crwdns49686:0crwdne49686:0"
+      subject_template: "crwdns49688:0%{site_name}crwdne49688:0"
+      text_body_template: |
+        crwdns49690:0%{site_name}crwdnd49690:0%{new_user_tips}crwdnd49690:0%{base_url}crwdne49690:0
+    welcome_tl1_user:
+      title: "crwdns49692:0crwdne49692:0"
+      subject_template: "crwdns49694:0crwdne49694:0"
+      text_body_template: |
+        crwdns49696:0%{base_url}crwdnd49696:0%{base_url}crwdne49696:0
+    welcome_staff:
+      title: "crwdns49698:0crwdne49698:0"
+      subject_template: "crwdns49700:0%{role}crwdne49700:0"
+      text_body_template: |
+        crwdns49702:0%{role}crwdnd49702:0%{role}crwdnd49702:0%{base_url}crwdne49702:0
+    welcome_invite:
+      title: "crwdns49704:0crwdne49704:0"
+      subject_template: "crwdns49706:0%{site_name}crwdne49706:0"
+      text_body_template: |
+        crwdns49708:0%{site_name}crwdnd49708:0%{username}crwdnd49708:0[prefs]crwdnd49708:0%{new_user_tips}crwdnd49708:0%{base_url}crwdnd49708:0[prefs]crwdnd49708:0%{user_preferences_url}crwdne49708:0
+    tl2_promotion_message:
+      subject_template: "crwdns54024:0crwdne54024:0"
+      text_body_template: |
+        crwdns54026:0crwdne54026:0
+    backup_succeeded:
+      title: "crwdns49710:0crwdne49710:0"
+      subject_template: "crwdns49712:0crwdne49712:0"
+      text_body_template: |
+        crwdns49714:0%{base_url}crwdnd49714:0%{logs}crwdne49714:0
+    backup_failed:
+      title: "crwdns49716:0crwdne49716:0"
+      subject_template: "crwdns49718:0crwdne49718:0"
+      text_body_template: |
+        crwdns49720:0%{logs}crwdne49720:0
+    restore_succeeded:
+      title: "crwdns49722:0crwdne49722:0"
+      subject_template: "crwdns49724:0crwdne49724:0"
+      text_body_template: |
+        crwdns49726:0%{logs}crwdne49726:0
+    restore_failed:
+      title: "crwdns49728:0crwdne49728:0"
+      subject_template: "crwdns49730:0crwdne49730:0"
+      text_body_template: |
+        crwdns49732:0%{logs}crwdne49732:0
+    bulk_invite_succeeded:
+      title: "crwdns49734:0crwdne49734:0"
+      subject_template: "crwdns49736:0crwdne49736:0"
+      text_body_template: "crwdns49738:0%{sent}crwdne49738:0"
+    bulk_invite_failed:
+      title: "crwdns49740:0crwdne49740:0"
+      subject_template: "crwdns49742:0crwdne49742:0"
+      text_body_template: |
+        crwdns49744:0%{sent}crwdnd49744:0%{failed}crwdnd49744:0%{logs}crwdne49744:0
+    user_added_to_group_as_owner:
+      title: "crwdns53964:0crwdne53964:0"
+      subject_template: "crwdns53966:0%{group_name}crwdne53966:0"
+      text_body_template: |
+        crwdns53968:0%{group_name}crwdnd53968:0%{base_url}crwdnd53968:0%{group_path}crwdne53968:0
+    user_added_to_group_as_member:
+      title: "crwdns53970:0crwdne53970:0"
+      subject_template: "crwdns53972:0%{group_name}crwdne53972:0"
+      text_body_template: |
+        crwdns53974:0%{group_name}crwdnd53974:0%{base_url}crwdnd53974:0%{group_path}crwdne53974:0
+    csv_export_succeeded:
+      title: "crwdns49746:0crwdne49746:0"
+      subject_template: "crwdns49748:0%{export_title}crwdne49748:0"
+      text_body_template: |
+        crwdns49750:0:dvd:crwdnd49750:0%{download_link}crwdne49750:0
+    csv_export_failed:
+      title: "crwdns49752:0crwdne49752:0"
+      subject_template: "crwdns49754:0crwdne49754:0"
+      text_body_template: "crwdns49756:0%{base_url}crwdne49756:0"
+    email_reject_insufficient_trust_level:
+      title: "crwdns49758:0crwdne49758:0"
+      subject_template: "crwdns49760:0%{email_prefix}crwdne49760:0"
+      text_body_template: |
+        crwdns49762:0%{destination}crwdnd49762:0%{former_title}crwdnd49762:0%{base_url}crwdne49762:0
+    email_reject_user_not_found:
+      title: "crwdns49764:0crwdne49764:0"
+      subject_template: "crwdns49766:0%{email_prefix}crwdne49766:0"
+      text_body_template: |
+        crwdns49768:0%{destination}crwdnd49768:0%{former_title}crwdnd49768:0%{base_url}crwdne49768:0
+    email_reject_screened_email:
+      title: "crwdns49770:0crwdne49770:0"
+      subject_template: "crwdns49772:0%{email_prefix}crwdne49772:0"
+      text_body_template: |
+        crwdns49774:0%{destination}crwdnd49774:0%{former_title}crwdnd49774:0%{base_url}crwdne49774:0
+    email_reject_not_allowed_email:
+      title: "crwdns49776:0crwdne49776:0"
+      subject_template: "crwdns49778:0%{email_prefix}crwdne49778:0"
+      text_body_template: |
+        crwdns49780:0%{destination}crwdnd49780:0%{former_title}crwdnd49780:0%{base_url}crwdne49780:0
+    email_reject_inactive_user:
+      title: "crwdns49782:0crwdne49782:0"
+      subject_template: "crwdns49784:0%{email_prefix}crwdne49784:0"
+      text_body_template: |
+        crwdns49786:0%{destination}crwdnd49786:0%{former_title}crwdne49786:0
+    email_reject_silenced_user:
+      title: "crwdns49788:0crwdne49788:0"
+      subject_template: "crwdns49790:0%{email_prefix}crwdne49790:0"
+      text_body_template: |
+        crwdns49792:0%{destination}crwdnd49792:0%{former_title}crwdne49792:0
+    email_reject_reply_user_not_matching:
+      title: "crwdns49794:0crwdne49794:0"
+      subject_template: "crwdns49796:0%{email_prefix}crwdne49796:0"
+      text_body_template: |
+        crwdns49798:0%{destination}crwdnd49798:0%{former_title}crwdnd49798:0%{base_url}crwdne49798:0
+    email_reject_empty:
+      title: "crwdns49800:0crwdne49800:0"
+      subject_template: "crwdns49802:0%{email_prefix}crwdne49802:0"
+      text_body_template: |
+        crwdns49804:0%{destination}crwdnd49804:0%{former_title}crwdne49804:0
+    email_reject_parsing:
+      title: "crwdns49806:0crwdne49806:0"
+      subject_template: "crwdns49808:0%{email_prefix}crwdne49808:0"
+      text_body_template: |
+        crwdns49810:0%{destination}crwdnd49810:0%{former_title}crwdne49810:0
+    email_reject_invalid_access:
+      title: "crwdns49812:0crwdne49812:0"
+      subject_template: "crwdns49814:0%{email_prefix}crwdne49814:0"
+      text_body_template: |
+        crwdns49816:0%{destination}crwdnd49816:0%{former_title}crwdnd49816:0%{base_url}crwdne49816:0
+    email_reject_strangers_not_allowed:
+      title: "crwdns49818:0crwdne49818:0"
+      subject_template: "crwdns49820:0%{email_prefix}crwdne49820:0"
+      text_body_template: |
+        crwdns49822:0%{destination}crwdnd49822:0%{former_title}crwdnd49822:0%{base_url}crwdne49822:0
+    email_reject_invalid_post:
+      title: "crwdns49824:0crwdne49824:0"
+      subject_template: "crwdns49826:0%{email_prefix}crwdne49826:0"
+      text_body_template: |
+        crwdns49828:0%{destination}crwdnd49828:0%{former_title}crwdne49828:0
+    email_reject_invalid_post_specified:
+      title: "crwdns49830:0crwdne49830:0"
+      subject_template: "crwdns49832:0%{email_prefix}crwdne49832:0"
+      text_body_template: |
+        crwdns49834:0%{destination}crwdnd49834:0%{former_title}crwdnd49834:0%{post_error}crwdne49834:0
+      date_invalid: "crwdns49836:0crwdne49836:0"
+    email_reject_post_too_short:
+      title: "crwdns49838:0crwdne49838:0"
+      subject_template: "crwdns49840:0%{email_prefix}crwdne49840:0"
+      text_body_template: |
+        crwdns49842:0%{destination}crwdnd49842:0%{former_title}crwdnd49842:0%{count}crwdne49842:0
+    email_reject_invalid_post_action:
+      title: "crwdns49844:0crwdne49844:0"
+      subject_template: "crwdns49846:0%{email_prefix}crwdne49846:0"
+      text_body_template: |
+        crwdns49848:0%{destination}crwdnd49848:0%{former_title}crwdne49848:0
+    email_reject_reply_key:
+      title: "crwdns49850:0crwdne49850:0"
+      subject_template: "crwdns49852:0%{email_prefix}crwdne49852:0"
+      text_body_template: |
+        crwdns49854:0%{destination}crwdnd49854:0%{former_title}crwdnd49854:0%{base_url}crwdne49854:0
+    email_reject_bad_destination_address:
+      title: "crwdns49856:0crwdne49856:0"
+      subject_template: "crwdns49858:0%{email_prefix}crwdne49858:0"
+      text_body_template: |
+        crwdns49860:0%{destination}crwdnd49860:0%{former_title}crwdne49860:0
+    email_reject_old_destination:
+      title: "crwdns49862:0crwdne49862:0"
+      subject_template: "crwdns49864:0%{email_prefix}crwdne49864:0"
+      text_body_template: |
+        crwdns49866:0%{destination}crwdnd49866:0%{former_title}crwdnd49866:0%{number_of_days}crwdnd49866:0%{short_url}crwdne49866:0
+    email_reject_topic_not_found:
+      title: "crwdns49868:0crwdne49868:0"
+      subject_template: "crwdns49870:0%{email_prefix}crwdne49870:0"
+      text_body_template: |
+        crwdns49872:0%{destination}crwdnd49872:0%{former_title}crwdnd49872:0%{base_url}crwdne49872:0
+    email_reject_topic_closed:
+      title: "crwdns49874:0crwdne49874:0"
+      subject_template: "crwdns49876:0%{email_prefix}crwdne49876:0"
+      text_body_template: |
+        crwdns49878:0%{destination}crwdnd49878:0%{former_title}crwdnd49878:0%{base_url}crwdne49878:0
+    email_reject_auto_generated:
+      title: "crwdns49880:0crwdne49880:0"
+      subject_template: "crwdns49882:0%{email_prefix}crwdne49882:0"
+      text_body_template: |
+        crwdns49884:0%{destination}crwdnd49884:0%{former_title}crwdnd49884:0%{base_url}crwdne49884:0
+    email_reject_unrecognized_error:
+      title: "crwdns49886:0crwdne49886:0"
+      subject_template: "crwdns49888:0%{email_prefix}crwdne49888:0"
+      text_body_template: |
+        crwdns49890:0%{destination}crwdnd49890:0%{former_title}crwdnd49890:0%{base_url}crwdne49890:0
+    email_reject_attachment:
+      title: "crwdns49892:0crwdne49892:0"
+      subject_template: "crwdns49894:0%{email_prefix}crwdne49894:0"
+      text_body_template: |
+        crwdns49896:0%{destination}crwdnd49896:0%{former_title}crwdnd49896:0%{rejected_errors}crwdnd49896:0%{base_url}crwdne49896:0
+    email_reject_reply_not_allowed:
+      title: "crwdns49898:0crwdne49898:0"
+      subject_template: "crwdns49900:0%{email_prefix}crwdne49900:0"
+      text_body_template: |
+        crwdns49902:0%{destination}crwdnd49902:0%{former_title}crwdnd49902:0%{base_url}crwdne49902:0
+    email_reject_reply_to_digest:
+      title: "crwdns49904:0crwdne49904:0"
+      subject_template: "crwdns49906:0%{email_prefix}crwdne49906:0"
+      text_body_template: |
+        crwdns49908:0%{destination}crwdnd49908:0%{former_title}crwdnd49908:0%{base_url}crwdne49908:0
+    email_error_notification:
+      title: "crwdns49910:0crwdne49910:0"
+      subject_template: "crwdns49912:0%{email_prefix}crwdne49912:0"
+      text_body_template: |
+        crwdns49914:0%{base_url}crwdne49914:0
+    email_revoked:
+      title: "crwdns49916:0crwdne49916:0"
+      subject_template: "crwdns49918:0crwdne49918:0"
+      text_body_template: |
+        crwdns49920:0%{base_url}crwdne49920:0
+    email_bounced: |
+      crwdns49922:0%{email}crwdnd49922:0%{raw}crwdne49922:0
+    ignored_users_summary:
+      title: "crwdns49924:0crwdne49924:0"
+      subject_template: "crwdns49926:0crwdne49926:0"
+      text_body_template: |
+        crwdns49928:0%{site_name}crwdnd49928:0%{username}crwdnd49928:0%{ignores_threshold}crwdnd49928:0%{base_url}crwdnd49928:0%{username}crwdnd49928:0%{base_url}crwdnd49928:0%{base_url}crwdne49928:0
+    too_many_spam_flags:
+      title: "crwdns49930:0crwdne49930:0"
+      subject_template: "crwdns49932:0crwdne49932:0"
+      text_body_template: |
+        crwdns49934:0%{site_name}crwdnd49934:0%{base_url}crwdne49934:0
+    too_many_tl3_flags:
+      title: "crwdns49936:0crwdne49936:0"
+      subject_template: "crwdns49938:0crwdne49938:0"
+      text_body_template: |
+        crwdns49940:0%{site_name}crwdnd49940:0%{base_url}crwdne49940:0
+    silenced_by_staff:
+      title: "crwdns49942:0crwdne49942:0"
+      subject_template: "crwdns49944:0crwdne49944:0"
+      text_body_template: |
+        crwdns49946:0%{site_name}crwdnd49946:0%{base_url}crwdnd49946:0%{base_url}crwdne49946:0
+    user_automatically_silenced:
+      title: "crwdns49948:0crwdne49948:0"
+      subject_template: "crwdns49950:0%{username}crwdne49950:0"
+      text_body_template: |
+        crwdns49952:0%{username}crwdnd49952:0%{user_url}crwdnd49952:0%{username}crwdnd49952:0%{base_url}crwdnd49952:0%{username}crwdnd49952:0%{user_url}crwdne49952:0
+    spam_post_blocked:
+      title: "crwdns49954:0crwdne49954:0"
+      subject_template: "crwdns49956:0%{username}crwdne49956:0"
+      text_body_template: |
+        crwdns49958:0%{username}crwdnd49958:0%{user_url}crwdnd49958:0%{domains}crwdnd49958:0%{domains}crwdnd49958:0%{user_url}crwdnd49958:0%{domains}crwdne49958:0
+    unsilenced:
+      title: "crwdns49960:0crwdne49960:0"
+      subject_template: "crwdns49962:0crwdne49962:0"
+      text_body_template: |
+        crwdns49964:0%{site_name}crwdne49964:0
+    pending_users_reminder:
+      title: "crwdns49966:0crwdne49966:0"
+      subject_template:
+        one: "crwdns49968:1%{count}crwdne49968:1"
+        other: "crwdns49968:5%{count}crwdne49968:5"
+      text_body_template: |
+        crwdns49970:0%{base_url}crwdne49970:0
+    download_remote_images_disabled:
+      title: "crwdns49972:0crwdne49972:0"
+      subject_template: "crwdns49974:0crwdne49974:0"
+      text_body_template: "crwdns49976:0crwdne49976:0"
+    dashboard_problems:
+      title: "crwdns49978:0crwdne49978:0"
+      subject_template: "crwdns49980:0crwdne49980:0"
+      text_body_template: |
+        crwdns49982:0%{base_url}crwdnd49982:0%{base_url}crwdne49982:0
+    new_user_of_the_month:
+      title: "crwdns49984:0crwdne49984:0"
+      subject_template: "crwdns49986:0crwdne49986:0"
+      text_body_template: |
+        crwdns49988:0%{month_year}crwdnd49988:0:trophy:crwdnd49988:0%{url}crwdne49988:0
+    queued_posts_reminder:
+      title: "crwdns49990:0crwdne49990:0"
+      subject_template:
+        one: "crwdns49992:1%{count}crwdne49992:1"
+        other: "crwdns49992:5%{count}crwdne49992:5"
+      text_body_template: |
+        crwdns49994:0%{base_url}crwdne49994:0
+  unsubscribe_link: |
+    crwdns49996:0%{unsubscribe_url}crwdne49996:0
+  unsubscribe_link_and_mail: |
+    crwdns49998:0%{unsubscribe_url}crwdne49998:0
+  unsubscribe_mailing_list: |
+    crwdns50000:0%{unsubscribe_url}crwdne50000:0
+  subject_re: "crwdns50002:0crwdne50002:0"
+  subject_pm: "crwdns50004:0[PM]crwdne50004:0"
+  email_from: "crwdns50006:0%{user_name}crwdnd50006:0%{site_name}crwdne50006:0"
+  user_notifications:
+    previous_discussion: "crwdns50008:0crwdne50008:0"
+    reached_limit:
+      one: "crwdns50010:1%{count}crwdne50010:1"
+      other: "crwdns50010:5%{count}crwdne50010:5"
+    in_reply_to: "crwdns50012:0crwdne50012:0"
+    unsubscribe:
+      title: "crwdns50014:0crwdne50014:0"
+      description: "crwdns50016:0crwdne50016:0"
+    header_instructions: "crwdns50018:0crwdne50018:0"
+    reply_by_email: "crwdns50020:0%{base_url}crwdnd50020:0%{url}crwdne50020:0"
+    reply_by_email_pm: "crwdns50022:0%{base_url}crwdnd50022:0%{url}crwdnd50022:0%{participants}crwdne50022:0"
+    only_reply_by_email: "crwdns50024:0crwdne50024:0"
+    only_reply_by_email_pm: "crwdns50026:0%{participants}crwdne50026:0"
+    visit_link_to_respond: "crwdns50028:0%{base_url}crwdnd50028:0%{url}crwdne50028:0"
+    visit_link_to_respond_pm: "crwdns50030:0%{base_url}crwdnd50030:0%{url}crwdnd50030:0%{participants}crwdne50030:0"
+    posted_by: "crwdns50032:0%{username}crwdnd50032:0%{post_date}crwdne50032:0"
+    pm_participants: "crwdns50034:0%{participants}crwdne50034:0"
+    invited_group_to_private_message_body: |
+      crwdns50036:0%{username}crwdnd50036:0%{group_name}crwdnd50036:0%{topic_title}crwdnd50036:0%{topic_url}crwdnd50036:0%{topic_excerpt}crwdnd50036:0%{site_title}crwdnd50036:0%{site_description}crwdnd50036:0%{topic_url}crwdne50036:0
+    invited_to_private_message_body: |
+      crwdns50038:0%{username}crwdnd50038:0%{topic_title}crwdnd50038:0%{topic_url}crwdnd50038:0%{topic_excerpt}crwdnd50038:0%{site_title}crwdnd50038:0%{site_description}crwdnd50038:0%{topic_url}crwdne50038:0
+    invited_to_topic_body: |
+      crwdns50040:0%{username}crwdnd50040:0%{topic_title}crwdnd50040:0%{topic_url}crwdnd50040:0%{topic_excerpt}crwdnd50040:0%{site_title}crwdnd50040:0%{site_description}crwdnd50040:0%{topic_url}crwdne50040:0
+    user_invited_to_private_message_pm_group:
+      title: "crwdns50042:0crwdne50042:0"
+      subject_template: "crwdns50044:0%{email_prefix}crwdnd50044:0%{username}crwdnd50044:0%{group_name}crwdnd50044:0%{topic_title}crwdne50044:0"
+      text_body_template: |
+        crwdns50046:0%{header_instructions}crwdnd50046:0%{message}crwdnd50046:0%{respond_instructions}crwdne50046:0
+    user_invited_to_private_message_pm:
+      title: "crwdns50048:0crwdne50048:0"
+      subject_template: "crwdns50050:0%{email_prefix}crwdnd50050:0%{username}crwdnd50050:0%{topic_title}crwdne50050:0"
+      text_body_template: |
+        crwdns50052:0%{header_instructions}crwdnd50052:0%{message}crwdnd50052:0%{respond_instructions}crwdne50052:0
+    user_invited_to_private_message_pm_staged:
+      title: "crwdns50054:0crwdne50054:0"
+      subject_template: "crwdns50056:0%{email_prefix}crwdnd50056:0%{username}crwdnd50056:0%{topic_title}crwdne50056:0"
+      text_body_template: |
+        crwdns50058:0%{header_instructions}crwdnd50058:0%{message}crwdnd50058:0%{respond_instructions}crwdne50058:0
+    user_invited_to_topic:
+      title: "crwdns50060:0crwdne50060:0"
+      subject_template: "crwdns50062:0%{email_prefix}crwdnd50062:0%{username}crwdnd50062:0%{topic_title}crwdne50062:0"
+      text_body_template: |
+        crwdns50064:0%{header_instructions}crwdnd50064:0%{message}crwdnd50064:0%{respond_instructions}crwdne50064:0
+    user_replied:
+      title: "crwdns50066:0crwdne50066:0"
+      subject_template: "crwdns50068:0%{email_prefix}crwdnd50068:0%{topic_title}crwdne50068:0"
+      text_body_template: |
+        crwdns50070:0%{header_instructions}crwdnd50070:0%{message}crwdnd50070:0%{context}crwdnd50070:0%{respond_instructions}crwdne50070:0
+    user_replied_pm:
+      title: "crwdns50072:0crwdne50072:0"
+      subject_template: "crwdns50074:0%{email_prefix}crwdnd50074:0[PM]crwdnd50074:0%{topic_title}crwdne50074:0"
+      text_body_template: |
+        crwdns50076:0%{header_instructions}crwdnd50076:0%{message}crwdnd50076:0%{context}crwdnd50076:0%{respond_instructions}crwdne50076:0
+    user_quoted:
+      title: "crwdns50078:0crwdne50078:0"
+      subject_template: "crwdns50080:0%{email_prefix}crwdnd50080:0%{topic_title}crwdne50080:0"
+      text_body_template: |
+        crwdns50082:0%{header_instructions}crwdnd50082:0%{message}crwdnd50082:0%{context}crwdnd50082:0%{respond_instructions}crwdne50082:0
+    user_linked:
+      title: "crwdns50084:0crwdne50084:0"
+      subject_template: "crwdns50086:0%{email_prefix}crwdnd50086:0%{topic_title}crwdne50086:0"
+      text_body_template: |
+        crwdns50088:0%{header_instructions}crwdnd50088:0%{message}crwdnd50088:0%{context}crwdnd50088:0%{respond_instructions}crwdne50088:0
+    user_mentioned:
+      title: "crwdns50090:0crwdne50090:0"
+      subject_template: "crwdns50092:0%{email_prefix}crwdnd50092:0%{topic_title}crwdne50092:0"
+      text_body_template: |
+        crwdns50094:0%{header_instructions}crwdnd50094:0%{message}crwdnd50094:0%{context}crwdnd50094:0%{respond_instructions}crwdne50094:0
+    user_mentioned_pm:
+      title: "crwdns50096:0crwdne50096:0"
+      subject_template: "crwdns50098:0%{email_prefix}crwdnd50098:0[PM]crwdnd50098:0%{topic_title}crwdne50098:0"
+      text_body_template: |
+        crwdns50100:0%{header_instructions}crwdnd50100:0%{message}crwdnd50100:0%{context}crwdnd50100:0%{respond_instructions}crwdne50100:0
+    user_group_mentioned:
+      title: "crwdns50102:0crwdne50102:0"
+      subject_template: "crwdns50104:0%{email_prefix}crwdnd50104:0%{topic_title}crwdne50104:0"
+      text_body_template: |
+        crwdns50106:0%{header_instructions}crwdnd50106:0%{message}crwdnd50106:0%{context}crwdnd50106:0%{respond_instructions}crwdne50106:0
+    user_posted:
+      title: "crwdns50108:0crwdne50108:0"
+      subject_template: "crwdns50110:0%{email_prefix}crwdnd50110:0%{topic_title}crwdne50110:0"
+      text_body_template: |
+        crwdns50112:0%{header_instructions}crwdnd50112:0%{message}crwdnd50112:0%{context}crwdnd50112:0%{respond_instructions}crwdne50112:0
+    user_watching_first_post:
+      title: "crwdns50114:0crwdne50114:0"
+      subject_template: "crwdns50116:0%{email_prefix}crwdnd50116:0%{topic_title}crwdne50116:0"
+      text_body_template: |
+        crwdns50118:0%{header_instructions}crwdnd50118:0%{message}crwdnd50118:0%{context}crwdnd50118:0%{respond_instructions}crwdne50118:0
+    user_posted_pm:
+      title: "crwdns50120:0crwdne50120:0"
+      subject_template: "crwdns50122:0%{email_prefix}crwdnd50122:0[PM]crwdnd50122:0%{topic_title}crwdne50122:0"
+      text_body_template: |
+        crwdns50124:0%{header_instructions}crwdnd50124:0%{message}crwdnd50124:0%{context}crwdnd50124:0%{respond_instructions}crwdne50124:0
+    user_posted_pm_staged:
+      title: "crwdns50126:0crwdne50126:0"
+      subject_template: "crwdns50128:0%{optional_re}crwdnd50128:0%{topic_title}crwdne50128:0"
+      text_body_template: |
+        crwdns50130:0%{message}crwdne50130:0
+    account_suspended:
+      title: "crwdns50132:0crwdne50132:0"
+      subject_template: "crwdns50134:0%{email_prefix}crwdne50134:0"
+      text_body_template: |
+        crwdns50136:0%{suspended_till}crwdnd50136:0%{reason}crwdnd50136:0%{message}crwdne50136:0
+    account_silenced:
+      title: "crwdns50138:0crwdne50138:0"
+      subject_template: "crwdns50140:0%{email_prefix}crwdne50140:0"
+      text_body_template: |
+        crwdns50142:0%{silenced_till}crwdnd50142:0%{reason}crwdnd50142:0%{message}crwdne50142:0
+    account_exists:
+      title: "crwdns50144:0crwdne50144:0"
+      subject_template: "crwdns50146:0%{email_prefix}crwdne50146:0"
+      text_body_template: |
+        crwdns50148:0%{site_name}crwdnd50148:0%{email}crwdnd50148:0%{email}crwdnd50148:0%{base_url}crwdnd50148:0%{email}crwdnd50148:0%{base_url}crwdne50148:0
+    account_second_factor_disabled:
+      title: "crwdns50150:0crwdne50150:0"
+      subject_template: "crwdns50152:0%{email_prefix}crwdne50152:0"
+      text_body_template: |
+        crwdns50154:0%{site_name}crwdnd50154:0%{base_url}crwdne50154:0
+    digest:
+      why: "crwdns50156:0%{site_link}crwdnd50156:0%{last_seen_at}crwdne50156:0"
+      since_last_visit: "crwdns50158:0crwdne50158:0"
+      new_topics: "crwdns50160:0crwdne50160:0"
+      unread_notifications: "crwdns50162:0crwdne50162:0"
+      unread_high_priority: "crwdns50164:0crwdne50164:0"
+      liked_received: "crwdns50166:0crwdne50166:0"
+      new_users: "crwdns50168:0crwdne50168:0"
+      popular_topics: "crwdns50170:0crwdne50170:0"
+      follow_topic: "crwdns50172:0crwdne50172:0"
+      join_the_discussion: "crwdns50174:0crwdne50174:0"
+      popular_posts: "crwdns50176:0crwdne50176:0"
+      more_new: "crwdns50178:0crwdne50178:0"
+      subject_template: "crwdns50180:0%{email_prefix}crwdne50180:0"
+      unsubscribe: "crwdns50182:0%{site_link}crwdnd50182:0%{email_preferences_link}crwdnd50182:0%{unsubscribe_link}crwdne50182:0"
+      your_email_settings: "crwdns50184:0crwdne50184:0"
+      click_here: "crwdns50186:0crwdne50186:0"
+      from: "crwdns50188:0%{site_name}crwdne50188:0"
+      preheader: "crwdns50190:0%{last_seen_at}crwdne50190:0"
+      custom:
+        html:
+          header: "crwdns50192:0crwdne50192:0"
+          below_post_1: "crwdns50194:0crwdne50194:0"
+          below_post_2: "crwdns50196:0crwdne50196:0"
+          below_post_3: "crwdns50198:0crwdne50198:0"
+          below_post_4: "crwdns50200:0crwdne50200:0"
+          below_post_5: "crwdns50202:0crwdne50202:0"
+          above_popular_topics: "crwdns50204:0crwdne50204:0"
+          below_popular_topics: "crwdns50206:0crwdne50206:0"
+          above_footer: "crwdns50208:0crwdne50208:0"
+          below_footer: "crwdns50210:0crwdne50210:0"
+        text:
+          below_post_1: "crwdns50212:0crwdne50212:0"
+          below_post_2: "crwdns50214:0crwdne50214:0"
+          below_post_3: "crwdns50216:0crwdne50216:0"
+          below_post_4: "crwdns50218:0crwdne50218:0"
+          below_post_5: "crwdns50220:0crwdne50220:0"
+          above_popular_topics: "crwdns50222:0crwdne50222:0"
+          below_popular_topics: "crwdns50224:0crwdne50224:0"
+          above_footer: "crwdns50226:0crwdne50226:0"
+          below_footer: "crwdns50228:0crwdne50228:0"
+    forgot_password:
+      title: "crwdns50230:0crwdne50230:0"
+      subject_template: "crwdns50232:0%{email_prefix}crwdne50232:0"
+      text_body_template: |
+        crwdns50234:0%{site_name}crwdnd50234:0%{base_url}crwdnd50234:0%{base_url}crwdnd50234:0%{email_token}crwdne50234:0
+    email_login:
+      title: "crwdns50236:0crwdne50236:0"
+      subject_template: "crwdns50238:0%{email_prefix}crwdne50238:0"
+      text_body_template: |
+        crwdns50240:0%{site_name}crwdnd50240:0%{base_url}crwdnd50240:0%{base_url}crwdnd50240:0%{email_token}crwdne50240:0
+    set_password:
+      title: "crwdns50242:0crwdne50242:0"
+      subject_template: "crwdns50244:0%{email_prefix}crwdne50244:0"
+      text_body_template: |
+        crwdns50246:0%{site_name}crwdnd50246:0%{base_url}crwdnd50246:0%{base_url}crwdnd50246:0%{email_token}crwdne50246:0
+    admin_login:
+      title: "crwdns50248:0crwdne50248:0"
+      subject_template: "crwdns50250:0%{email_prefix}crwdne50250:0"
+      text_body_template: |
+        crwdns50252:0%{site_name}crwdnd50252:0%{base_url}crwdnd50252:0%{base_url}crwdnd50252:0%{email_token}crwdne50252:0
+    account_created:
+      title: "crwdns50254:0crwdne50254:0"
+      subject_template: "crwdns50256:0%{email_prefix}crwdne50256:0"
+      text_body_template: |
+        crwdns50258:0%{site_name}crwdnd50258:0%{base_url}crwdnd50258:0%{email_token}crwdne50258:0
+    confirm_new_email:
+      title: "crwdns50260:0crwdne50260:0"
+      subject_template: "crwdns50262:0%{email_prefix}crwdne50262:0"
+      text_body_template: |
+        crwdns50264:0%{site_name}crwdnd50264:0%{base_url}crwdnd50264:0%{email_token}crwdnd50264:0%{site_name}crwdne50264:0
+    confirm_new_email_via_admin:
+      title: "crwdns54080:0crwdne54080:0"
+      subject_template: "crwdns54082:0%{email_prefix}crwdne54082:0"
+      text_body_template: |
+        crwdns54084:0%{site_name}crwdnd54084:0%{base_url}crwdnd54084:0%{email_token}crwdnd54084:0%{site_name}crwdne54084:0
+    confirm_old_email:
+      title: "crwdns50266:0crwdne50266:0"
+      subject_template: "crwdns50268:0%{email_prefix}crwdne50268:0"
+      text_body_template: |
+        crwdns50270:0%{site_name}crwdnd50270:0%{base_url}crwdnd50270:0%{email_token}crwdne50270:0
+    confirm_old_email_add:
+      title: "crwdns50272:0crwdne50272:0"
+      subject_template: "crwdns50274:0%{email_prefix}crwdne50274:0"
+      text_body_template: |
+        crwdns50276:0%{site_name}crwdnd50276:0%{base_url}crwdnd50276:0%{email_token}crwdne50276:0
+    notify_old_email:
+      title: "crwdns50278:0crwdne50278:0"
+      subject_template: "crwdns50280:0%{email_prefix}crwdne50280:0"
+      text_body_template: |
+        crwdns50282:0%{site_name}crwdnd50282:0%{new_email}crwdne50282:0
+    notify_old_email_add:
+      title: "crwdns50284:0crwdne50284:0"
+      subject_template: "crwdns50286:0%{email_prefix}crwdne50286:0"
+      text_body_template: |
+        crwdns50288:0%{site_name}crwdnd50288:0%{new_email}crwdne50288:0
+    signup_after_approval:
+      title: "crwdns50290:0crwdne50290:0"
+      subject_template: "crwdns50292:0%{site_name}crwdne50292:0"
+      text_body_template: |
+        crwdns50294:0%{site_name}crwdnd50294:0%{site_name}crwdnd50294:0%{base_url}crwdnd50294:0%{new_user_tips}crwdnd50294:0%{base_url}crwdne50294:0
+    signup:
+      title: "crwdns50296:0crwdne50296:0"
+      subject_template: "crwdns50298:0%{email_prefix}crwdne50298:0"
+      text_body_template: |
+        crwdns50300:0%{site_name}crwdnd50300:0%{base_url}crwdnd50300:0%{email_token}crwdne50300:0
+    activation_reminder:
+      title: "crwdns50302:0crwdne50302:0"
+      subject_template: "crwdns50304:0%{email_prefix}crwdne50304:0"
+      text_body_template: |
+        crwdns50306:0%{site_name}crwdnd50306:0%{base_url}crwdnd50306:0%{email_token}crwdne50306:0
+    suspicious_login:
+      title: "crwdns50308:0crwdne50308:0"
+      subject_template: "crwdns50310:0%{site_name}crwdnd50310:0%{location}crwdne50310:0"
+      text_body_template: |
+        crwdns50312:0%{location}crwdnd50312:0%{client_ip}crwdnd50312:0%{browser}crwdnd50312:0%{device}crwdnd50312:0%{os}crwdnd50312:0%{base_url}crwdne50312:0
+  page_forbidden:
+    title: "crwdns50314:0crwdne50314:0"
+  page_not_found:
+    title: "crwdns50316:0crwdne50316:0"
+    popular_topics: "crwdns50318:0crwdne50318:0"
+    recent_topics: "crwdns50320:0crwdne50320:0"
+    see_more: "crwdns50322:0crwdne50322:0"
+    search_title: "crwdns50324:0crwdne50324:0"
+    search_button: "crwdns50326:0crwdne50326:0"
+  offline:
+    title: "crwdns50328:0crwdne50328:0"
+    offline_page_message: "crwdns50330:0crwdne50330:0"
+  login_required:
+    welcome_message: |
+      crwdns50332:0%{title}crwdne50332:0
+    welcome_message_invite_only: |
+      crwdns50334:0%{title}crwdne50334:0
+  deleted: "crwdns50336:0crwdne50336:0"
+  image: "crwdns50338:0crwdne50338:0"
+  upload:
+    edit_reason: "crwdns50340:0crwdne50340:0"
+    unauthorized: "crwdns50342:0%{authorized_extensions}crwdne50342:0"
+    pasted_image_filename: "crwdns50344:0crwdne50344:0"
+    store_failure: "crwdns50346:0%{upload_id}crwdnd50346:0%{user_id}crwdne50346:0"
+    file_missing: "crwdns50348:0crwdne50348:0"
+    empty: "crwdns50350:0crwdne50350:0"
+    png_to_jpg_conversion_failure_message: "crwdns50352:0crwdne50352:0"
+    optimize_failure_message: "crwdns50354:0crwdne50354:0"
+    attachments:
+      too_large: "crwdns50356:0%{max_size_kb}crwdne50356:0"
+    images:
+      too_large: "crwdns50358:0%{max_size_kb}crwdne50358:0"
+      larger_than_x_megapixels: "crwdns50360:0%{max_image_megapixels}crwdne50360:0"
+      size_not_found: "crwdns50362:0crwdne50362:0"
+    placeholders:
+      too_large: "crwdns50364:0%{max_size_kb}crwdne50364:0"
+  avatar:
+    missing: "crwdns50366:0crwdne50366:0"
+  flag_reason:
+    sockpuppet: "crwdns50368:0%{ip_address}crwdnd50368:0%{base_path}crwdne50368:0"
+    spam_hosts: "crwdns50370:0%{base_path}crwdne50370:0"
+  skipped_email_log:
+    exceeded_emails_limit: "crwdns50372:0crwdne50372:0"
+    exceeded_bounces_limit: "crwdns50374:0crwdne50374:0"
+    mailing_list_no_echo_mode: "crwdns50376:0crwdne50376:0"
+    user_email_no_user: "crwdns50378:0%{user_id}crwdne50378:0"
+    user_email_post_not_found: "crwdns50380:0%{post_id}crwdne50380:0"
+    user_email_anonymous_user: "crwdns50382:0crwdne50382:0"
+    user_email_user_suspended_not_pm: "crwdns50384:0crwdne50384:0"
+    user_email_seen_recently: "crwdns50386:0crwdne50386:0"
+    user_email_notification_already_read: "crwdns50388:0crwdne50388:0"
+    user_email_notification_topic_nil: "crwdns50390:0crwdne50390:0"
+    user_email_post_user_deleted: "crwdns50392:0crwdne50392:0"
+    user_email_post_deleted: "crwdns50394:0crwdne50394:0"
+    user_email_user_suspended: "crwdns50396:0crwdne50396:0"
+    user_email_already_read: "crwdns50398:0crwdne50398:0"
+    user_email_access_denied: "crwdns50400:0crwdne50400:0"
+    user_email_no_email: "crwdns50402:0%{user_id}crwdne50402:0"
+    sender_message_blank: "crwdns50404:0crwdne50404:0"
+    sender_message_to_blank: "crwdns50406:0crwdne50406:0"
+    sender_text_part_body_blank: "crwdns50408:0crwdne50408:0"
+    sender_body_blank: "crwdns50410:0crwdne50410:0"
+    sender_post_deleted: "crwdns50412:0crwdne50412:0"
+    sender_message_to_invalid: "crwdns50414:0crwdne50414:0"
+    sender_topic_deleted: "crwdns50416:0crwdne50416:0"
+  color_schemes:
+    base_theme_name: "crwdns50418:0crwdne50418:0"
+    light: "crwdns50420:0crwdne50420:0"
+    dark: "crwdns50422:0crwdne50422:0"
+    neutral: "crwdns50424:0crwdne50424:0"
+    grey_amber: "crwdns50426:0crwdne50426:0"
+    shades_of_blue: "crwdns50428:0crwdne50428:0"
+    latte: "crwdns50430:0crwdne50430:0"
+    summer: "crwdns50432:0crwdne50432:0"
+    dark_rose: "crwdns50434:0crwdne50434:0"
+    default_theme_name: "crwdns50436:0crwdne50436:0"
+    light_theme_name: "crwdns50438:0crwdne50438:0"
+    dark_theme_name: "crwdns50440:0crwdne50440:0"
+    neutral_theme_name: "crwdns50442:0crwdne50442:0"
+    grey_amber_theme_name: "crwdns50444:0crwdne50444:0"
+    shades_of_blue_theme_name: "crwdns50446:0crwdne50446:0"
+    latte_theme_name: "crwdns50448:0crwdne50448:0"
+    summer_theme_name: "crwdns50450:0crwdne50450:0"
+    dark_rose_theme_name: "crwdns50452:0crwdne50452:0"
+  edit_this_page: "crwdns50454:0crwdne50454:0"
+  csv_export:
+    boolean_yes: "crwdns50456:0crwdne50456:0"
+    boolean_no: "crwdns50458:0crwdne50458:0"
+    rate_limit_error: "crwdns50460:0crwdne50460:0"
+  static_topic_first_reply: |
+    crwdns50462:0%{page_name}crwdne50462:0
+  guidelines_topic:
+    title: "crwdns50464:0crwdne50464:0"
+    body: |
+      crwdns50466:0%{base_path}crwdnd50466:0%{base_path}crwdnd50466:0%{base_path}crwdnd50466:0%{base_path}crwdnd50466:0[TOS]crwdnd50466:0%{base_path}crwdne50466:0
+  tos_topic:
+    title: "crwdns50468:0crwdne50468:0"
+    body: |
+      crwdns50470:0%{base_url}crwdnd50470:0%{company_name}crwdnd50470:0[Enforcement]crwdnd50470:0[Disclaimers]crwdnd50470:0[Feedback]crwdnd50470:0[Termination]crwdnd50470:0[Disputes]crwdnd50470:0[Contact]crwdnd50470:0[Changes]crwdnd50470:0[Disclaimers]crwdnd50470:0[Disputes]crwdnd50470:0%{contact_email}crwdnd50470:0[Contact]crwdnd50470:0[Feedback]crwdnd50470:0[Disclaimers]crwdnd50470:0%{governing_law}crwdnd50470:0%{city_for_disputes}crwdnd50470:0%{city_for_disputes}crwdnd50470:0%{contact_email}crwdne50470:0
+  privacy_topic:
+    title: "crwdns50472:0crwdne50472:0"
+    body: |
+      crwdns50474:0%27scrwdne50474:0
+  badges:
+    mass_award:
+      errors:
+        invalid_csv: crwdns50476:0%{line_number}crwdne50476:0
+    editor:
+      name: crwdns50478:0crwdne50478:0
+      description: crwdns50480:0crwdne50480:0
+      long_description: |
+        crwdns50482:0crwdne50482:0
+    wiki_editor:
+      name: crwdns50484:0crwdne50484:0
+      description: crwdns50486:0crwdne50486:0
+      long_description: |
+        crwdns50488:0crwdne50488:0
+    basic_user:
+      name: crwdns50490:0crwdne50490:0
+      description: crwdns50492:0crwdne50492:0
+      long_description: |
+        crwdns50494:0crwdne50494:0
+    member:
+      name: crwdns50496:0crwdne50496:0
+      description: crwdns50498:0crwdne50498:0
+      long_description: |
+        crwdns50500:0crwdne50500:0
+    regular:
+      name: crwdns50502:0crwdne50502:0
+      description: crwdns50504:0crwdne50504:0
+      long_description: |
+        crwdns50506:0crwdne50506:0
+    leader:
+      name: crwdns50508:0crwdne50508:0
+      description: crwdns50510:0crwdne50510:0
+      long_description: |
+        crwdns50512:0crwdne50512:0
+    welcome:
+      name: crwdns50514:0crwdne50514:0
+      description: crwdns50516:0crwdne50516:0
+      long_description: |
+        crwdns50518:0crwdne50518:0
+    autobiographer:
+      name: crwdns50520:0crwdne50520:0
+      description: crwdns50522:0%{base_uri}crwdne50522:0
+      long_description: |
+        crwdns50524:0%{base_uri}crwdne50524:0
+    anniversary:
+      name: crwdns50526:0crwdne50526:0
+      description: crwdns50528:0crwdne50528:0
+      long_description: |
+        crwdns50530:0crwdne50530:0
+    nice_post:
+      name: crwdns50532:0crwdne50532:0
+      description: crwdns50534:0crwdne50534:0
+      long_description: |
+        crwdns50536:0crwdne50536:0
+    good_post:
+      name: crwdns50538:0crwdne50538:0
+      description: crwdns50540:0crwdne50540:0
+      long_description: |
+        crwdns50542:0crwdne50542:0
+    great_post:
+      name: crwdns50544:0crwdne50544:0
+      description: crwdns50546:0crwdne50546:0
+      long_description: |
+        crwdns50548:0crwdne50548:0
+    nice_topic:
+      name: crwdns50550:0crwdne50550:0
+      description: crwdns50552:0crwdne50552:0
+      long_description: |
+        crwdns50554:0crwdne50554:0
+    good_topic:
+      name: crwdns50556:0crwdne50556:0
+      description: crwdns50558:0crwdne50558:0
+      long_description: |
+        crwdns50560:0crwdne50560:0
+    great_topic:
+      name: crwdns50562:0crwdne50562:0
+      description: crwdns50564:0crwdne50564:0
+      long_description: |
+        crwdns50566:0crwdne50566:0
+    nice_share:
+      name: crwdns50568:0crwdne50568:0
+      description: crwdns50570:0crwdne50570:0
+      long_description: |
+        crwdns50572:0crwdne50572:0
+    good_share:
+      name: crwdns50574:0crwdne50574:0
+      description: crwdns50576:0crwdne50576:0
+      long_description: |
+        crwdns50578:0crwdne50578:0
+    great_share:
+      name: crwdns50580:0crwdne50580:0
+      description: crwdns50582:0crwdne50582:0
+      long_description: |
+        crwdns50584:0crwdne50584:0
+    first_like:
+      name: crwdns50586:0crwdne50586:0
+      description: crwdns50588:0crwdne50588:0
+      long_description: |
+        crwdns50590:0:heart:crwdne50590:0
+    first_flag:
+      name: crwdns50592:0crwdne50592:0
+      description: crwdns50594:0crwdne50594:0
+      long_description: |
+        crwdns50596:0:flag_black:crwdne50596:0
+    promoter:
+      name: crwdns50598:0crwdne50598:0
+      description: crwdns50600:0crwdne50600:0
+      long_description: |
+        crwdns50602:0crwdne50602:0
+    campaigner:
+      name: crwdns50604:0crwdne50604:0
+      description: crwdns50606:0crwdne50606:0
+      long_description: |
+        crwdns50608:0crwdne50608:0
+    champion:
+      name: crwdns50610:0crwdne50610:0
+      description: crwdns50612:0crwdne50612:0
+      long_description: |
+        crwdns50614:0crwdne50614:0
+    first_share:
+      name: crwdns50616:0crwdne50616:0
+      description: crwdns50618:0crwdne50618:0
+      long_description: |
+        crwdns50620:0crwdne50620:0
+    first_link:
+      name: crwdns50622:0crwdne50622:0
+      description: crwdns50624:0crwdne50624:0
+      long_description: |
+        crwdns50626:0crwdne50626:0
+    first_quote:
+      name: crwdns50628:0crwdne50628:0
+      description: crwdns50630:0crwdne50630:0
+      long_description: |
+        crwdns50632:0crwdne50632:0
+    read_guidelines:
+      name: crwdns50634:0crwdne50634:0
+      description: crwdns50636:0%{base_uri}crwdne50636:0
+      long_description: |
+        crwdns50638:0%{base_uri}crwdne50638:0
+    reader:
+      name: crwdns50640:0crwdne50640:0
+      description: crwdns50642:0crwdne50642:0
+      long_description: |
+        crwdns50644:0:slight_smile:crwdne50644:0
+    popular_link:
+      name: crwdns50646:0crwdne50646:0
+      description: crwdns50648:0crwdne50648:0
+      long_description: |
+        crwdns50650:0crwdne50650:0
+    hot_link:
+      name: crwdns50652:0crwdne50652:0
+      description: crwdns50654:0crwdne50654:0
+      long_description: |
+        crwdns50656:0crwdne50656:0
+    famous_link:
+      name: crwdns50658:0crwdne50658:0
+      description: crwdns50660:0crwdne50660:0
+      long_description: |
+        crwdns50662:0crwdne50662:0
+    appreciated:
+      name: crwdns50664:0crwdne50664:0
+      description: crwdns50666:0crwdne50666:0
+      long_description: |
+        crwdns50668:0crwdne50668:0
+    respected:
+      name: crwdns50670:0crwdne50670:0
+      description: crwdns50672:0crwdne50672:0
+      long_description: |
+        crwdns50674:0crwdne50674:0
+    admired:
+      name: crwdns50676:0crwdne50676:0
+      description: crwdns50678:0crwdne50678:0
+      long_description: |
+        crwdns50680:0crwdne50680:0
+    out_of_love:
+      name: crwdns50682:0crwdne50682:0
+      description: crwdns50684:0%{max_likes_per_day}crwdne50684:0
+      long_description: |
+        crwdns50686:0%{max_likes_per_day}crwdne50686:0
+    higher_love:
+      name: crwdns50688:0crwdne50688:0
+      description: crwdns50690:0%{max_likes_per_day}crwdne50690:0
+      long_description: |
+        crwdns50692:0%{max_likes_per_day}crwdne50692:0
+    crazy_in_love:
+      name: crwdns50694:0crwdne50694:0
+      description: crwdns50696:0%{max_likes_per_day}crwdne50696:0
+      long_description: |
+        crwdns50698:0%{max_likes_per_day}crwdne50698:0
+    thank_you:
+      name: crwdns50700:0crwdne50700:0
+      description: crwdns50702:0crwdne50702:0
+      long_description: |
+        crwdns50704:0crwdne50704:0
+    gives_back:
+      name: crwdns50706:0crwdne50706:0
+      description: crwdns50708:0crwdne50708:0
+      long_description: |
+        crwdns50710:0crwdne50710:0
+    empathetic:
+      name: crwdns50712:0crwdne50712:0
+      description: crwdns50714:0crwdne50714:0
+      long_description: |
+        crwdns50716:0:two_hearts:crwdne50716:0
+    first_emoji:
+      name: crwdns50718:0crwdne50718:0
+      description: crwdns50720:0crwdne50720:0
+      long_description: |
+        crwdns50722:0:thumbsup:crwdnd50722:0:smiley:crwdnd50722:0:anguished:crwdnd50722:0:angry:crwdnd50722:0:sunglasses:crwdnd50722:0:ok_hand:crwdne50722:0
+    first_mention:
+      name: crwdns50724:0crwdne50724:0
+      description: crwdns50726:0crwdne50726:0
+      long_description: |
+        crwdns50728:0crwdne50728:0
+    first_onebox:
+      name: crwdns50730:0crwdne50730:0
+      description: crwdns50732:0crwdne50732:0
+      long_description: |
+        crwdns50734:0crwdne50734:0
+    first_reply_by_email:
+      name: crwdns50736:0crwdne50736:0
+      description: crwdns50738:0crwdne50738:0
+      long_description: |
+        crwdns50740:0:e-mail:crwdne50740:0
+    new_user_of_the_month:
+      name: "crwdns50742:0crwdne50742:0"
+      description: crwdns50744:0crwdne50744:0
+      long_description: |
+        crwdns50746:0crwdne50746:0
+    enthusiast:
+      name: crwdns50748:0crwdne50748:0
+      description: crwdns50750:0crwdne50750:0
+      long_description: |
+        crwdns50752:0crwdne50752:0
+    aficionado:
+      name: crwdns50754:0crwdne50754:0
+      description: crwdns50756:0crwdne50756:0
+      long_description: |
+        crwdns50758:0crwdne50758:0
+    devotee:
+      name: crwdns50760:0crwdne50760:0
+      description: crwdns50762:0crwdne50762:0
+      long_description: |
+        crwdns50764:0crwdne50764:0
+    badge_title_metadata: "crwdns50766:0%{display_name}crwdnd50766:0%{site_title}crwdne50766:0"
+  admin_login:
+    success: "crwdns50768:0crwdne50768:0"
+    errors:
+      unknown_email_address: "crwdns50770:0crwdne50770:0"
+      invalid_token: "crwdns50772:0crwdne50772:0"
+    email_input: "crwdns50774:0crwdne50774:0"
+    submit_button: "crwdns50776:0crwdne50776:0"
+  performance_report:
+    initial_post_raw: crwdns50778:0crwdne50778:0
+    initial_topic_title: crwdns50780:0crwdne50780:0
+  tags:
+    title: "crwdns50782:0crwdne50782:0"
+    staff_tag_disallowed: 'crwdns50784:0%{tag}crwdne50784:0'
+    staff_tag_remove_disallowed: 'crwdns50786:0%{tag}crwdne50786:0'
+    minimum_required_tags:
+      one: "crwdns50788:1%{count}crwdne50788:1"
+      other: "crwdns50788:5%{count}crwdne50788:5"
+    upload_row_too_long: "crwdns50790:0crwdne50790:0"
+    forbidden:
+      invalid:
+        one: "crwdns50792:1crwdne50792:1"
+        other: "crwdns50792:5crwdne50792:5"
+      in_this_category: 'crwdns50794:0%{tag_name}crwdne50794:0'
+      restricted_to:
+        one: 'crwdns50796:1%{tag_name}crwdnd50796:1%{category_names}crwdne50796:1'
+        other: 'crwdns50796:5%{tag_name}crwdnd50796:5%{category_names}crwdne50796:5'
+      synonym: 'crwdns50798:0%{tag_name}crwdne50798:0'
+      has_synonyms: 'crwdns50800:0%{tag_name}crwdne50800:0'
+    required_tags_from_group:
+      one: "crwdns50802:1%{count}crwdnd50802:1%{tag_group_name}crwdne50802:1"
+      other: "crwdns50802:5%{count}crwdnd50802:5%{tag_group_name}crwdne50802:5"
+    invalid_target_tag: "crwdns50804:0crwdne50804:0"
+    synonyms_exist: "crwdns50806:0crwdne50806:0"
+  rss_by_tag: "crwdns50808:0%{tag}crwdne50808:0"
+  finish_installation:
+    congratulations: "crwdns50810:0crwdne50810:0"
+    register:
+      button: "crwdns50812:0crwdne50812:0"
+      title: "crwdns50814:0crwdne50814:0"
+      help: "crwdns50816:0crwdne50816:0"
+      no_emails: "crwdns50818:0crwdne50818:0"
+    confirm_email:
+      title: "crwdns50820:0crwdne50820:0"
+      message: "crwdns50822:0%{email}crwdne50822:0"
+    resend_email:
+      title: "crwdns50824:0crwdne50824:0"
+      message: "crwdns50826:0%{email}crwdne50826:0"
+  safe_mode:
+    title: "crwdns50828:0crwdne50828:0"
+    description: "crwdns50830:0crwdne50830:0"
+    no_customizations: "crwdns50832:0crwdne50832:0"
+    only_official: "crwdns50834:0crwdne50834:0"
+    no_plugins: "crwdns50836:0crwdne50836:0"
+    enter: "crwdns50838:0crwdne50838:0"
+    must_select: "crwdns50840:0crwdne50840:0"
+  wizard:
+    title: "crwdns50842:0crwdne50842:0"
+    step:
+      locale:
+        title: "crwdns50844:0crwdne50844:0"
+        fields:
+          default_locale:
+            description: "crwdns50846:0crwdne50846:0"
+      forum_title:
+        title: "crwdns50848:0crwdne50848:0"
+        description: "crwdns50850:0crwdne50850:0"
+        fields:
+          title:
+            label: "crwdns50852:0crwdne50852:0"
+            placeholder: "crwdns50854:0crwdne50854:0"
+          site_description:
+            label: "crwdns50856:0crwdne50856:0"
+            placeholder: "crwdns50858:0crwdne50858:0"
+          short_site_description:
+            label: "crwdns50860:0crwdne50860:0"
+            placeholder: "crwdns50862:0crwdne50862:0"
+      introduction:
+        title: "crwdns50864:0crwdne50864:0"
+        disabled: "crwdns50866:0%{topic_title}crwdnd50866:0%{topic_title}crwdne50866:0"
+        fields:
+          welcome:
+            label: "crwdns50868:0crwdne50868:0"
+            description: "crwdns50870:0crwdne50870:0"
+            one_paragraph: "crwdns50872:0crwdne50872:0"
+      privacy:
+        title: "crwdns50874:0crwdne50874:0"
+        description: "crwdns50876:0crwdne50876:0"
+        fields:
+          privacy:
+            choices:
+              open:
+                label: "crwdns50878:0crwdne50878:0"
+                description: "crwdns50880:0crwdne50880:0"
+              restricted:
+                label: "crwdns50882:0crwdne50882:0"
+                description: "crwdns50884:0crwdne50884:0"
+          privacy_options:
+            description: "crwdns50886:0crwdne50886:0"
+            choices:
+              open:
+                label: "crwdns50888:0crwdne50888:0"
+              invite_only:
+                label: "crwdns50890:0crwdne50890:0"
+              must_approve:
+                label: "crwdns50892:0crwdne50892:0"
+      contact:
+        title: "crwdns50894:0crwdne50894:0"
+        fields:
+          contact_email:
+            label: "crwdns50896:0crwdne50896:0"
+            placeholder: "crwdns50898:0crwdne50898:0"
+            description: "crwdns50900:0%{base_path}crwdne50900:0"
+          contact_url:
+            label: "crwdns50902:0crwdne50902:0"
+            placeholder: "crwdns50904:0crwdne50904:0"
+            description: "crwdns50906:0%{base_path}crwdne50906:0"
+          site_contact:
+            label: "crwdns50908:0crwdne50908:0"
+            description: "crwdns50910:0crwdne50910:0"
+      corporate:
+        title: "crwdns50912:0crwdne50912:0"
+        description: "crwdns50914:0%{base_path}crwdne50914:0"
+        fields:
+          company_name:
+            label: "crwdns50916:0crwdne50916:0"
+            placeholder: "crwdns50918:0crwdne50918:0"
+          governing_law:
+            label: "crwdns50920:0crwdne50920:0"
+            placeholder: "crwdns50922:0crwdne50922:0"
+          city_for_disputes:
+            label: "crwdns50924:0crwdne50924:0"
+            placeholder: "crwdns50926:0crwdne50926:0"
+      colors:
+        title: "crwdns50928:0crwdne50928:0"
+      fonts:
+        title: "crwdns53960:0crwdne53960:0"
+        fields:
+          body_font:
+            label: "crwdns54072:0crwdne54072:0"
+          heading_font:
+            label: "crwdns54074:0crwdne54074:0"
+          font_preview:
+            label: "crwdns54076:0crwdne54076:0"
+      logos:
+        title: "crwdns50944:0crwdne50944:0"
+        fields:
+          logo:
+            label: "crwdns50946:0crwdne50946:0"
+            description: "crwdns50948:0crwdne50948:0"
+          logo_small:
+            label: "crwdns50950:0crwdne50950:0"
+            description: "crwdns50952:0crwdne50952:0"
+      icons:
+        title: "crwdns50954:0crwdne50954:0"
+        fields:
+          favicon:
+            label: "crwdns50956:0crwdne50956:0"
+            description: "crwdns50958:0crwdne50958:0"
+          large_icon:
+            label: "crwdns50960:0crwdne50960:0"
+            description: "crwdns50962:0crwdne50962:0"
+      homepage:
+        description: "crwdns50964:0crwdne50964:0"
+        title: "crwdns50966:0crwdne50966:0"
+        fields:
+          homepage_style:
+            choices:
+              latest:
+                label: "crwdns50968:0crwdne50968:0"
+              categories_only:
+                label: "crwdns50970:0crwdne50970:0"
+              categories_with_featured_topics:
+                label: "crwdns50972:0crwdne50972:0"
+              categories_and_latest_topics:
+                label: "crwdns50974:0crwdne50974:0"
+              categories_and_top_topics:
+                label: "crwdns50976:0crwdne50976:0"
+              categories_boxes:
+                label: "crwdns50978:0crwdne50978:0"
+              categories_boxes_with_topics:
+                label: "crwdns50980:0crwdne50980:0"
+      emoji:
+        title: "crwdns50982:0crwdne50982:0"
+        description: "crwdns50984:0crwdne50984:0"
+      invites:
+        title: "crwdns50986:0crwdne50986:0"
+        description: "crwdns50988:0crwdne50988:0"
+        disabled: "crwdns50990:0crwdne50990:0"
+      finished:
+        title: "crwdns50992:0crwdne50992:0"
+        description: |
+          crwdns50994:0%{base_path}crwdne50994:0
+  search_logs:
+    graph_title: "crwdns50996:0crwdne50996:0"
+  joined: "crwdns50998:0crwdne50998:0"
+  discourse_push_notifications:
+    popup:
+      mentioned: 'crwdns51000:0%{username}crwdnd51000:0%{topic}crwdnd51000:0%{site_title}crwdne51000:0'
+      group_mentioned: 'crwdns51002:0%{username}crwdnd51002:0%{topic}crwdnd51002:0%{site_title}crwdne51002:0'
+      quoted: 'crwdns51004:0%{username}crwdnd51004:0%{topic}crwdnd51004:0%{site_title}crwdne51004:0'
+      replied: 'crwdns51006:0%{username}crwdnd51006:0%{topic}crwdnd51006:0%{site_title}crwdne51006:0'
+      posted: 'crwdns51008:0%{username}crwdnd51008:0%{topic}crwdnd51008:0%{site_title}crwdne51008:0'
+      private_message: 'crwdns51010:0%{username}crwdnd51010:0%{topic}crwdnd51010:0%{site_title}crwdne51010:0'
+      linked: 'crwdns51012:0%{username}crwdnd51012:0%{topic}crwdnd51012:0%{site_title}crwdne51012:0'
+      watching_first_post: 'crwdns51014:0%{username}crwdnd51014:0%{topic}crwdnd51014:0%{site_title}crwdne51014:0'
+      confirm_title: "crwdns51016:0%{site_title}crwdne51016:0"
+      confirm_body: "crwdns51018:0crwdne51018:0"
+      custom: "crwdns51020:0%{username}crwdnd51020:0%{site_title}crwdne51020:0"
+  staff_action_logs:
+    not_found: "crwdns51022:0crwdne51022:0"
+    unknown: "crwdns51024:0crwdne51024:0"
+    user_merged: "crwdns51026:0%{username}crwdne51026:0"
+    user_delete_self: "crwdns51028:0%{url}crwdne51028:0"
+    webhook_deactivation_reason: "crwdns51030:0%{status}crwdne51030:0"
+    api_key:
+      automatic_revoked:
+        one: "crwdns51032:1%{count}crwdne51032:1"
+        other: "crwdns51032:5%{count}crwdne51032:5"
+      revoked: crwdns51034:0crwdne51034:0
+      restored: crwdns51036:0crwdne51036:0
+  reviewables:
+    already_handled: "crwdns51038:0crwdne51038:0"
+    priorities:
+      low: "crwdns51040:0crwdne51040:0"
+      medium: "crwdns51042:0crwdne51042:0"
+      high: "crwdns51044:0crwdne51044:0"
+    sensitivity:
+      disabled: "crwdns51046:0crwdne51046:0"
+      low: "crwdns51048:0crwdne51048:0"
+      medium: "crwdns51050:0crwdne51050:0"
+      high: "crwdns51052:0crwdne51052:0"
+    must_claim: "crwdns51054:0crwdne51054:0"
+    user_claimed: "crwdns51056:0crwdne51056:0"
+    missing_version: "crwdns51058:0crwdne51058:0"
+    conflict: "crwdns51060:0crwdne51060:0"
+    reasons:
+      post_count: "crwdns51062:0crwdne51062:0"
+      trust_level: "crwdns51064:0crwdne51064:0"
+      new_topics_unless_trust_level: "crwdns51066:0crwdne51066:0"
+      fast_typer: "crwdns51068:0crwdne51068:0"
+      auto_silence_regexp: "crwdns51070:0crwdne51070:0"
+      watched_word: "crwdns51072:0%{base_url}crwdne51072:0"
+      staged: "crwdns51074:0crwdne51074:0"
+      category: "crwdns51076:0crwdne51076:0"
+      must_approve_users: "crwdns51078:0crwdne51078:0"
+      invite_only: "crwdns51080:0crwdne51080:0"
+      email_auth_res_enqueue: "crwdns51082:0crwdne51082:0"
+      email_spam: "crwdns51084:0crwdne51084:0"
+      suspect_user: "crwdns51086:0crwdne51086:0"
+      contains_media: "crwdns54020:0crwdne54020:0"
+    actions:
+      agree:
+        title: "crwdns51088:0crwdne51088:0"
+      agree_and_keep:
+        title: "crwdns51090:0crwdne51090:0"
+        description: "crwdns51092:0crwdne51092:0"
+      agree_and_keep_hidden:
+        title: "crwdns51094:0crwdne51094:0"
+        description: "crwdns51096:0crwdne51096:0"
+      agree_and_suspend:
+        title: "crwdns51098:0crwdne51098:0"
+        description: "crwdns51100:0crwdne51100:0"
+      agree_and_silence:
+        title: "crwdns51102:0crwdne51102:0"
+        description: "crwdns51104:0crwdne51104:0"
+      agree_and_restore:
+        title: "crwdns51106:0crwdne51106:0"
+        description: "crwdns51108:0crwdne51108:0"
+      agree_and_hide:
+        title: "crwdns51110:0crwdne51110:0"
+        description: "crwdns51112:0crwdne51112:0"
+      delete_spammer:
+        title: "crwdns51114:0crwdne51114:0"
+        description: "crwdns51116:0crwdne51116:0"
+        confirm: "crwdns51118:0crwdne51118:0"
+      delete_single:
+        title: "crwdns51120:0crwdne51120:0"
+      delete:
+        title: "crwdns51122:0crwdne51122:0"
+      delete_and_ignore:
+        title: "crwdns51124:0crwdne51124:0"
+        description: "crwdns51126:0crwdne51126:0"
+      delete_and_ignore_replies:
+        title: "crwdns51128:0crwdne51128:0"
+        description: "crwdns51130:0crwdne51130:0"
+        confirm: "crwdns51132:0crwdne51132:0"
+      delete_and_agree:
+        title: "crwdns51134:0crwdne51134:0"
+        description: "crwdns51136:0crwdne51136:0"
+      delete_and_agree_replies:
+        title: "crwdns51138:0crwdne51138:0"
+        description: "crwdns51140:0crwdne51140:0"
+        confirm: "crwdns51142:0crwdne51142:0"
+      disagree_and_restore:
+        title: "crwdns51144:0crwdne51144:0"
+        description: "crwdns51146:0crwdne51146:0"
+      disagree:
+        title: "crwdns51148:0crwdne51148:0"
+      ignore:
+        title: "crwdns51150:0crwdne51150:0"
+      approve:
+        title: "crwdns51152:0crwdne51152:0"
+      approve_post:
+        title: "crwdns51154:0crwdne51154:0"
+        confirm_closed: "crwdns51156:0crwdne51156:0"
+      reject_post:
+        title: "crwdns51158:0crwdne51158:0"
+      approve_user:
+        title: "crwdns51160:0crwdne51160:0"
+      reject_user:
+        title: "crwdns51162:0crwdne51162:0"
+        delete:
+          title: "crwdns51164:0crwdne51164:0"
+          description: "crwdns51166:0crwdne51166:0"
+        block:
+          title: "crwdns51168:0crwdne51168:0"
+          description: "crwdns51170:0crwdne51170:0"
+      reject:
+        title: "crwdns51172:0crwdne51172:0"
+      delete_user:
+        title: "crwdns51174:0crwdne51174:0"
+        confirm: "crwdns51176:0crwdne51176:0"
+        reason: "crwdns51178:0crwdne51178:0"
+  email_style:
+    html_missing_placeholder: "crwdns51180:0%{placeholder}crwdne51180:0"
+  notification_level:
+    ignore_error: "crwdns51182:0crwdne51182:0"
+    mute_error: "crwdns51184:0crwdne51184:0"
+  discord:
+    not_in_allowed_guild: "crwdns51186:0crwdne51186:0"
+  old_keys_reminder:
+    title: "crwdns51188:0crwdne51188:0"
+    body: |
+      crwdns51190:0%{keys}crwdne51190:0
