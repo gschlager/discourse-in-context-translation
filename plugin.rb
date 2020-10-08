@@ -18,13 +18,9 @@ after_initialize do
     HTML
   end
 
-  register_html_builder('server:before-head-close-crawler') do
-    add_before_head_html
-  end
-
-  register_html_builder('server:before-head-close') do
-    add_before_head_html
-  end
+  register_html_builder('server:before-head-close-crawler') { add_before_head_html }
+  register_html_builder('server:before-head-close') { add_before_head_html }
+  register_html_builder("wizard:head") { add_before_head_html }
 
   # It's not really hidden, but this prevents changing the default_locale anyway.
   # That's good enough for now.
