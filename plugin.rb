@@ -21,7 +21,7 @@ register_html_builder("wizard:head") do |controller|
 end
 
 extend_content_security_policy(
-  script_src: %w[https://cdn.crowdin.com https://discourse.crowdin.com/backend/jipt/ unsafe-eval]
+  script_src: %w[https://cdn.crowdin.com https://discourse.crowdin.com/backend/jipt/ 'unsafe-eval']
 )
 
 after_initialize do
