@@ -7,12 +7,8 @@
 register_locale("en_IC", name: "In-Context Translation", nativeName: "In-Context Translation", fallbackLocale: "en")
 register_asset "javascripts/crowdin.js"
 
-CROWDIN_JS_URL = "https://cdn.crowdin.com/jipt/jipt.js"
-
 def crowdin_js
-  <<~HTML
-      <script type="text/javascript" src="#{CROWDIN_JS_URL}"></script>
-  HTML
+  %q|<script type="text/javascript" src="https://cdn.crowdin.com/jipt/jipt.js"></script>|
 end
 
 register_html_builder("server:before-head-close-crawler") { crowdin_js }
@@ -25,7 +21,7 @@ register_html_builder("wizard:head") do |controller|
 end
 
 extend_content_security_policy(
-  script_src: [CROWDIN_JS_URL, "unsafe-eval"]
+  script_src: %w[https://cdn.crowdin.com https://discourse.crowdin.com/backend/jipt/ unsafe-eval]
 )
 
 after_initialize do
