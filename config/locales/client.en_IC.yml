@@ -172,7 +172,9 @@ en_IC:
     topic_admin_menu: "crwdns38720:0crwdne38720:0"
     wizard_required: "crwdns38722:0%{url}crwdne38722:0"
     emails_are_disabled: "crwdns38724:0crwdne38724:0"
-    bootstrap_mode_enabled: "crwdns38726:0%{min_users}crwdne38726:0"
+    bootstrap_mode_enabled:
+      one: "crwdns54226:1%{count}crwdne54226:1"
+      other: "crwdns54226:5%{count}crwdne54226:5"
     bootstrap_mode_disabled: "crwdns38728:0crwdne38728:0"
     themes:
       default_description: "crwdns38730:0crwdne38730:0"
@@ -1017,12 +1019,16 @@ en_IC:
         disable: "crwdns40038:0crwdne40038:0"
         enable: "crwdns40040:0crwdne40040:0"
         enable_long: "crwdns40042:0crwdne40042:0"
-        manage: "crwdns40044:0%{count}crwdne40044:0"
+        manage:
+          one: "crwdns54228:1%{count}crwdne54228:1"
+          other: "crwdns54228:5%{count}crwdne54228:5"
         copy_to_clipboard: "crwdns40046:0crwdne40046:0"
         copy_to_clipboard_error: "crwdns40048:0crwdne40048:0"
         copied_to_clipboard: "crwdns40050:0crwdne40050:0"
         download_backup_codes: "crwdns40052:0crwdne40052:0"
-        remaining_codes: "crwdns40054:0%{count}crwdne40054:0"
+        remaining_codes:
+          one: "crwdns54230:1%{count}crwdne54230:1"
+          other: "crwdns54230:5%{count}crwdne54230:5"
         use: "crwdns40056:0crwdne40056:0"
         enable_prerequisites: "crwdns40058:0crwdne40058:0"
         codes:
@@ -1176,10 +1182,8 @@ en_IC:
         instructions: "crwdns40298:0crwdne40298:0"
       auth_tokens:
         title: "crwdns40300:0crwdne40300:0"
-        ip: "crwdns40302:0crwdne40302:0"
         details: "crwdns40304:0crwdne40304:0"
         log_out_all: "crwdns40306:0crwdne40306:0"
-        active: "crwdns40308:0crwdne40308:0"
         not_you: "crwdns40310:0crwdne40310:0"
         show_all: "crwdns40312:0%{count}crwdne40312:0"
         show_few: "crwdns40314:0crwdne40314:0"
@@ -1188,6 +1192,9 @@ en_IC:
         browser_and_device: "crwdns40320:0%{browser}crwdnd40320:0%{device}crwdne40320:0"
         secure_account: "crwdns40322:0crwdne40322:0"
         latest_post: "crwdns40324:0crwdne40324:0"
+        device_location: 'crwdns54232:0%{device}crwdnd54232:0%{ip}crwdnd54232:0%{location}crwdne54232:0'
+        browser_active: 'crwdns54234:0%{browser}crwdne54234:0'
+        browser_last_seen: "crwdns54236:0%{browser}crwdnd54236:0%{date}crwdne54236:0"
       last_posted: "crwdns40326:0crwdne40326:0"
       last_emailed: "crwdns40328:0crwdne40328:0"
       last_seen: "crwdns40330:0crwdne40330:0"
@@ -1631,7 +1638,9 @@ en_IC:
     conditional_loading_section:
       loading: crwdns41054:0crwdne41054:0
     category_row:
-      topic_count: "crwdns41056:0%{count}crwdne41056:0"
+      topic_count:
+        one: "crwdns54238:1%{count}crwdne54238:1"
+        other: "crwdns54238:5%{count}crwdne54238:5"
     select_kit:
       default_header_text: crwdns41058:0crwdne41058:0
       no_content: crwdns41060:0crwdne41060:0
@@ -1644,7 +1653,9 @@ en_IC:
       min_content_not_reached:
         one: "crwdns41070:1%{count}crwdne41070:1"
         other: "crwdns41070:5%{count}crwdne41070:5"
-      invalid_selection_length: "crwdns41072:0%{count}crwdne41072:0"
+      invalid_selection_length:
+        one: "crwdns54240:1%{count}crwdne54240:1"
+        other: "crwdns54240:5%{count}crwdne54240:5"
       components:
         categories_admin_dropdown:
           title: "crwdns41074:0crwdne41074:0"
@@ -1694,7 +1705,9 @@ en_IC:
       similar_topics: "crwdns41152:0crwdne41152:0"
       drafts_offline: "crwdns41154:0crwdne41154:0"
       edit_conflict: "crwdns41156:0crwdne41156:0"
-      group_mentioned_limit: "crwdns41158:0%{group_link}crwdnd41158:0%{group}crwdnd41158:0%{max}crwdne41158:0"
+      group_mentioned_limit:
+        one: "crwdns54242:1%{group_link}crwdnd54242:1%{group}crwdnd54242:1%{count}crwdne54242:1"
+        other: "crwdns54242:5%{group_link}crwdnd54242:5%{group}crwdnd54242:5%{count}crwdne54242:5"
       group_mentioned:
         one: "crwdns41160:1%{group}crwdnd41160:1%{group_link}crwdnd41160:1%{count}crwdne41160:1"
         other: "crwdns41160:5%{group}crwdnd41160:5%{group_link}crwdnd41160:5%{count}crwdne41160:5"
@@ -1711,7 +1724,9 @@ en_IC:
         post_length: "crwdns41178:0%{min}crwdne41178:0"
         try_like: "crwdns41180:0%{heart}crwdne41180:0"
         category_missing: "crwdns41182:0crwdne41182:0"
-        tags_missing: "crwdns41184:0%{count}crwdne41184:0"
+        tags_missing:
+          one: "crwdns54244:1%{count}crwdne54244:1"
+          other: "crwdns54244:5%{count}crwdne54244:5"
         topic_template_not_modified: "crwdns41186:0crwdne41186:0"
       save_edit: "crwdns41188:0crwdne41188:0"
       overwrite_edit: "crwdns41190:0crwdne41190:0"
@@ -1778,6 +1793,10 @@ en_IC:
       yourself_confirm:
         title: "crwdns41308:0crwdne41308:0"
         body: "crwdns41310:0crwdne41310:0"
+      slow_mode:
+        title: "crwdns54258:0crwdne54258:0"
+        body: "crwdns54260:0%{duration}crwdne54260:0"
+        error: "crwdns54302:0crwdne54302:0"
       admin_options_title: "crwdns41312:0crwdne41312:0"
       composer_actions:
         reply: crwdns41314:0crwdne41314:0
@@ -1854,7 +1873,9 @@ en_IC:
       topic_reminder: "crwdns41410:0%{username}crwdnd41410:0%{description}crwdne41410:0"
       watching_first_post: "crwdns41412:0%{description}crwdne41412:0"
       membership_request_accepted: "crwdns41414:0%{group_name}crwdne41414:0"
-      membership_request_consolidated: "crwdns41416:0%{count}crwdnd41416:0%{group_name}crwdne41416:0"
+      membership_request_consolidated:
+        one: "crwdns54246:1%{count}crwdnd54246:1%{group_name}crwdne54246:1"
+        other: "crwdns54246:5%{count}crwdnd54246:5%{group_name}crwdne54246:5"
       reaction: "crwdns53664:0%{username}crwdnd53664:0%{description}crwdne53664:0"
       reaction_2: "crwdns53666:0%{username}crwdnd53666:0%{username2}crwdnd53666:0%{description}crwdne53666:0"
       votes_released: "crwdns53764:0%{description}crwdne53764:0"
@@ -1929,7 +1950,6 @@ en_IC:
       full_page_title: "crwdns41534:0crwdne41534:0"
       no_results: "crwdns41536:0crwdne41536:0"
       no_more_results: "crwdns41538:0crwdne41538:0"
-      searching: "crwdns41540:0crwdne41540:0"
       post_format: "crwdns41542:0%{post_number}crwdnd41542:0%{username}crwdne41542:0"
       results_page: "crwdns41544:0%{term}crwdne41544:0"
       more_results: "crwdns41546:0crwdne41546:0"
@@ -1938,7 +1958,6 @@ en_IC:
       or_search_google: "crwdns41552:0crwdne41552:0"
       search_google: "crwdns41554:0crwdne41554:0"
       search_google_button: "crwdns41556:0crwdne41556:0"
-      search_google_title: "crwdns41558:0crwdne41558:0"
       context:
         user: "crwdns41560:0%{username}crwdne41560:0"
         category: "crwdns41562:0%{category}crwdne41562:0"
@@ -2135,6 +2154,24 @@ en_IC:
       jump_reply_up: crwdns41836:0crwdne41836:0
       jump_reply_down: crwdns41838:0crwdne41838:0
       deleted: "crwdns41840:0crwdne41840:0"
+      slow_mode_update:
+        title: "crwdns54262:0crwdne54262:0"
+        select: "crwdns54264:0crwdne54264:0"
+        description: "crwdns54266:0crwdne54266:0"
+        save: "crwdns54270:0crwdne54270:0"
+        remove: "crwdns54272:0crwdne54272:0"
+        hours: "crwdns54274:0crwdne54274:0"
+        minutes: "crwdns54276:0crwdne54276:0"
+        seconds: "crwdns54278:0crwdne54278:0"
+        durations:
+          15_minutes: "crwdns54280:0crwdne54280:0"
+          1_hour: "crwdns54282:0crwdne54282:0"
+          4_hours: "crwdns54284:0crwdne54284:0"
+          1_day: "crwdns54286:0crwdne54286:0"
+          1_week: "crwdns54288:0crwdne54288:0"
+          custom: "crwdns54290:0crwdne54290:0"
+      slow_mode_notice:
+        duration: "crwdns54292:0%{duration}crwdne54292:0"
       topic_status_update:
         title: "crwdns41842:0crwdne41842:0"
         save: "crwdns41844:0crwdne41844:0"
@@ -2264,6 +2301,7 @@ en_IC:
         open: "crwdns42044:0crwdne42044:0"
         close: "crwdns42046:0crwdne42046:0"
         multi_select: "crwdns42048:0crwdne42048:0"
+        slow_mode: "crwdns54294:0crwdne54294:0"
         timed_update: "crwdns42050:0crwdne42050:0"
         pin: "crwdns42052:0crwdne42052:0"
         unpin: "crwdns42054:0crwdne42054:0"
@@ -2304,7 +2342,6 @@ en_IC:
       feature_topic:
         title: "crwdns42110:0crwdne42110:0"
         pin: "crwdns42112:0%{categoryLink}crwdne42112:0"
-        confirm_pin: "crwdns42114:0%{count}crwdne42114:0"
         unpin: "crwdns42116:0%{categoryLink}crwdne42116:0"
         unpin_until: "crwdns42118:0%{categoryLink}crwdnd42118:0%{until}crwdne42118:0"
         pin_note: "crwdns42120:0crwdne42120:0"
@@ -2314,7 +2351,9 @@ en_IC:
           one: "crwdns42126:1%{categoryLink}crwdnd42126:1%{count}crwdne42126:1"
           other: "crwdns42126:5%{categoryLink}crwdnd42126:5%{count}crwdne42126:5"
         pin_globally: "crwdns42128:0crwdne42128:0"
-        confirm_pin_globally: "crwdns42130:0%{count}crwdne42130:0"
+        confirm_pin_globally:
+          one: "crwdns54248:1%{count}crwdne54248:1"
+          other: "crwdns54248:5%{count}crwdne54248:5"
         unpin_globally: "crwdns42132:0crwdne42132:0"
         unpin_globally_until: "crwdns42134:0%{until}crwdne42134:0"
         global_pin_note: "crwdns42136:0crwdne42136:0"
@@ -2504,7 +2543,9 @@ en_IC:
         upload: "crwdns42402:0crwdne42402:0"
         file_too_large: "crwdns42404:0%{max_size_kb}crwdne42404:0"
         too_many_uploads: "crwdns42406:0crwdne42406:0"
-        too_many_dragged_and_dropped_files: "crwdns42408:0%{max}crwdne42408:0"
+        too_many_dragged_and_dropped_files:
+          one: "crwdns54250:1%{count}crwdne54250:1"
+          other: "crwdns54250:5%{count}crwdne54250:5"
         upload_not_authorized: "crwdns42410:0%{authorized_extensions}crwdne42410:0"
         image_upload_not_allowed_for_new_user: "crwdns42412:0crwdne42412:0"
         attachment_upload_not_allowed_for_new_user: "crwdns42414:0crwdne42414:0"
@@ -2784,6 +2825,16 @@ en_IC:
       title: "crwdns42880:0crwdne42880:0"
       action: "crwdns42882:0crwdne42882:0"
       take_action: "crwdns42884:0crwdne42884:0"
+      take_action_options:
+        default:
+          title: "crwdns54186:0crwdne54186:0"
+          details: "crwdns54188:0crwdne54188:0"
+        suspend:
+          title: "crwdns54190:0crwdne54190:0"
+          details: "crwdns54192:0crwdne54192:0"
+        silence:
+          title: "crwdns54194:0crwdne54194:0"
+          details: "crwdns54196:0crwdne54196:0"
       notify_action: "crwdns42886:0crwdne42886:0"
       official_warning: "crwdns42888:0crwdne42888:0"
       delete_spammer: "crwdns42890:0crwdne42890:0"
@@ -2855,7 +2906,6 @@ en_IC:
         title: "crwdns42968:0crwdne42968:0"
         help: "crwdns42970:0crwdne42970:0"
     posts: "crwdns42972:0crwdne42972:0"
-    posts_long: "crwdns42974:0%{number}crwdne42974:0"
     #keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
     posts_likes_MF: |
       crwdns42976:0count={count}crwdnd42976:0ratio={ratio}crwdne42976:0
@@ -2873,7 +2923,6 @@ en_IC:
     likes_lowercase:
       one: "crwdns42992:1crwdne42992:1"
       other: "crwdns42992:5crwdne42992:5"
-    likes_long: "crwdns42994:0%{number}crwdne42994:0"
     users: "crwdns42996:0crwdne42996:0"
     users_lowercase:
       one: "crwdns42998:1crwdne42998:1"
@@ -3175,8 +3224,8 @@ en_IC:
         delete: "crwdns43428:0crwdne43428:0"
         confirm_delete: "crwdns43430:0crwdne43430:0"
         everyone_can_use: "crwdns43432:0crwdne43432:0"
-        usable_only_by_staff: "crwdns43434:0crwdne43434:0"
-        visible_only_to_staff: "crwdns43436:0crwdne43436:0"
+        usable_only_by_groups: "crwdns54178:0crwdne54178:0"
+        visible_only_to_groups: "crwdns54180:0crwdne54180:0"
       topics:
         none:
           unread: "crwdns43438:0crwdne43438:0"
@@ -3763,7 +3812,8 @@ en_IC:
           color_definitions:
             text: "crwdns53830:0crwdne53830:0"
             title: "crwdns53832:0crwdne53832:0"
-            placeholder: "crwdns53834:0$tertiarycrwdnd53834:0$quaternarycrwdne53834:0"
+            placeholder: |2-
+              crwdns53834:0$tertiarycrwdnd53834:0$quaternarycrwdne53834:0
           head_tag:
             text: "crwdns44400:0crwdne44400:0"
             title: "crwdns44402:0crwdne44402:0"
@@ -3791,6 +3841,12 @@ en_IC:
           primary:
             name: "crwdns44438:0crwdne44438:0"
             description: "crwdns44440:0crwdne44440:0"
+          primary-medium:
+            name: "crwdns54198:0crwdne54198:0"
+            description: "crwdns54200:0crwdne54200:0"
+          primary-low-mid:
+            name: "crwdns54202:0crwdne54202:0"
+            description: "crwdns54204:0crwdne54204:0"
           secondary:
             name: "crwdns44442:0crwdne44442:0"
             description: "crwdns44444:0crwdne44444:0"
@@ -3809,6 +3865,15 @@ en_IC:
           highlight:
             name: "crwdns44462:0crwdne44462:0"
             description: "crwdns44464:0crwdne44464:0"
+          highlight-high:
+            name: "crwdns54206:0crwdne54206:0"
+            description: "crwdns54208:0crwdne54208:0"
+          highlight-medium:
+            name: "crwdns54210:0crwdne54210:0"
+            description: "crwdns54212:0crwdne54212:0"
+          highlight-low:
+            name: "crwdns54214:0crwdne54214:0"
+            description: "crwdns54216:0crwdne54216:0"
           danger:
             name: "crwdns44466:0crwdne44466:0"
             description: "crwdns44468:0crwdne44468:0"
